@@ -1,0 +1,247 @@
+========== FLOPs Log: C100/R | cifar100/resnet18 | seed43 ==========
+Dataset: cifar100; Model: resnet18; Seed: 43; Rounds: 100
+
+========== FedSophia (FS, full-model) ==========
+Final test accuracy: 64.53%
+Total wall-clock time: 5692.57s
+Total Hessian time: 214.05s
+--- FLOPs breakdown (cumulative at final round) ---
+  estimated_forward_backward_flops_total: 54408.3803e12
+  estimated_hessian_gnb_flops_total: 5441.0626e12
+  estimated_optimizer_flops_total: 4.9402e12
+  estimated_scoring_flops_total: 0
+  estimated_aggregation_flops_total: 22.4556e9
+  estimated_evaluation_flops_total: 3627.2257e12
+  estimated_total_flops_total: 63481.6313e12
+  estimated_total_tflops_total: 63481.631289 TFLOPs
+  estimated_full_fedsophia_flops_budget_total: 63481.6313e12
+  estimated_flops_ratio_vs_full_fedsophia: 1.000000 (100.00%)
+  estimated_flops_saving_vs_full_fedsophia: 0.000000 (0.00%)
+
+--- Per-round total FLOPs (FedSophia (FS, full-model)) ---
+[fedsophia] Round 001/100 | test_acc=3.71% | flops_round=1124.5119e12 | flops_total=1124.5119e12 | round_time=68.16s
+[fedsophia] Round 002/100 | test_acc=8.14% | flops_round=580.4057e12 | flops_total=1704.9176e12 | round_time=51.34s
+[fedsophia] Round 003/100 | test_acc=13.69% | flops_round=580.4057e12 | flops_total=2285.3233e12 | round_time=50.97s
+[fedsophia] Round 004/100 | test_acc=16.39% | flops_round=580.4057e12 | flops_total=2865.7290e12 | round_time=50.59s
+[fedsophia] Round 005/100 | test_acc=20.46% | flops_round=580.4057e12 | flops_total=3446.1347e12 | round_time=50.98s
+[fedsophia] Round 006/100 | test_acc=23.55% | flops_round=580.4057e12 | flops_total=4026.5404e12 | round_time=51.06s
+[fedsophia] Round 007/100 | test_acc=26.05% | flops_round=580.4057e12 | flops_total=4606.9461e12 | round_time=51.63s
+[fedsophia] Round 008/100 | test_acc=28.46% | flops_round=580.4057e12 | flops_total=5187.3518e12 | round_time=50.93s
+[fedsophia] Round 009/100 | test_acc=31.23% | flops_round=580.4057e12 | flops_total=5767.7574e12 | round_time=51.45s
+[fedsophia] Round 010/100 | test_acc=33.21% | flops_round=580.4057e12 | flops_total=6348.1631e12 | round_time=51.20s
+[fedsophia] Round 011/100 | test_acc=35.73% | flops_round=1124.5119e12 | flops_total=7472.6751e12 | round_time=68.66s
+[fedsophia] Round 012/100 | test_acc=37.62% | flops_round=580.4057e12 | flops_total=8053.0808e12 | round_time=51.12s
+[fedsophia] Round 013/100 | test_acc=37.83% | flops_round=580.4057e12 | flops_total=8633.4864e12 | round_time=50.91s
+[fedsophia] Round 014/100 | test_acc=40.71% | flops_round=580.4057e12 | flops_total=9213.8921e12 | round_time=51.46s
+[fedsophia] Round 015/100 | test_acc=41.95% | flops_round=580.4057e12 | flops_total=9794.2978e12 | round_time=51.48s
+[fedsophia] Round 016/100 | test_acc=44.09% | flops_round=580.4057e12 | flops_total=10374.7035e12 | round_time=51.06s
+[fedsophia] Round 017/100 | test_acc=45.47% | flops_round=580.4057e12 | flops_total=10955.1092e12 | round_time=57.76s
+[fedsophia] Round 018/100 | test_acc=46.77% | flops_round=580.4057e12 | flops_total=11535.5149e12 | round_time=75.62s
+[fedsophia] Round 019/100 | test_acc=47.58% | flops_round=580.4057e12 | flops_total=12115.9206e12 | round_time=69.71s
+[fedsophia] Round 020/100 | test_acc=48.74% | flops_round=580.4057e12 | flops_total=12696.3263e12 | round_time=69.64s
+[fedsophia] Round 021/100 | test_acc=50.34% | flops_round=1124.5119e12 | flops_total=13820.8382e12 | round_time=81.26s
+[fedsophia] Round 022/100 | test_acc=49.99% | flops_round=580.4057e12 | flops_total=14401.2439e12 | round_time=71.20s
+[fedsophia] Round 023/100 | test_acc=52.25% | flops_round=580.4057e12 | flops_total=14981.6496e12 | round_time=70.06s
+[fedsophia] Round 024/100 | test_acc=52.98% | flops_round=580.4057e12 | flops_total=15562.0553e12 | round_time=69.95s
+[fedsophia] Round 025/100 | test_acc=53.70% | flops_round=580.4057e12 | flops_total=16142.4610e12 | round_time=73.35s
+[fedsophia] Round 026/100 | test_acc=54.49% | flops_round=580.4057e12 | flops_total=16722.8666e12 | round_time=70.30s
+[fedsophia] Round 027/100 | test_acc=54.57% | flops_round=580.4057e12 | flops_total=17303.2723e12 | round_time=69.05s
+[fedsophia] Round 028/100 | test_acc=54.74% | flops_round=580.4057e12 | flops_total=17883.6780e12 | round_time=50.86s
+[fedsophia] Round 029/100 | test_acc=55.80% | flops_round=580.4057e12 | flops_total=18464.0837e12 | round_time=51.94s
+[fedsophia] Round 030/100 | test_acc=56.90% | flops_round=580.4057e12 | flops_total=19044.4894e12 | round_time=51.07s
+[fedsophia] Round 031/100 | test_acc=57.68% | flops_round=1124.5119e12 | flops_total=20169.0013e12 | round_time=68.75s
+[fedsophia] Round 032/100 | test_acc=57.81% | flops_round=580.4057e12 | flops_total=20749.4070e12 | round_time=51.40s
+[fedsophia] Round 033/100 | test_acc=58.88% | flops_round=580.4057e12 | flops_total=21329.8127e12 | round_time=51.30s
+[fedsophia] Round 034/100 | test_acc=58.38% | flops_round=580.4057e12 | flops_total=21910.2184e12 | round_time=69.30s
+[fedsophia] Round 035/100 | test_acc=59.41% | flops_round=580.4057e12 | flops_total=22490.6241e12 | round_time=70.66s
+[fedsophia] Round 036/100 | test_acc=59.71% | flops_round=580.4057e12 | flops_total=23071.0298e12 | round_time=70.00s
+[fedsophia] Round 037/100 | test_acc=59.06% | flops_round=580.4057e12 | flops_total=23651.4355e12 | round_time=71.21s
+[fedsophia] Round 038/100 | test_acc=60.14% | flops_round=580.4057e12 | flops_total=24231.8411e12 | round_time=70.08s
+[fedsophia] Round 039/100 | test_acc=60.92% | flops_round=580.4057e12 | flops_total=24812.2468e12 | round_time=69.32s
+[fedsophia] Round 040/100 | test_acc=61.56% | flops_round=580.4057e12 | flops_total=25392.6525e12 | round_time=70.70s
+[fedsophia] Round 041/100 | test_acc=61.71% | flops_round=1124.5119e12 | flops_total=26517.1645e12 | round_time=81.12s
+[fedsophia] Round 042/100 | test_acc=61.60% | flops_round=580.4057e12 | flops_total=27097.5701e12 | round_time=70.90s
+[fedsophia] Round 043/100 | test_acc=61.72% | flops_round=580.4057e12 | flops_total=27677.9758e12 | round_time=71.41s
+[fedsophia] Round 044/100 | test_acc=61.72% | flops_round=580.4057e12 | flops_total=28258.3815e12 | round_time=62.34s
+[fedsophia] Round 045/100 | test_acc=62.67% | flops_round=580.4057e12 | flops_total=28838.7872e12 | round_time=51.29s
+[fedsophia] Round 046/100 | test_acc=62.81% | flops_round=580.4057e12 | flops_total=29419.1929e12 | round_time=51.39s
+[fedsophia] Round 047/100 | test_acc=62.23% | flops_round=580.4057e12 | flops_total=29999.5986e12 | round_time=51.85s
+[fedsophia] Round 048/100 | test_acc=62.83% | flops_round=580.4057e12 | flops_total=30580.0043e12 | round_time=50.91s
+[fedsophia] Round 049/100 | test_acc=63.19% | flops_round=580.4057e12 | flops_total=31160.4100e12 | round_time=51.34s
+[fedsophia] Round 050/100 | test_acc=63.37% | flops_round=580.4057e12 | flops_total=31740.8156e12 | round_time=51.27s
+[fedsophia] Round 051/100 | test_acc=63.21% | flops_round=1124.5119e12 | flops_total=32865.3276e12 | round_time=68.68s
+[fedsophia] Round 052/100 | test_acc=63.60% | flops_round=580.4057e12 | flops_total=33445.7333e12 | round_time=51.50s
+[fedsophia] Round 053/100 | test_acc=62.88% | flops_round=580.4057e12 | flops_total=34026.1390e12 | round_time=51.30s
+[fedsophia] Round 054/100 | test_acc=64.17% | flops_round=580.4057e12 | flops_total=34606.5447e12 | round_time=51.24s
+[fedsophia] Round 055/100 | test_acc=64.16% | flops_round=580.4057e12 | flops_total=35186.9503e12 | round_time=51.17s
+[fedsophia] Round 056/100 | test_acc=63.65% | flops_round=580.4057e12 | flops_total=35767.3560e12 | round_time=51.63s
+[fedsophia] Round 057/100 | test_acc=63.92% | flops_round=580.4057e12 | flops_total=36347.7617e12 | round_time=51.47s
+[fedsophia] Round 058/100 | test_acc=63.83% | flops_round=580.4057e12 | flops_total=36928.1674e12 | round_time=50.86s
+[fedsophia] Round 059/100 | test_acc=64.66% | flops_round=580.4057e12 | flops_total=37508.5731e12 | round_time=51.49s
+[fedsophia] Round 060/100 | test_acc=64.69% | flops_round=580.4057e12 | flops_total=38088.9788e12 | round_time=51.39s
+[fedsophia] Round 061/100 | test_acc=65.18% | flops_round=1124.5119e12 | flops_total=39213.4907e12 | round_time=68.77s
+[fedsophia] Round 062/100 | test_acc=64.08% | flops_round=580.4057e12 | flops_total=39793.8964e12 | round_time=51.22s
+[fedsophia] Round 063/100 | test_acc=64.01% | flops_round=580.4057e12 | flops_total=40374.3021e12 | round_time=51.18s
+[fedsophia] Round 064/100 | test_acc=64.46% | flops_round=580.4057e12 | flops_total=40954.7078e12 | round_time=50.97s
+[fedsophia] Round 065/100 | test_acc=63.96% | flops_round=580.4057e12 | flops_total=41535.1135e12 | round_time=50.54s
+[fedsophia] Round 066/100 | test_acc=64.93% | flops_round=580.4057e12 | flops_total=42115.5192e12 | round_time=51.23s
+[fedsophia] Round 067/100 | test_acc=64.72% | flops_round=580.4057e12 | flops_total=42695.9248e12 | round_time=51.01s
+[fedsophia] Round 068/100 | test_acc=64.77% | flops_round=580.4057e12 | flops_total=43276.3305e12 | round_time=51.72s
+[fedsophia] Round 069/100 | test_acc=63.98% | flops_round=580.4057e12 | flops_total=43856.7362e12 | round_time=51.67s
+[fedsophia] Round 070/100 | test_acc=65.21% | flops_round=580.4057e12 | flops_total=44437.1419e12 | round_time=51.20s
+[fedsophia] Round 071/100 | test_acc=65.03% | flops_round=1124.5119e12 | flops_total=45561.6538e12 | round_time=68.89s
+[fedsophia] Round 072/100 | test_acc=64.62% | flops_round=580.4057e12 | flops_total=46142.0595e12 | round_time=51.46s
+[fedsophia] Round 073/100 | test_acc=64.55% | flops_round=580.4057e12 | flops_total=46722.4652e12 | round_time=50.75s
+[fedsophia] Round 074/100 | test_acc=64.33% | flops_round=580.4057e12 | flops_total=47302.8709e12 | round_time=51.51s
+[fedsophia] Round 075/100 | test_acc=64.27% | flops_round=580.4057e12 | flops_total=47883.2766e12 | round_time=51.35s
+[fedsophia] Round 076/100 | test_acc=64.58% | flops_round=580.4057e12 | flops_total=48463.6823e12 | round_time=50.81s
+[fedsophia] Round 077/100 | test_acc=65.01% | flops_round=580.4057e12 | flops_total=49044.0880e12 | round_time=50.85s
+[fedsophia] Round 078/100 | test_acc=64.45% | flops_round=580.4057e12 | flops_total=49624.4937e12 | round_time=51.26s
+[fedsophia] Round 079/100 | test_acc=64.47% | flops_round=580.4057e12 | flops_total=50204.8993e12 | round_time=51.05s
+[fedsophia] Round 080/100 | test_acc=64.66% | flops_round=580.4057e12 | flops_total=50785.3050e12 | round_time=51.31s
+[fedsophia] Round 081/100 | test_acc=65.07% | flops_round=1124.5119e12 | flops_total=51909.8170e12 | round_time=68.87s
+[fedsophia] Round 082/100 | test_acc=64.50% | flops_round=580.4057e12 | flops_total=52490.2227e12 | round_time=51.68s
+[fedsophia] Round 083/100 | test_acc=64.69% | flops_round=580.4057e12 | flops_total=53070.6284e12 | round_time=51.29s
+[fedsophia] Round 084/100 | test_acc=64.87% | flops_round=580.4057e12 | flops_total=53651.0340e12 | round_time=51.48s
+[fedsophia] Round 085/100 | test_acc=64.50% | flops_round=580.4057e12 | flops_total=54231.4397e12 | round_time=51.57s
+[fedsophia] Round 086/100 | test_acc=64.71% | flops_round=580.4057e12 | flops_total=54811.8454e12 | round_time=50.66s
+[fedsophia] Round 087/100 | test_acc=64.70% | flops_round=580.4057e12 | flops_total=55392.2511e12 | round_time=51.80s
+[fedsophia] Round 088/100 | test_acc=64.31% | flops_round=580.4057e12 | flops_total=55972.6568e12 | round_time=50.74s
+[fedsophia] Round 089/100 | test_acc=64.48% | flops_round=580.4057e12 | flops_total=56553.0625e12 | round_time=51.32s
+[fedsophia] Round 090/100 | test_acc=64.63% | flops_round=580.4057e12 | flops_total=57133.4682e12 | round_time=51.82s
+[fedsophia] Round 091/100 | test_acc=65.24% | flops_round=1124.5119e12 | flops_total=58257.9801e12 | round_time=68.78s
+[fedsophia] Round 092/100 | test_acc=65.02% | flops_round=580.4057e12 | flops_total=58838.3858e12 | round_time=51.01s
+[fedsophia] Round 093/100 | test_acc=64.91% | flops_round=580.4057e12 | flops_total=59418.7915e12 | round_time=51.09s
+[fedsophia] Round 094/100 | test_acc=64.91% | flops_round=580.4057e12 | flops_total=59999.1972e12 | round_time=51.46s
+[fedsophia] Round 095/100 | test_acc=65.18% | flops_round=580.4057e12 | flops_total=60579.6029e12 | round_time=51.73s
+[fedsophia] Round 096/100 | test_acc=64.56% | flops_round=580.4057e12 | flops_total=61160.0085e12 | round_time=51.00s
+[fedsophia] Round 097/100 | test_acc=64.33% | flops_round=580.4057e12 | flops_total=61740.4142e12 | round_time=51.66s
+[fedsophia] Round 098/100 | test_acc=64.35% | flops_round=580.4057e12 | flops_total=62320.8199e12 | round_time=51.22s
+[fedsophia] Round 099/100 | test_acc=65.02% | flops_round=580.4057e12 | flops_total=62901.2256e12 | round_time=51.57s
+[fedsophia] Round 100/100 | test_acc=64.53% | flops_round=580.4057e12 | flops_total=63481.6313e12 | round_time=51.04s
+
+========== DynaHybrid ==========
+Final test accuracy: 63.19%
+Total wall-clock time: 5266.79s
+Total Hessian time: 4.77s
+--- FLOPs breakdown (cumulative at final round) ---
+  estimated_forward_backward_flops_total: 54408.3803e12
+  estimated_hessian_gnb_flops_total: 143.3051e12
+  estimated_optimizer_flops_total: 3.5496e12
+  estimated_scoring_flops_total: 136.0811e9
+  estimated_aggregation_flops_total: 22.4556e9
+  estimated_evaluation_flops_total: 3627.2257e12
+  estimated_total_flops_total: 58182.6192e12
+  estimated_total_tflops_total: 58182.619236 TFLOPs
+  estimated_full_fedsophia_flops_budget_total: 63481.6313e12
+  estimated_flops_ratio_vs_full_fedsophia: 0.916527 (91.65%)
+  estimated_flops_saving_vs_full_fedsophia: 0.083473 (8.35%)
+
+--- Per-round total FLOPs (DynaHybrid) ---
+[dynahybrid] Round 001/100 | test_acc=1.62% | flops_round=580.4013e12 | flops_total=580.4013e12 | round_time=51.43s
+[dynahybrid] Round 002/100 | test_acc=5.06% | flops_round=594.3174e12 | flops_total=1174.7187e12 | round_time=50.97s
+[dynahybrid] Round 003/100 | test_acc=8.12% | flops_round=580.3888e12 | flops_total=1755.1075e12 | round_time=50.65s
+[dynahybrid] Round 004/100 | test_acc=9.76% | flops_round=580.3888e12 | flops_total=2335.4964e12 | round_time=51.22s
+[dynahybrid] Round 005/100 | test_acc=14.23% | flops_round=580.3888e12 | flops_total=2915.8852e12 | round_time=51.51s
+[dynahybrid] Round 006/100 | test_acc=15.52% | flops_round=580.3888e12 | flops_total=3496.2740e12 | round_time=50.35s
+[dynahybrid] Round 007/100 | test_acc=16.48% | flops_round=580.3888e12 | flops_total=4076.6628e12 | round_time=51.41s
+[dynahybrid] Round 008/100 | test_acc=19.13% | flops_round=580.3888e12 | flops_total=4657.0516e12 | round_time=51.07s
+[dynahybrid] Round 009/100 | test_acc=18.62% | flops_round=580.3888e12 | flops_total=5237.4404e12 | round_time=50.88s
+[dynahybrid] Round 010/100 | test_acc=21.08% | flops_round=580.3888e12 | flops_total=5817.8292e12 | round_time=50.94s
+[dynahybrid] Round 011/100 | test_acc=23.91% | flops_round=594.3310e12 | flops_total=6412.1603e12 | round_time=51.79s
+[dynahybrid] Round 012/100 | test_acc=16.25% | flops_round=589.2444e12 | flops_total=7001.4047e12 | round_time=50.89s
+[dynahybrid] Round 013/100 | test_acc=22.11% | flops_round=580.3922e12 | flops_total=7581.7969e12 | round_time=50.72s
+[dynahybrid] Round 014/100 | test_acc=26.15% | flops_round=580.3922e12 | flops_total=8162.1890e12 | round_time=51.23s
+[dynahybrid] Round 015/100 | test_acc=28.96% | flops_round=580.3922e12 | flops_total=8742.5812e12 | round_time=50.82s
+[dynahybrid] Round 016/100 | test_acc=30.00% | flops_round=580.3922e12 | flops_total=9322.9733e12 | round_time=51.04s
+[dynahybrid] Round 017/100 | test_acc=31.86% | flops_round=580.3922e12 | flops_total=9903.3655e12 | round_time=51.11s
+[dynahybrid] Round 018/100 | test_acc=33.12% | flops_round=580.3922e12 | flops_total=10483.7577e12 | round_time=51.26s
+[dynahybrid] Round 019/100 | test_acc=33.38% | flops_round=580.3922e12 | flops_total=11064.1498e12 | round_time=50.90s
+[dynahybrid] Round 020/100 | test_acc=36.52% | flops_round=580.3922e12 | flops_total=11644.5420e12 | round_time=51.68s
+[dynahybrid] Round 021/100 | test_acc=38.27% | flops_round=593.7302e12 | flops_total=12238.2722e12 | round_time=51.55s
+[dynahybrid] Round 022/100 | test_acc=37.56% | flops_round=580.3922e12 | flops_total=12818.6644e12 | round_time=51.40s
+[dynahybrid] Round 023/100 | test_acc=40.01% | flops_round=580.3922e12 | flops_total=13399.0565e12 | round_time=51.68s
+[dynahybrid] Round 024/100 | test_acc=40.44% | flops_round=580.3922e12 | flops_total=13979.4487e12 | round_time=51.18s
+[dynahybrid] Round 025/100 | test_acc=41.74% | flops_round=580.3922e12 | flops_total=14559.8408e12 | round_time=51.41s
+[dynahybrid] Round 026/100 | test_acc=43.54% | flops_round=580.3922e12 | flops_total=15140.2330e12 | round_time=51.32s
+[dynahybrid] Round 027/100 | test_acc=45.13% | flops_round=580.3922e12 | flops_total=15720.6252e12 | round_time=50.94s
+[dynahybrid] Round 028/100 | test_acc=44.88% | flops_round=580.3922e12 | flops_total=16301.0173e12 | round_time=50.92s
+[dynahybrid] Round 029/100 | test_acc=46.48% | flops_round=580.3922e12 | flops_total=16881.4095e12 | round_time=51.19s
+[dynahybrid] Round 030/100 | test_acc=48.25% | flops_round=580.3922e12 | flops_total=17461.8016e12 | round_time=51.02s
+[dynahybrid] Round 031/100 | test_acc=46.68% | flops_round=593.7302e12 | flops_total=18055.5319e12 | round_time=51.36s
+[dynahybrid] Round 032/100 | test_acc=48.80% | flops_round=580.3922e12 | flops_total=18635.9240e12 | round_time=51.64s
+[dynahybrid] Round 033/100 | test_acc=49.78% | flops_round=580.3922e12 | flops_total=19216.3162e12 | round_time=51.11s
+[dynahybrid] Round 034/100 | test_acc=48.17% | flops_round=580.3922e12 | flops_total=19796.7083e12 | round_time=51.10s
+[dynahybrid] Round 035/100 | test_acc=49.67% | flops_round=580.3922e12 | flops_total=20377.1005e12 | round_time=51.18s
+[dynahybrid] Round 036/100 | test_acc=50.72% | flops_round=580.3922e12 | flops_total=20957.4927e12 | round_time=51.43s
+[dynahybrid] Round 037/100 | test_acc=50.29% | flops_round=580.3922e12 | flops_total=21537.8848e12 | round_time=51.68s
+[dynahybrid] Round 038/100 | test_acc=51.37% | flops_round=580.3922e12 | flops_total=22118.2770e12 | round_time=51.40s
+[dynahybrid] Round 039/100 | test_acc=54.43% | flops_round=580.3922e12 | flops_total=22698.6691e12 | round_time=51.04s
+[dynahybrid] Round 040/100 | test_acc=54.51% | flops_round=580.3922e12 | flops_total=23279.0613e12 | round_time=51.50s
+[dynahybrid] Round 041/100 | test_acc=53.07% | flops_round=593.7302e12 | flops_total=23872.7915e12 | round_time=52.21s
+[dynahybrid] Round 042/100 | test_acc=51.34% | flops_round=580.3922e12 | flops_total=24453.1837e12 | round_time=51.60s
+[dynahybrid] Round 043/100 | test_acc=53.76% | flops_round=580.3922e12 | flops_total=25033.5758e12 | round_time=51.30s
+[dynahybrid] Round 044/100 | test_acc=55.11% | flops_round=580.3922e12 | flops_total=25613.9680e12 | round_time=51.41s
+[dynahybrid] Round 045/100 | test_acc=54.63% | flops_round=580.3922e12 | flops_total=26194.3601e12 | round_time=50.71s
+[dynahybrid] Round 046/100 | test_acc=56.50% | flops_round=580.3922e12 | flops_total=26774.7523e12 | round_time=51.06s
+[dynahybrid] Round 047/100 | test_acc=55.29% | flops_round=580.3922e12 | flops_total=27355.1445e12 | round_time=51.99s
+[dynahybrid] Round 048/100 | test_acc=55.53% | flops_round=580.3922e12 | flops_total=27935.5366e12 | round_time=50.85s
+[dynahybrid] Round 049/100 | test_acc=56.88% | flops_round=580.3922e12 | flops_total=28515.9288e12 | round_time=50.97s
+[dynahybrid] Round 050/100 | test_acc=53.83% | flops_round=580.3922e12 | flops_total=29096.3209e12 | round_time=51.25s
+[dynahybrid] Round 051/100 | test_acc=61.04% | flops_round=593.7302e12 | flops_total=29690.0512e12 | round_time=51.85s
+[dynahybrid] Round 052/100 | test_acc=61.57% | flops_round=580.3922e12 | flops_total=30270.4433e12 | round_time=51.14s
+[dynahybrid] Round 053/100 | test_acc=61.82% | flops_round=580.3922e12 | flops_total=30850.8355e12 | round_time=51.93s
+[dynahybrid] Round 054/100 | test_acc=62.25% | flops_round=580.3922e12 | flops_total=31431.2276e12 | round_time=51.25s
+[dynahybrid] Round 055/100 | test_acc=61.81% | flops_round=580.3922e12 | flops_total=32011.6198e12 | round_time=51.30s
+[dynahybrid] Round 056/100 | test_acc=61.94% | flops_round=580.3922e12 | flops_total=32592.0120e12 | round_time=51.58s
+[dynahybrid] Round 057/100 | test_acc=62.56% | flops_round=580.3922e12 | flops_total=33172.4041e12 | round_time=51.20s
+[dynahybrid] Round 058/100 | test_acc=62.28% | flops_round=580.3922e12 | flops_total=33752.7963e12 | round_time=51.19s
+[dynahybrid] Round 059/100 | test_acc=62.63% | flops_round=580.3922e12 | flops_total=34333.1884e12 | round_time=51.15s
+[dynahybrid] Round 060/100 | test_acc=62.43% | flops_round=580.3922e12 | flops_total=34913.5806e12 | round_time=51.18s
+[dynahybrid] Round 061/100 | test_acc=63.10% | flops_round=593.7302e12 | flops_total=35507.3108e12 | round_time=51.88s
+[dynahybrid] Round 062/100 | test_acc=62.31% | flops_round=580.3922e12 | flops_total=36087.7030e12 | round_time=51.27s
+[dynahybrid] Round 063/100 | test_acc=62.15% | flops_round=580.3922e12 | flops_total=36668.0951e12 | round_time=51.39s
+[dynahybrid] Round 064/100 | test_acc=62.82% | flops_round=580.3922e12 | flops_total=37248.4873e12 | round_time=51.61s
+[dynahybrid] Round 065/100 | test_acc=62.46% | flops_round=580.3922e12 | flops_total=37828.8795e12 | round_time=51.51s
+[dynahybrid] Round 066/100 | test_acc=62.96% | flops_round=580.3922e12 | flops_total=38409.2716e12 | round_time=50.70s
+[dynahybrid] Round 067/100 | test_acc=62.91% | flops_round=580.3922e12 | flops_total=38989.6638e12 | round_time=51.10s
+[dynahybrid] Round 068/100 | test_acc=62.61% | flops_round=580.3922e12 | flops_total=39570.0559e12 | round_time=51.00s
+[dynahybrid] Round 069/100 | test_acc=62.61% | flops_round=580.3922e12 | flops_total=40150.4481e12 | round_time=51.52s
+[dynahybrid] Round 070/100 | test_acc=63.09% | flops_round=580.3922e12 | flops_total=40730.8403e12 | round_time=51.27s
+[dynahybrid] Round 071/100 | test_acc=63.54% | flops_round=593.7302e12 | flops_total=41324.5705e12 | round_time=51.47s
+[dynahybrid] Round 072/100 | test_acc=63.09% | flops_round=580.3922e12 | flops_total=41904.9626e12 | round_time=51.29s
+[dynahybrid] Round 073/100 | test_acc=62.59% | flops_round=580.3922e12 | flops_total=42485.3548e12 | round_time=51.00s
+[dynahybrid] Round 074/100 | test_acc=62.96% | flops_round=580.3922e12 | flops_total=43065.7470e12 | round_time=51.42s
+[dynahybrid] Round 075/100 | test_acc=63.28% | flops_round=580.3922e12 | flops_total=43646.1391e12 | round_time=51.70s
+[dynahybrid] Round 076/100 | test_acc=62.80% | flops_round=580.3922e12 | flops_total=44226.5313e12 | round_time=51.29s
+[dynahybrid] Round 077/100 | test_acc=63.93% | flops_round=580.3922e12 | flops_total=44806.9234e12 | round_time=51.02s
+[dynahybrid] Round 078/100 | test_acc=63.07% | flops_round=580.3922e12 | flops_total=45387.3156e12 | round_time=51.63s
+[dynahybrid] Round 079/100 | test_acc=63.12% | flops_round=580.3922e12 | flops_total=45967.7078e12 | round_time=51.26s
+[dynahybrid] Round 080/100 | test_acc=63.56% | flops_round=580.3922e12 | flops_total=46548.0999e12 | round_time=51.59s
+[dynahybrid] Round 081/100 | test_acc=63.66% | flops_round=593.7302e12 | flops_total=47141.8301e12 | round_time=51.43s
+[dynahybrid] Round 082/100 | test_acc=63.26% | flops_round=580.3922e12 | flops_total=47722.2223e12 | round_time=52.20s
+[dynahybrid] Round 083/100 | test_acc=63.30% | flops_round=580.3922e12 | flops_total=48302.6145e12 | round_time=50.98s
+[dynahybrid] Round 084/100 | test_acc=63.27% | flops_round=580.3922e12 | flops_total=48883.0066e12 | round_time=51.31s
+[dynahybrid] Round 085/100 | test_acc=63.20% | flops_round=580.3922e12 | flops_total=49463.3988e12 | round_time=51.09s
+[dynahybrid] Round 086/100 | test_acc=63.57% | flops_round=580.3922e12 | flops_total=50043.7909e12 | round_time=51.23s
+[dynahybrid] Round 087/100 | test_acc=63.28% | flops_round=580.3922e12 | flops_total=50624.1831e12 | round_time=51.56s
+[dynahybrid] Round 088/100 | test_acc=63.27% | flops_round=580.3922e12 | flops_total=51204.5753e12 | round_time=51.34s
+[dynahybrid] Round 089/100 | test_acc=63.54% | flops_round=580.3922e12 | flops_total=51784.9674e12 | round_time=51.29s
+[dynahybrid] Round 090/100 | test_acc=63.24% | flops_round=580.3922e12 | flops_total=52365.3596e12 | round_time=51.10s
+[dynahybrid] Round 091/100 | test_acc=63.46% | flops_round=593.7302e12 | flops_total=52959.0898e12 | round_time=51.71s
+[dynahybrid] Round 092/100 | test_acc=63.58% | flops_round=580.3922e12 | flops_total=53539.4820e12 | round_time=51.24s
+[dynahybrid] Round 093/100 | test_acc=63.60% | flops_round=580.3922e12 | flops_total=54119.8741e12 | round_time=51.54s
+[dynahybrid] Round 094/100 | test_acc=63.57% | flops_round=580.3922e12 | flops_total=54700.2663e12 | round_time=75.68s
+[dynahybrid] Round 095/100 | test_acc=62.99% | flops_round=580.3922e12 | flops_total=55280.6584e12 | round_time=70.80s
+[dynahybrid] Round 096/100 | test_acc=63.11% | flops_round=580.3922e12 | flops_total=55861.0506e12 | round_time=68.96s
+[dynahybrid] Round 097/100 | test_acc=63.03% | flops_round=580.3922e12 | flops_total=56441.4428e12 | round_time=70.51s
+[dynahybrid] Round 098/100 | test_acc=63.27% | flops_round=580.3922e12 | flops_total=57021.8349e12 | round_time=71.52s
+[dynahybrid] Round 099/100 | test_acc=63.55% | flops_round=580.3922e12 | flops_total=57602.2271e12 | round_time=68.77s
+[dynahybrid] Round 100/100 | test_acc=63.19% | flops_round=580.3922e12 | flops_total=58182.6192e12 | round_time=70.61s
+
+========== Table II Comparison (vs full-model FedSophia) ==========
+ΔAcc (DynaHybrid - FS) = -1.34 pp  (FS=64.53%, DH=63.19%)
+FLOPs saved (reported) = 8.35%
+ΔTime (FS - DynaHybrid) = +425.8s  (FS=5692.6s, DH=5266.8s)
+
+Saved FLOPs log: results/table2_flops/cifar100_resnet18_seed43_flops.log

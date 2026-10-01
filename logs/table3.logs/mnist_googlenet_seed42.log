@@ -1,0 +1,466 @@
+Client sample sizes: [4797, 6052, 6677, 7127, 3426, 13059, 2355, 4420, 4407, 7680]
+
+========== Start experiment: fedavg ==========
+Device: cuda; clients=10; rounds=100; local_steps=40
+[fedavg] Round 001/100 | train_loss=0.9541 | test_loss=5.9547 | test_acc=11.35% | K=0 | layers=NONE | round_time=56.39s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 002/100 | train_loss=0.5430 | test_loss=14.2200 | test_acc=11.35% | K=0 | layers=NONE | round_time=53.94s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 003/100 | train_loss=0.2857 | test_loss=12.4093 | test_acc=11.35% | K=0 | layers=NONE | round_time=53.71s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 004/100 | train_loss=0.1285 | test_loss=0.5144 | test_acc=85.14% | K=0 | layers=NONE | round_time=53.10s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 005/100 | train_loss=0.0818 | test_loss=0.0947 | test_acc=97.26% | K=0 | layers=NONE | round_time=54.40s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 006/100 | train_loss=0.0592 | test_loss=0.0826 | test_acc=97.67% | K=0 | layers=NONE | round_time=53.42s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 007/100 | train_loss=0.0550 | test_loss=0.0691 | test_acc=97.99% | K=0 | layers=NONE | round_time=53.09s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 008/100 | train_loss=0.0481 | test_loss=0.0453 | test_acc=98.82% | K=0 | layers=NONE | round_time=53.11s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 009/100 | train_loss=0.0437 | test_loss=0.0436 | test_acc=98.78% | K=0 | layers=NONE | round_time=53.73s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 010/100 | train_loss=0.0378 | test_loss=0.0371 | test_acc=98.95% | K=0 | layers=NONE | round_time=53.95s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 011/100 | train_loss=0.0375 | test_loss=0.0323 | test_acc=99.16% | K=0 | layers=NONE | round_time=53.63s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 012/100 | train_loss=0.0339 | test_loss=0.0299 | test_acc=99.19% | K=0 | layers=NONE | round_time=53.00s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 013/100 | train_loss=0.0295 | test_loss=0.0236 | test_acc=99.34% | K=0 | layers=NONE | round_time=53.67s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 014/100 | train_loss=0.0277 | test_loss=0.0237 | test_acc=99.32% | K=0 | layers=NONE | round_time=53.46s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 015/100 | train_loss=0.0265 | test_loss=0.0244 | test_acc=99.36% | K=0 | layers=NONE | round_time=53.32s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 016/100 | train_loss=0.0245 | test_loss=0.0224 | test_acc=99.37% | K=0 | layers=NONE | round_time=53.56s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 017/100 | train_loss=0.0245 | test_loss=0.0233 | test_acc=99.42% | K=0 | layers=NONE | round_time=53.79s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 018/100 | train_loss=0.0236 | test_loss=0.0201 | test_acc=99.41% | K=0 | layers=NONE | round_time=53.76s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 019/100 | train_loss=0.0242 | test_loss=0.0198 | test_acc=99.38% | K=0 | layers=NONE | round_time=53.50s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 020/100 | train_loss=0.0197 | test_loss=0.0189 | test_acc=99.50% | K=0 | layers=NONE | round_time=53.79s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 021/100 | train_loss=0.0196 | test_loss=0.0171 | test_acc=99.55% | K=0 | layers=NONE | round_time=53.38s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 022/100 | train_loss=0.0185 | test_loss=0.0184 | test_acc=99.44% | K=0 | layers=NONE | round_time=53.77s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 023/100 | train_loss=0.0163 | test_loss=0.0173 | test_acc=99.53% | K=0 | layers=NONE | round_time=54.35s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 024/100 | train_loss=0.0157 | test_loss=0.0170 | test_acc=99.49% | K=0 | layers=NONE | round_time=53.18s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 025/100 | train_loss=0.0176 | test_loss=0.0179 | test_acc=99.48% | K=0 | layers=NONE | round_time=53.53s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 026/100 | train_loss=0.0138 | test_loss=0.0158 | test_acc=99.55% | K=0 | layers=NONE | round_time=53.40s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 027/100 | train_loss=0.0139 | test_loss=0.0150 | test_acc=99.65% | K=0 | layers=NONE | round_time=52.92s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 028/100 | train_loss=0.0126 | test_loss=0.0143 | test_acc=99.55% | K=0 | layers=NONE | round_time=53.58s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 029/100 | train_loss=0.0135 | test_loss=0.0141 | test_acc=99.62% | K=0 | layers=NONE | round_time=53.19s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 030/100 | train_loss=0.0116 | test_loss=0.0139 | test_acc=99.63% | K=0 | layers=NONE | round_time=53.14s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 031/100 | train_loss=0.0112 | test_loss=0.0141 | test_acc=99.63% | K=0 | layers=NONE | round_time=53.32s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 032/100 | train_loss=0.0112 | test_loss=0.0153 | test_acc=99.54% | K=0 | layers=NONE | round_time=53.35s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 033/100 | train_loss=0.0095 | test_loss=0.0130 | test_acc=99.67% | K=0 | layers=NONE | round_time=53.69s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 034/100 | train_loss=0.0104 | test_loss=0.0134 | test_acc=99.62% | K=0 | layers=NONE | round_time=52.90s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 035/100 | train_loss=0.0107 | test_loss=0.0122 | test_acc=99.69% | K=0 | layers=NONE | round_time=52.28s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 036/100 | train_loss=0.0091 | test_loss=0.0129 | test_acc=99.65% | K=0 | layers=NONE | round_time=52.89s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 037/100 | train_loss=0.0075 | test_loss=0.0126 | test_acc=99.61% | K=0 | layers=NONE | round_time=54.02s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 038/100 | train_loss=0.0084 | test_loss=0.0131 | test_acc=99.60% | K=0 | layers=NONE | round_time=53.03s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 039/100 | train_loss=0.0079 | test_loss=0.0136 | test_acc=99.57% | K=0 | layers=NONE | round_time=52.98s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 040/100 | train_loss=0.0088 | test_loss=0.0154 | test_acc=99.56% | K=0 | layers=NONE | round_time=54.09s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 041/100 | train_loss=0.0072 | test_loss=0.0129 | test_acc=99.61% | K=0 | layers=NONE | round_time=53.45s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 042/100 | train_loss=0.0109 | test_loss=0.0131 | test_acc=99.59% | K=0 | layers=NONE | round_time=52.88s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 043/100 | train_loss=0.0072 | test_loss=0.0125 | test_acc=99.64% | K=0 | layers=NONE | round_time=52.90s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 044/100 | train_loss=0.0067 | test_loss=0.0124 | test_acc=99.67% | K=0 | layers=NONE | round_time=53.21s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 045/100 | train_loss=0.0063 | test_loss=0.0120 | test_acc=99.67% | K=0 | layers=NONE | round_time=53.37s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 046/100 | train_loss=0.0057 | test_loss=0.0131 | test_acc=99.65% | K=0 | layers=NONE | round_time=53.33s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 047/100 | train_loss=0.0061 | test_loss=0.0124 | test_acc=99.67% | K=0 | layers=NONE | round_time=53.68s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 048/100 | train_loss=0.0076 | test_loss=0.0124 | test_acc=99.60% | K=0 | layers=NONE | round_time=53.25s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 049/100 | train_loss=0.0060 | test_loss=0.0123 | test_acc=99.67% | K=0 | layers=NONE | round_time=53.20s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 050/100 | train_loss=0.0057 | test_loss=0.0120 | test_acc=99.67% | K=0 | layers=NONE | round_time=52.87s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 051/100 | train_loss=0.0065 | test_loss=0.0122 | test_acc=99.66% | K=0 | layers=NONE | round_time=54.60s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 052/100 | train_loss=0.0045 | test_loss=0.0122 | test_acc=99.64% | K=0 | layers=NONE | round_time=53.04s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 053/100 | train_loss=0.0117 | test_loss=0.0132 | test_acc=99.61% | K=0 | layers=NONE | round_time=54.16s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 054/100 | train_loss=0.0064 | test_loss=0.0120 | test_acc=99.67% | K=0 | layers=NONE | round_time=53.33s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 055/100 | train_loss=0.0054 | test_loss=0.0116 | test_acc=99.67% | K=0 | layers=NONE | round_time=54.66s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 056/100 | train_loss=0.0068 | test_loss=0.0143 | test_acc=99.60% | K=0 | layers=NONE | round_time=57.92s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 057/100 | train_loss=0.0032 | test_loss=0.0108 | test_acc=99.69% | K=0 | layers=NONE | round_time=53.49s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 058/100 | train_loss=0.0078 | test_loss=0.0111 | test_acc=99.65% | K=0 | layers=NONE | round_time=53.70s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 059/100 | train_loss=0.0049 | test_loss=0.0119 | test_acc=99.68% | K=0 | layers=NONE | round_time=53.17s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 060/100 | train_loss=0.0052 | test_loss=0.0115 | test_acc=99.67% | K=0 | layers=NONE | round_time=53.10s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 061/100 | train_loss=0.0033 | test_loss=0.0114 | test_acc=99.66% | K=0 | layers=NONE | round_time=53.20s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 062/100 | train_loss=0.0033 | test_loss=0.0112 | test_acc=99.67% | K=0 | layers=NONE | round_time=53.41s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 063/100 | train_loss=0.0044 | test_loss=0.0124 | test_acc=99.60% | K=0 | layers=NONE | round_time=53.50s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 064/100 | train_loss=0.0036 | test_loss=0.0111 | test_acc=99.68% | K=0 | layers=NONE | round_time=52.38s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 065/100 | train_loss=0.0038 | test_loss=0.0118 | test_acc=99.62% | K=0 | layers=NONE | round_time=52.45s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 066/100 | train_loss=0.0028 | test_loss=0.0109 | test_acc=99.65% | K=0 | layers=NONE | round_time=53.55s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 067/100 | train_loss=0.0043 | test_loss=0.0109 | test_acc=99.66% | K=0 | layers=NONE | round_time=53.56s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 068/100 | train_loss=0.0061 | test_loss=0.0114 | test_acc=99.67% | K=0 | layers=NONE | round_time=53.37s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 069/100 | train_loss=0.0038 | test_loss=0.0114 | test_acc=99.68% | K=0 | layers=NONE | round_time=53.12s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 070/100 | train_loss=0.0097 | test_loss=0.0118 | test_acc=99.64% | K=0 | layers=NONE | round_time=53.04s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 071/100 | train_loss=0.0138 | test_loss=0.0117 | test_acc=99.64% | K=0 | layers=NONE | round_time=52.97s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 072/100 | train_loss=0.0033 | test_loss=0.0119 | test_acc=99.65% | K=0 | layers=NONE | round_time=52.80s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 073/100 | train_loss=0.0043 | test_loss=0.0116 | test_acc=99.65% | K=0 | layers=NONE | round_time=52.83s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 074/100 | train_loss=0.0028 | test_loss=0.0120 | test_acc=99.64% | K=0 | layers=NONE | round_time=53.20s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 075/100 | train_loss=0.0020 | test_loss=0.0104 | test_acc=99.66% | K=0 | layers=NONE | round_time=52.78s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 076/100 | train_loss=0.0027 | test_loss=0.0112 | test_acc=99.66% | K=0 | layers=NONE | round_time=52.89s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 077/100 | train_loss=0.0033 | test_loss=0.0109 | test_acc=99.69% | K=0 | layers=NONE | round_time=52.79s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 078/100 | train_loss=0.0033 | test_loss=0.0114 | test_acc=99.64% | K=0 | layers=NONE | round_time=53.05s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 079/100 | train_loss=0.0015 | test_loss=0.0107 | test_acc=99.70% | K=0 | layers=NONE | round_time=53.28s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 080/100 | train_loss=0.0016 | test_loss=0.0105 | test_acc=99.68% | K=0 | layers=NONE | round_time=53.02s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 081/100 | train_loss=0.0028 | test_loss=0.0106 | test_acc=99.68% | K=0 | layers=NONE | round_time=53.19s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 082/100 | train_loss=0.0019 | test_loss=0.0109 | test_acc=99.69% | K=0 | layers=NONE | round_time=53.27s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 083/100 | train_loss=0.0021 | test_loss=0.0111 | test_acc=99.69% | K=0 | layers=NONE | round_time=53.51s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 084/100 | train_loss=0.0015 | test_loss=0.0110 | test_acc=99.72% | K=0 | layers=NONE | round_time=53.17s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 085/100 | train_loss=0.0015 | test_loss=0.0106 | test_acc=99.71% | K=0 | layers=NONE | round_time=53.87s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 086/100 | train_loss=0.0017 | test_loss=0.0104 | test_acc=99.66% | K=0 | layers=NONE | round_time=53.56s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 087/100 | train_loss=0.0013 | test_loss=0.0105 | test_acc=99.69% | K=0 | layers=NONE | round_time=53.29s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 088/100 | train_loss=0.0045 | test_loss=0.0546 | test_acc=98.50% | K=0 | layers=NONE | round_time=53.78s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 089/100 | train_loss=0.0110 | test_loss=0.0151 | test_acc=99.51% | K=0 | layers=NONE | round_time=53.06s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 090/100 | train_loss=0.0032 | test_loss=0.0119 | test_acc=99.62% | K=0 | layers=NONE | round_time=52.56s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 091/100 | train_loss=0.0020 | test_loss=0.0111 | test_acc=99.69% | K=0 | layers=NONE | round_time=54.08s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 092/100 | train_loss=0.0019 | test_loss=0.0106 | test_acc=99.67% | K=0 | layers=NONE | round_time=53.26s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 093/100 | train_loss=0.0026 | test_loss=0.0117 | test_acc=99.67% | K=0 | layers=NONE | round_time=52.99s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 094/100 | train_loss=0.0017 | test_loss=0.0109 | test_acc=99.68% | K=0 | layers=NONE | round_time=53.97s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 095/100 | train_loss=0.0014 | test_loss=0.0109 | test_acc=99.69% | K=0 | layers=NONE | round_time=53.05s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 096/100 | train_loss=0.0023 | test_loss=0.0112 | test_acc=99.68% | K=0 | layers=NONE | round_time=53.65s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 097/100 | train_loss=0.0017 | test_loss=0.0108 | test_acc=99.68% | K=0 | layers=NONE | round_time=53.43s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 098/100 | train_loss=0.0013 | test_loss=0.0109 | test_acc=99.69% | K=0 | layers=NONE | round_time=52.77s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 099/100 | train_loss=0.0036 | test_loss=0.0107 | test_acc=99.71% | K=0 | layers=NONE | round_time=53.61s | hessian_time=0.00s | peak_gpu=6007MiB
+[fedavg] Round 100/100 | train_loss=0.0016 | test_loss=0.0106 | test_acc=99.68% | K=0 | layers=NONE | round_time=53.33s | hessian_time=0.00s | peak_gpu=6007MiB
+
+========== Start experiment: fedprox ==========
+Device: cuda; clients=10; rounds=100; local_steps=40
+[fedprox] Round 001/100 | train_loss=0.9341 | test_loss=5.9221 | test_acc=11.35% | K=0 | layers=NONE | round_time=52.90s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 002/100 | train_loss=0.5354 | test_loss=14.0229 | test_acc=11.35% | K=0 | layers=NONE | round_time=53.88s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 003/100 | train_loss=0.2948 | test_loss=13.0176 | test_acc=11.35% | K=0 | layers=NONE | round_time=52.81s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 004/100 | train_loss=0.1274 | test_loss=0.9018 | test_acc=68.65% | K=0 | layers=NONE | round_time=53.02s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 005/100 | train_loss=0.0811 | test_loss=0.1694 | test_acc=95.52% | K=0 | layers=NONE | round_time=52.58s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 006/100 | train_loss=0.0618 | test_loss=0.0889 | test_acc=97.52% | K=0 | layers=NONE | round_time=52.46s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 007/100 | train_loss=0.0557 | test_loss=0.0689 | test_acc=98.05% | K=0 | layers=NONE | round_time=53.14s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 008/100 | train_loss=0.0478 | test_loss=0.0399 | test_acc=98.93% | K=0 | layers=NONE | round_time=53.15s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 009/100 | train_loss=0.0452 | test_loss=0.0430 | test_acc=98.84% | K=0 | layers=NONE | round_time=52.90s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 010/100 | train_loss=0.0365 | test_loss=0.0351 | test_acc=99.07% | K=0 | layers=NONE | round_time=53.71s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 011/100 | train_loss=0.0379 | test_loss=0.0377 | test_acc=98.95% | K=0 | layers=NONE | round_time=53.14s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 012/100 | train_loss=0.0351 | test_loss=0.0296 | test_acc=99.14% | K=0 | layers=NONE | round_time=52.81s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 013/100 | train_loss=0.0297 | test_loss=0.0249 | test_acc=99.32% | K=0 | layers=NONE | round_time=53.55s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 014/100 | train_loss=0.0275 | test_loss=0.0237 | test_acc=99.38% | K=0 | layers=NONE | round_time=53.93s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 015/100 | train_loss=0.0262 | test_loss=0.0215 | test_acc=99.45% | K=0 | layers=NONE | round_time=53.02s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 016/100 | train_loss=0.0237 | test_loss=0.0210 | test_acc=99.45% | K=0 | layers=NONE | round_time=53.22s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 017/100 | train_loss=0.0246 | test_loss=0.0219 | test_acc=99.47% | K=0 | layers=NONE | round_time=53.51s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 018/100 | train_loss=0.0228 | test_loss=0.0188 | test_acc=99.52% | K=0 | layers=NONE | round_time=52.80s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 019/100 | train_loss=0.0240 | test_loss=0.0201 | test_acc=99.47% | K=0 | layers=NONE | round_time=53.34s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 020/100 | train_loss=0.0192 | test_loss=0.0184 | test_acc=99.50% | K=0 | layers=NONE | round_time=54.46s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 021/100 | train_loss=0.0197 | test_loss=0.0171 | test_acc=99.56% | K=0 | layers=NONE | round_time=53.11s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 022/100 | train_loss=0.0171 | test_loss=0.0172 | test_acc=99.53% | K=0 | layers=NONE | round_time=53.17s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 023/100 | train_loss=0.0157 | test_loss=0.0179 | test_acc=99.48% | K=0 | layers=NONE | round_time=52.95s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 024/100 | train_loss=0.0157 | test_loss=0.0167 | test_acc=99.55% | K=0 | layers=NONE | round_time=52.61s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 025/100 | train_loss=0.0186 | test_loss=0.0154 | test_acc=99.53% | K=0 | layers=NONE | round_time=53.25s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 026/100 | train_loss=0.0143 | test_loss=0.0158 | test_acc=99.58% | K=0 | layers=NONE | round_time=52.78s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 027/100 | train_loss=0.0137 | test_loss=0.0155 | test_acc=99.64% | K=0 | layers=NONE | round_time=52.30s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 028/100 | train_loss=0.0126 | test_loss=0.0137 | test_acc=99.63% | K=0 | layers=NONE | round_time=52.11s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 029/100 | train_loss=0.0137 | test_loss=0.0147 | test_acc=99.59% | K=0 | layers=NONE | round_time=51.97s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 030/100 | train_loss=0.0118 | test_loss=0.0147 | test_acc=99.60% | K=0 | layers=NONE | round_time=52.90s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 031/100 | train_loss=0.0108 | test_loss=0.0144 | test_acc=99.57% | K=0 | layers=NONE | round_time=53.61s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 032/100 | train_loss=0.0101 | test_loss=0.0157 | test_acc=99.52% | K=0 | layers=NONE | round_time=53.21s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 033/100 | train_loss=0.0092 | test_loss=0.0140 | test_acc=99.62% | K=0 | layers=NONE | round_time=53.04s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 034/100 | train_loss=0.0122 | test_loss=0.0141 | test_acc=99.64% | K=0 | layers=NONE | round_time=53.16s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 035/100 | train_loss=0.0106 | test_loss=0.0133 | test_acc=99.61% | K=0 | layers=NONE | round_time=51.78s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 036/100 | train_loss=0.0095 | test_loss=0.0131 | test_acc=99.64% | K=0 | layers=NONE | round_time=51.52s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 037/100 | train_loss=0.0077 | test_loss=0.0124 | test_acc=99.62% | K=0 | layers=NONE | round_time=52.17s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 038/100 | train_loss=0.0080 | test_loss=0.0134 | test_acc=99.60% | K=0 | layers=NONE | round_time=51.81s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 039/100 | train_loss=0.0081 | test_loss=0.0133 | test_acc=99.61% | K=0 | layers=NONE | round_time=51.97s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 040/100 | train_loss=0.0079 | test_loss=0.0136 | test_acc=99.64% | K=0 | layers=NONE | round_time=53.27s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 041/100 | train_loss=0.0075 | test_loss=0.0137 | test_acc=99.61% | K=0 | layers=NONE | round_time=53.56s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 042/100 | train_loss=0.0092 | test_loss=0.0127 | test_acc=99.63% | K=0 | layers=NONE | round_time=53.85s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 043/100 | train_loss=0.0076 | test_loss=0.0135 | test_acc=99.61% | K=0 | layers=NONE | round_time=54.12s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 044/100 | train_loss=0.0061 | test_loss=0.0129 | test_acc=99.64% | K=0 | layers=NONE | round_time=53.35s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 045/100 | train_loss=0.0070 | test_loss=0.0124 | test_acc=99.63% | K=0 | layers=NONE | round_time=53.46s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 046/100 | train_loss=0.0058 | test_loss=0.0127 | test_acc=99.62% | K=0 | layers=NONE | round_time=53.30s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 047/100 | train_loss=0.0067 | test_loss=0.0125 | test_acc=99.68% | K=0 | layers=NONE | round_time=53.17s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 048/100 | train_loss=0.0086 | test_loss=0.0122 | test_acc=99.65% | K=0 | layers=NONE | round_time=53.09s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 049/100 | train_loss=0.0069 | test_loss=0.0125 | test_acc=99.62% | K=0 | layers=NONE | round_time=53.18s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 050/100 | train_loss=0.0066 | test_loss=0.0130 | test_acc=99.59% | K=0 | layers=NONE | round_time=53.45s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 051/100 | train_loss=0.0061 | test_loss=0.0128 | test_acc=99.63% | K=0 | layers=NONE | round_time=53.31s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 052/100 | train_loss=0.0042 | test_loss=0.0121 | test_acc=99.63% | K=0 | layers=NONE | round_time=53.70s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 053/100 | train_loss=0.0043 | test_loss=0.0119 | test_acc=99.65% | K=0 | layers=NONE | round_time=52.77s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 054/100 | train_loss=0.0054 | test_loss=0.0132 | test_acc=99.64% | K=0 | layers=NONE | round_time=53.08s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 055/100 | train_loss=0.0049 | test_loss=0.0124 | test_acc=99.65% | K=0 | layers=NONE | round_time=53.69s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 056/100 | train_loss=0.0043 | test_loss=0.0115 | test_acc=99.72% | K=0 | layers=NONE | round_time=53.12s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 057/100 | train_loss=0.0028 | test_loss=0.0115 | test_acc=99.70% | K=0 | layers=NONE | round_time=52.72s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 058/100 | train_loss=0.0045 | test_loss=0.0116 | test_acc=99.69% | K=0 | layers=NONE | round_time=53.14s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 059/100 | train_loss=0.0044 | test_loss=0.0127 | test_acc=99.67% | K=0 | layers=NONE | round_time=53.51s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 060/100 | train_loss=0.0058 | test_loss=0.0115 | test_acc=99.65% | K=0 | layers=NONE | round_time=53.39s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 061/100 | train_loss=0.0032 | test_loss=0.0121 | test_acc=99.65% | K=0 | layers=NONE | round_time=52.90s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 062/100 | train_loss=0.0031 | test_loss=0.0116 | test_acc=99.71% | K=0 | layers=NONE | round_time=53.63s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 063/100 | train_loss=0.0057 | test_loss=0.0198 | test_acc=99.48% | K=0 | layers=NONE | round_time=53.55s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 064/100 | train_loss=0.0078 | test_loss=0.0125 | test_acc=99.61% | K=0 | layers=NONE | round_time=53.23s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 065/100 | train_loss=0.0037 | test_loss=0.0125 | test_acc=99.65% | K=0 | layers=NONE | round_time=52.86s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 066/100 | train_loss=0.0037 | test_loss=0.0119 | test_acc=99.66% | K=0 | layers=NONE | round_time=53.16s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 067/100 | train_loss=0.0028 | test_loss=0.0117 | test_acc=99.65% | K=0 | layers=NONE | round_time=53.13s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 068/100 | train_loss=0.0052 | test_loss=0.0129 | test_acc=99.64% | K=0 | layers=NONE | round_time=54.07s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 069/100 | train_loss=0.0025 | test_loss=0.0118 | test_acc=99.67% | K=0 | layers=NONE | round_time=52.94s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 070/100 | train_loss=0.0115 | test_loss=0.0126 | test_acc=99.60% | K=0 | layers=NONE | round_time=53.66s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 071/100 | train_loss=0.0047 | test_loss=0.0124 | test_acc=99.67% | K=0 | layers=NONE | round_time=53.77s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 072/100 | train_loss=0.0041 | test_loss=0.0128 | test_acc=99.62% | K=0 | layers=NONE | round_time=54.35s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 073/100 | train_loss=0.0059 | test_loss=0.0124 | test_acc=99.61% | K=0 | layers=NONE | round_time=53.52s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 074/100 | train_loss=0.0027 | test_loss=0.0115 | test_acc=99.66% | K=0 | layers=NONE | round_time=53.23s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 075/100 | train_loss=0.0021 | test_loss=0.0111 | test_acc=99.70% | K=0 | layers=NONE | round_time=52.99s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 076/100 | train_loss=0.0019 | test_loss=0.0113 | test_acc=99.69% | K=0 | layers=NONE | round_time=53.70s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 077/100 | train_loss=0.0033 | test_loss=0.0116 | test_acc=99.69% | K=0 | layers=NONE | round_time=52.76s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 078/100 | train_loss=0.0023 | test_loss=0.0116 | test_acc=99.65% | K=0 | layers=NONE | round_time=53.62s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 079/100 | train_loss=0.0014 | test_loss=0.0112 | test_acc=99.69% | K=0 | layers=NONE | round_time=54.00s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 080/100 | train_loss=0.0015 | test_loss=0.0113 | test_acc=99.67% | K=0 | layers=NONE | round_time=53.54s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 081/100 | train_loss=0.0031 | test_loss=0.0117 | test_acc=99.69% | K=0 | layers=NONE | round_time=52.79s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 082/100 | train_loss=0.0015 | test_loss=0.0114 | test_acc=99.73% | K=0 | layers=NONE | round_time=52.89s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 083/100 | train_loss=0.0014 | test_loss=0.0115 | test_acc=99.72% | K=0 | layers=NONE | round_time=53.03s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 084/100 | train_loss=0.0014 | test_loss=0.0114 | test_acc=99.68% | K=0 | layers=NONE | round_time=53.51s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 085/100 | train_loss=0.0016 | test_loss=0.0113 | test_acc=99.69% | K=0 | layers=NONE | round_time=53.93s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 086/100 | train_loss=0.0015 | test_loss=0.0115 | test_acc=99.71% | K=0 | layers=NONE | round_time=53.46s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 087/100 | train_loss=0.0014 | test_loss=0.0119 | test_acc=99.68% | K=0 | layers=NONE | round_time=53.02s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 088/100 | train_loss=0.0017 | test_loss=0.0116 | test_acc=99.71% | K=0 | layers=NONE | round_time=53.12s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 089/100 | train_loss=0.0015 | test_loss=0.0120 | test_acc=99.70% | K=0 | layers=NONE | round_time=52.67s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 090/100 | train_loss=0.0017 | test_loss=0.0117 | test_acc=99.73% | K=0 | layers=NONE | round_time=52.69s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 091/100 | train_loss=0.0021 | test_loss=0.0121 | test_acc=99.66% | K=0 | layers=NONE | round_time=52.74s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 092/100 | train_loss=0.0028 | test_loss=0.0122 | test_acc=99.68% | K=0 | layers=NONE | round_time=53.10s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 093/100 | train_loss=0.0018 | test_loss=0.0119 | test_acc=99.67% | K=0 | layers=NONE | round_time=53.53s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 094/100 | train_loss=0.0012 | test_loss=0.0118 | test_acc=99.70% | K=0 | layers=NONE | round_time=52.90s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 095/100 | train_loss=0.0015 | test_loss=0.0117 | test_acc=99.68% | K=0 | layers=NONE | round_time=53.14s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 096/100 | train_loss=0.0030 | test_loss=0.0122 | test_acc=99.67% | K=0 | layers=NONE | round_time=53.30s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 097/100 | train_loss=0.0059 | test_loss=0.0119 | test_acc=99.67% | K=0 | layers=NONE | round_time=53.09s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 098/100 | train_loss=0.0015 | test_loss=0.0126 | test_acc=99.66% | K=0 | layers=NONE | round_time=53.46s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 099/100 | train_loss=0.0011 | test_loss=0.0121 | test_acc=99.67% | K=0 | layers=NONE | round_time=53.76s | hessian_time=0.00s | peak_gpu=6029MiB
+[fedprox] Round 100/100 | train_loss=0.0017 | test_loss=0.0118 | test_acc=99.65% | K=0 | layers=NONE | round_time=53.12s | hessian_time=0.00s | peak_gpu=6029MiB
+
+========== Start experiment: fedsophia ==========
+Device: cuda; clients=10; rounds=100; local_steps=40
+[fedsophia] Round 001/100 | train_loss=1.3181 | test_loss=2.0361 | test_acc=15.12% | K=6 | layers=ALL | round_time=92.38s | hessian_time=27.56s | peak_gpu=6072MiB
+[fedsophia] Round 002/100 | train_loss=0.5077 | test_loss=0.5974 | test_acc=93.64% | K=6 | layers=ALL | round_time=61.50s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 003/100 | train_loss=0.1993 | test_loss=0.2250 | test_acc=97.28% | K=6 | layers=ALL | round_time=62.01s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 004/100 | train_loss=0.1273 | test_loss=0.1075 | test_acc=98.51% | K=6 | layers=ALL | round_time=62.04s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 005/100 | train_loss=0.0975 | test_loss=0.0985 | test_acc=98.28% | K=6 | layers=ALL | round_time=61.99s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 006/100 | train_loss=0.0804 | test_loss=0.0546 | test_acc=98.97% | K=6 | layers=ALL | round_time=61.77s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 007/100 | train_loss=0.0727 | test_loss=0.0550 | test_acc=98.86% | K=6 | layers=ALL | round_time=61.43s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 008/100 | train_loss=0.0661 | test_loss=0.0498 | test_acc=98.96% | K=6 | layers=ALL | round_time=61.42s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 009/100 | train_loss=0.0618 | test_loss=0.0374 | test_acc=99.17% | K=6 | layers=ALL | round_time=61.14s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 010/100 | train_loss=0.0526 | test_loss=0.0348 | test_acc=99.25% | K=6 | layers=ALL | round_time=61.53s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 011/100 | train_loss=0.0510 | test_loss=0.0361 | test_acc=99.15% | K=6 | layers=ALL | round_time=93.01s | hessian_time=27.48s | peak_gpu=6072MiB
+[fedsophia] Round 012/100 | train_loss=0.0471 | test_loss=0.0264 | test_acc=99.43% | K=6 | layers=ALL | round_time=61.80s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 013/100 | train_loss=0.0434 | test_loss=0.0238 | test_acc=99.48% | K=6 | layers=ALL | round_time=61.64s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 014/100 | train_loss=0.0409 | test_loss=0.0225 | test_acc=99.44% | K=6 | layers=ALL | round_time=61.43s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 015/100 | train_loss=0.0377 | test_loss=0.0201 | test_acc=99.47% | K=6 | layers=ALL | round_time=61.89s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 016/100 | train_loss=0.0360 | test_loss=0.0235 | test_acc=99.40% | K=6 | layers=ALL | round_time=61.54s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 017/100 | train_loss=0.0353 | test_loss=0.0221 | test_acc=99.40% | K=6 | layers=ALL | round_time=61.80s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 018/100 | train_loss=0.0337 | test_loss=0.0184 | test_acc=99.50% | K=6 | layers=ALL | round_time=61.59s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 019/100 | train_loss=0.0312 | test_loss=0.0203 | test_acc=99.44% | K=6 | layers=ALL | round_time=61.64s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 020/100 | train_loss=0.0283 | test_loss=0.0177 | test_acc=99.54% | K=6 | layers=ALL | round_time=61.38s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 021/100 | train_loss=0.0285 | test_loss=0.0189 | test_acc=99.45% | K=6 | layers=ALL | round_time=93.75s | hessian_time=27.53s | peak_gpu=6072MiB
+[fedsophia] Round 022/100 | train_loss=0.0266 | test_loss=0.0169 | test_acc=99.50% | K=6 | layers=ALL | round_time=61.60s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 023/100 | train_loss=0.0254 | test_loss=0.0174 | test_acc=99.50% | K=6 | layers=ALL | round_time=61.47s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 024/100 | train_loss=0.0236 | test_loss=0.0154 | test_acc=99.55% | K=6 | layers=ALL | round_time=61.70s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 025/100 | train_loss=0.0213 | test_loss=0.0148 | test_acc=99.55% | K=6 | layers=ALL | round_time=61.91s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 026/100 | train_loss=0.0215 | test_loss=0.0154 | test_acc=99.56% | K=6 | layers=ALL | round_time=61.61s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 027/100 | train_loss=0.0209 | test_loss=0.0169 | test_acc=99.51% | K=6 | layers=ALL | round_time=61.56s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 028/100 | train_loss=0.0206 | test_loss=0.0137 | test_acc=99.59% | K=6 | layers=ALL | round_time=62.11s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 029/100 | train_loss=0.0211 | test_loss=0.0152 | test_acc=99.55% | K=6 | layers=ALL | round_time=61.81s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 030/100 | train_loss=0.0189 | test_loss=0.0144 | test_acc=99.58% | K=6 | layers=ALL | round_time=62.25s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 031/100 | train_loss=0.0182 | test_loss=0.0156 | test_acc=99.46% | K=6 | layers=ALL | round_time=94.28s | hessian_time=27.49s | peak_gpu=6072MiB
+[fedsophia] Round 032/100 | train_loss=0.0176 | test_loss=0.0141 | test_acc=99.60% | K=6 | layers=ALL | round_time=61.84s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 033/100 | train_loss=0.0156 | test_loss=0.0152 | test_acc=99.52% | K=6 | layers=ALL | round_time=61.04s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 034/100 | train_loss=0.0182 | test_loss=0.0136 | test_acc=99.59% | K=6 | layers=ALL | round_time=60.53s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 035/100 | train_loss=0.0161 | test_loss=0.0136 | test_acc=99.51% | K=6 | layers=ALL | round_time=62.49s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 036/100 | train_loss=0.0156 | test_loss=0.0136 | test_acc=99.63% | K=6 | layers=ALL | round_time=61.71s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 037/100 | train_loss=0.0138 | test_loss=0.0132 | test_acc=99.59% | K=6 | layers=ALL | round_time=61.93s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 038/100 | train_loss=0.0138 | test_loss=0.0129 | test_acc=99.59% | K=6 | layers=ALL | round_time=61.86s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 039/100 | train_loss=0.0130 | test_loss=0.0125 | test_acc=99.63% | K=6 | layers=ALL | round_time=61.55s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 040/100 | train_loss=0.0134 | test_loss=0.0133 | test_acc=99.57% | K=6 | layers=ALL | round_time=61.63s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 041/100 | train_loss=0.0131 | test_loss=0.0133 | test_acc=99.60% | K=6 | layers=ALL | round_time=93.68s | hessian_time=27.49s | peak_gpu=6072MiB
+[fedsophia] Round 042/100 | train_loss=0.0129 | test_loss=0.0137 | test_acc=99.64% | K=6 | layers=ALL | round_time=62.03s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 043/100 | train_loss=0.0122 | test_loss=0.0120 | test_acc=99.61% | K=6 | layers=ALL | round_time=61.27s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 044/100 | train_loss=0.0117 | test_loss=0.0129 | test_acc=99.50% | K=6 | layers=ALL | round_time=62.19s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 045/100 | train_loss=0.0113 | test_loss=0.0134 | test_acc=99.54% | K=6 | layers=ALL | round_time=61.63s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 046/100 | train_loss=0.0101 | test_loss=0.0113 | test_acc=99.67% | K=6 | layers=ALL | round_time=62.53s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 047/100 | train_loss=0.0107 | test_loss=0.0130 | test_acc=99.58% | K=6 | layers=ALL | round_time=62.07s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 048/100 | train_loss=0.0102 | test_loss=0.0122 | test_acc=99.60% | K=6 | layers=ALL | round_time=61.29s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 049/100 | train_loss=0.0102 | test_loss=0.0129 | test_acc=99.62% | K=6 | layers=ALL | round_time=61.64s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 050/100 | train_loss=0.0093 | test_loss=0.0118 | test_acc=99.61% | K=6 | layers=ALL | round_time=61.91s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 051/100 | train_loss=0.0091 | test_loss=0.0126 | test_acc=99.58% | K=6 | layers=ALL | round_time=93.64s | hessian_time=27.51s | peak_gpu=6072MiB
+[fedsophia] Round 052/100 | train_loss=0.0073 | test_loss=0.0126 | test_acc=99.61% | K=6 | layers=ALL | round_time=61.92s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 053/100 | train_loss=0.0086 | test_loss=0.0127 | test_acc=99.58% | K=6 | layers=ALL | round_time=61.17s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 054/100 | train_loss=0.0098 | test_loss=0.0122 | test_acc=99.60% | K=6 | layers=ALL | round_time=61.22s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 055/100 | train_loss=0.0083 | test_loss=0.0127 | test_acc=99.57% | K=6 | layers=ALL | round_time=61.81s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 056/100 | train_loss=0.0083 | test_loss=0.0123 | test_acc=99.60% | K=6 | layers=ALL | round_time=61.64s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 057/100 | train_loss=0.0089 | test_loss=0.0118 | test_acc=99.66% | K=6 | layers=ALL | round_time=61.98s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 058/100 | train_loss=0.0082 | test_loss=0.0126 | test_acc=99.56% | K=6 | layers=ALL | round_time=60.83s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 059/100 | train_loss=0.0077 | test_loss=0.0121 | test_acc=99.63% | K=6 | layers=ALL | round_time=61.50s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 060/100 | train_loss=0.0076 | test_loss=0.0118 | test_acc=99.59% | K=6 | layers=ALL | round_time=61.84s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 061/100 | train_loss=0.0082 | test_loss=0.0112 | test_acc=99.62% | K=6 | layers=ALL | round_time=93.81s | hessian_time=27.48s | peak_gpu=6072MiB
+[fedsophia] Round 062/100 | train_loss=0.0078 | test_loss=0.0111 | test_acc=99.66% | K=6 | layers=ALL | round_time=61.69s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 063/100 | train_loss=0.0071 | test_loss=0.0116 | test_acc=99.58% | K=6 | layers=ALL | round_time=62.24s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 064/100 | train_loss=0.0065 | test_loss=0.0106 | test_acc=99.70% | K=6 | layers=ALL | round_time=60.98s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 065/100 | train_loss=0.0070 | test_loss=0.0124 | test_acc=99.61% | K=6 | layers=ALL | round_time=61.23s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 066/100 | train_loss=0.0069 | test_loss=0.0112 | test_acc=99.61% | K=6 | layers=ALL | round_time=60.75s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 067/100 | train_loss=0.0060 | test_loss=0.0130 | test_acc=99.62% | K=6 | layers=ALL | round_time=61.02s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 068/100 | train_loss=0.0062 | test_loss=0.0123 | test_acc=99.65% | K=6 | layers=ALL | round_time=61.17s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 069/100 | train_loss=0.0057 | test_loss=0.0127 | test_acc=99.60% | K=6 | layers=ALL | round_time=62.00s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 070/100 | train_loss=0.0065 | test_loss=0.0114 | test_acc=99.69% | K=6 | layers=ALL | round_time=61.47s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 071/100 | train_loss=0.0053 | test_loss=0.0121 | test_acc=99.59% | K=6 | layers=ALL | round_time=93.58s | hessian_time=27.48s | peak_gpu=6072MiB
+[fedsophia] Round 072/100 | train_loss=0.0064 | test_loss=0.0110 | test_acc=99.64% | K=6 | layers=ALL | round_time=61.43s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 073/100 | train_loss=0.0057 | test_loss=0.0135 | test_acc=99.60% | K=6 | layers=ALL | round_time=61.35s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 074/100 | train_loss=0.0049 | test_loss=0.0133 | test_acc=99.58% | K=6 | layers=ALL | round_time=61.56s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 075/100 | train_loss=0.0050 | test_loss=0.0127 | test_acc=99.61% | K=6 | layers=ALL | round_time=61.62s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 076/100 | train_loss=0.0052 | test_loss=0.0108 | test_acc=99.69% | K=6 | layers=ALL | round_time=61.72s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 077/100 | train_loss=0.0053 | test_loss=0.0119 | test_acc=99.62% | K=6 | layers=ALL | round_time=61.72s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 078/100 | train_loss=0.0041 | test_loss=0.0104 | test_acc=99.65% | K=6 | layers=ALL | round_time=61.12s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 079/100 | train_loss=0.0041 | test_loss=0.0126 | test_acc=99.58% | K=6 | layers=ALL | round_time=61.58s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 080/100 | train_loss=0.0039 | test_loss=0.0131 | test_acc=99.62% | K=6 | layers=ALL | round_time=61.31s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 081/100 | train_loss=0.0041 | test_loss=0.0107 | test_acc=99.67% | K=6 | layers=ALL | round_time=93.68s | hessian_time=27.49s | peak_gpu=6072MiB
+[fedsophia] Round 082/100 | train_loss=0.0051 | test_loss=0.0112 | test_acc=99.68% | K=6 | layers=ALL | round_time=61.77s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 083/100 | train_loss=0.0049 | test_loss=0.0121 | test_acc=99.63% | K=6 | layers=ALL | round_time=61.56s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 084/100 | train_loss=0.0045 | test_loss=0.0104 | test_acc=99.70% | K=6 | layers=ALL | round_time=61.58s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 085/100 | train_loss=0.0046 | test_loss=0.0109 | test_acc=99.67% | K=6 | layers=ALL | round_time=61.69s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 086/100 | train_loss=0.0046 | test_loss=0.0103 | test_acc=99.69% | K=6 | layers=ALL | round_time=62.26s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 087/100 | train_loss=0.0045 | test_loss=0.0116 | test_acc=99.69% | K=6 | layers=ALL | round_time=61.57s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 088/100 | train_loss=0.0048 | test_loss=0.0125 | test_acc=99.65% | K=6 | layers=ALL | round_time=61.41s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 089/100 | train_loss=0.0038 | test_loss=0.0112 | test_acc=99.68% | K=6 | layers=ALL | round_time=61.29s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 090/100 | train_loss=0.0048 | test_loss=0.0139 | test_acc=99.60% | K=6 | layers=ALL | round_time=61.32s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 091/100 | train_loss=0.0037 | test_loss=0.0108 | test_acc=99.63% | K=6 | layers=ALL | round_time=93.47s | hessian_time=27.49s | peak_gpu=6072MiB
+[fedsophia] Round 092/100 | train_loss=0.0031 | test_loss=0.0109 | test_acc=99.68% | K=6 | layers=ALL | round_time=61.06s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 093/100 | train_loss=0.0033 | test_loss=0.0118 | test_acc=99.62% | K=6 | layers=ALL | round_time=61.08s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 094/100 | train_loss=0.0042 | test_loss=0.0117 | test_acc=99.59% | K=6 | layers=ALL | round_time=61.20s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 095/100 | train_loss=0.0040 | test_loss=0.0112 | test_acc=99.65% | K=6 | layers=ALL | round_time=60.84s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 096/100 | train_loss=0.0041 | test_loss=0.0136 | test_acc=99.62% | K=6 | layers=ALL | round_time=61.32s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 097/100 | train_loss=0.0045 | test_loss=0.0144 | test_acc=99.58% | K=6 | layers=ALL | round_time=60.77s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 098/100 | train_loss=0.0045 | test_loss=0.0125 | test_acc=99.62% | K=6 | layers=ALL | round_time=60.89s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 099/100 | train_loss=0.0041 | test_loss=0.0122 | test_acc=99.68% | K=6 | layers=ALL | round_time=61.37s | hessian_time=0.00s | peak_gpu=6050MiB
+[fedsophia] Round 100/100 | train_loss=0.0034 | test_loss=0.0122 | test_acc=99.68% | K=6 | layers=ALL | round_time=61.23s | hessian_time=0.00s | peak_gpu=6050MiB
+
+========== Start experiment: dynahybrid ==========
+Device: cuda; clients=10; rounds=100; local_steps=40
+Layer groups (googlenet): ['stem', 'inception3', 'inception4_early', 'inception4_late', 'inception5', 'classifier']
+DynaHybrid selection: selection_strategy=dynamic; k_strategy=dynamic; fixed_k=3; every 10 rounds from round 2; gamma=0.6; K in [1, 3]
+[dynahybrid] Round 001/100 | train_loss=0.9541 | test_loss=5.9547 | test_acc=11.35% | K=0 | layers= | round_time=53.84s | hessian_time=0.00s | peak_gpu=6072MiB
+[DynaHybrid] Round 1: collected online-mean layer gradients for selection at round 2.
+[DynaHybrid] Round 2: selection=dynamic, K=3, selected layers=['inception3', 'stem', 'inception4_early'], new layers=['inception3', 'stem', 'inception4_early'], coverage=0.706682
+[DynaHybrid] Raw scores = {'stem': 7.441722688933561, 'inception3': 7.467171522943228, 'inception4_early': 6.642194330239298, 'inception4_late': 5.252006745282072, 'inception5': 2.237493469117373, 'classifier': 1.4555577120019931}
+[DynaHybrid] Normalized scores = {'stem': 0.2440217388323462, 'inception3': 0.24485623226698192, 'inception4_early': 0.2178043818453036, 'inception4_late': 0.1722187014908242, 'inception5': 0.07336971152821663, 'classifier': 0.04772923403632742}
+[DynaHybrid] Ranking = ['inception3', 'stem', 'inception4_early', 'inception4_late', 'inception5', 'classifier']
+[dynahybrid] Round 002/100 | train_loss=0.4509 | test_loss=2.9830 | test_acc=14.82% | K=3 | layers=inception3;stem;inception4_early | round_time=60.97s | hessian_time=0.65s | peak_gpu=6058MiB
+[dynahybrid] Round 003/100 | train_loss=0.1228 | test_loss=0.1195 | test_acc=97.08% | K=3 | layers=inception3;stem;inception4_early | round_time=60.36s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 004/100 | train_loss=0.0768 | test_loss=0.0735 | test_acc=98.10% | K=3 | layers=inception3;stem;inception4_early | round_time=60.06s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 005/100 | train_loss=0.0571 | test_loss=0.0627 | test_acc=98.43% | K=3 | layers=inception3;stem;inception4_early | round_time=60.11s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 006/100 | train_loss=0.0464 | test_loss=0.0485 | test_acc=98.59% | K=3 | layers=inception3;stem;inception4_early | round_time=59.74s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 007/100 | train_loss=0.0427 | test_loss=0.0392 | test_acc=98.98% | K=3 | layers=inception3;stem;inception4_early | round_time=59.30s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 008/100 | train_loss=0.0388 | test_loss=0.0390 | test_acc=98.88% | K=3 | layers=inception3;stem;inception4_early | round_time=59.72s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 009/100 | train_loss=0.0373 | test_loss=0.0347 | test_acc=99.02% | K=3 | layers=inception3;stem;inception4_early | round_time=60.12s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 010/100 | train_loss=0.0311 | test_loss=0.0300 | test_acc=99.17% | K=3 | layers=inception3;stem;inception4_early | round_time=59.93s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 011/100 | train_loss=0.0306 | test_loss=0.0296 | test_acc=99.11% | K=3 | layers=inception3;stem;inception4_early | round_time=60.93s | hessian_time=0.65s | peak_gpu=6079MiB
+[DynaHybrid] Round 11: collected online-mean layer gradients for selection at round 12.
+[DynaHybrid] Round 12: selection=dynamic, K=3, selected layers=['classifier', 'inception5', 'inception4_late'], new layers=['classifier', 'inception5', 'inception4_late'], coverage=0.698772
+[DynaHybrid] Raw scores = {'stem': 6.801813886686602, 'inception3': 6.4756186210060545, 'inception4_early': 6.661082035653035, 'inception4_late': 6.923200968644165, 'inception5': 8.549933891221514, 'classifier': 30.77911910686486}
+[DynaHybrid] Normalized scores = {'stem': 0.102760763166712, 'inception3': 0.09783265501775025, 'inception4_early': 0.10063460790063221, 'inception4_late': 0.10459466062235319, 'inception5': 0.12917109264141505, 'classifier': 0.4650062206511374}
+[DynaHybrid] Ranking = ['classifier', 'inception5', 'inception4_late', 'stem', 'inception4_early', 'inception3']
+[dynahybrid] Round 012/100 | train_loss=0.1695 | test_loss=13.4301 | test_acc=11.35% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.40s | hessian_time=0.30s | peak_gpu=6072MiB
+[dynahybrid] Round 013/100 | train_loss=0.0617 | test_loss=0.5685 | test_acc=81.58% | K=3 | layers=classifier;inception5;inception4_late | round_time=60.19s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 014/100 | train_loss=0.0466 | test_loss=0.0561 | test_acc=98.49% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.21s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 015/100 | train_loss=0.0389 | test_loss=0.0387 | test_acc=99.00% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.40s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 016/100 | train_loss=0.0366 | test_loss=0.0340 | test_acc=99.03% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.06s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 017/100 | train_loss=0.0342 | test_loss=0.0310 | test_acc=99.16% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.15s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 018/100 | train_loss=0.0300 | test_loss=0.0236 | test_acc=99.35% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.64s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 019/100 | train_loss=0.0288 | test_loss=0.0207 | test_acc=99.39% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.29s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 020/100 | train_loss=0.0251 | test_loss=0.0181 | test_acc=99.46% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.92s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 021/100 | train_loss=0.0246 | test_loss=0.0187 | test_acc=99.44% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.55s | hessian_time=0.30s | peak_gpu=6093MiB
+[DynaHybrid] Round 21: collected online-mean layer gradients for selection at round 22.
+[DynaHybrid] Round 22: selection=dynamic, K=3, selected layers=['classifier', 'inception5', 'inception4_late'], new layers=[], coverage=0.664422
+[DynaHybrid] Raw scores = {'stem': 5.979193964952911, 'inception3': 7.077083595929408, 'inception4_early': 7.234510242491045, 'inception4_late': 7.976661000968234, 'inception5': 10.024585629270039, 'classifier': 22.173211042187884}
+[DynaHybrid] Normalized scores = {'stem': 0.09888645812818225, 'inception3': 0.11704382476644248, 'inception4_early': 0.1196474137426031, 'inception4_late': 0.13192141929136458, 'inception5': 0.1657908696208346, 'classifier': 0.36671001445057294}
+[DynaHybrid] Ranking = ['classifier', 'inception5', 'inception4_late', 'inception4_early', 'inception3', 'stem']
+[dynahybrid] Round 022/100 | train_loss=0.0225 | test_loss=0.0187 | test_acc=99.49% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.55s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 023/100 | train_loss=0.0203 | test_loss=0.0183 | test_acc=99.44% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.91s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 024/100 | train_loss=0.0207 | test_loss=0.0154 | test_acc=99.51% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.88s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 025/100 | train_loss=0.0178 | test_loss=0.0160 | test_acc=99.51% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.54s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 026/100 | train_loss=0.0179 | test_loss=0.0156 | test_acc=99.48% | K=3 | layers=classifier;inception5;inception4_late | round_time=58.95s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 027/100 | train_loss=0.0160 | test_loss=0.0147 | test_acc=99.56% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.17s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 028/100 | train_loss=0.0154 | test_loss=0.0132 | test_acc=99.59% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.65s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 029/100 | train_loss=0.0160 | test_loss=0.0127 | test_acc=99.54% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.49s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 030/100 | train_loss=0.0143 | test_loss=0.0124 | test_acc=99.62% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.36s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 031/100 | train_loss=0.0138 | test_loss=0.0144 | test_acc=99.56% | K=3 | layers=classifier;inception5;inception4_late | round_time=60.11s | hessian_time=0.30s | peak_gpu=6093MiB
+[DynaHybrid] Round 31: collected online-mean layer gradients for selection at round 32.
+[DynaHybrid] Round 32: selection=dynamic, K=3, selected layers=['classifier', 'inception5', 'inception4_late'], new layers=[], coverage=0.625740
+[DynaHybrid] Raw scores = {'stem': 6.707364596934503, 'inception3': 7.675351388604103, 'inception4_early': 8.142256804009092, 'inception4_late': 8.886120972991359, 'inception5': 11.28542376334225, 'classifier': 17.48882846362156}
+[DynaHybrid] Normalized scores = {'stem': 0.11144514477169173, 'inception3': 0.12752857464577486, 'inception4_early': 0.13528636697426666, 'inception4_late': 0.14764592322093184, 'inception5': 0.18751115537843016, 'classifier': 0.29058283500890475}
+[DynaHybrid] Ranking = ['classifier', 'inception5', 'inception4_late', 'inception4_early', 'inception3', 'stem']
+[dynahybrid] Round 032/100 | train_loss=0.0134 | test_loss=0.0120 | test_acc=99.64% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.01s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 033/100 | train_loss=0.0111 | test_loss=0.0124 | test_acc=99.65% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.30s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 034/100 | train_loss=0.0128 | test_loss=0.0132 | test_acc=99.60% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.35s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 035/100 | train_loss=0.0114 | test_loss=0.0123 | test_acc=99.53% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.62s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 036/100 | train_loss=0.0116 | test_loss=0.0118 | test_acc=99.60% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.33s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 037/100 | train_loss=0.0093 | test_loss=0.0121 | test_acc=99.63% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.38s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 038/100 | train_loss=0.0103 | test_loss=0.0126 | test_acc=99.58% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.33s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 039/100 | train_loss=0.0089 | test_loss=0.0126 | test_acc=99.59% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.42s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 040/100 | train_loss=0.0097 | test_loss=0.0125 | test_acc=99.60% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.57s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 041/100 | train_loss=0.0091 | test_loss=0.0125 | test_acc=99.58% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.88s | hessian_time=0.30s | peak_gpu=6093MiB
+[DynaHybrid] Round 41: collected online-mean layer gradients for selection at round 42.
+[DynaHybrid] Round 42: selection=dynamic, K=3, selected layers=['classifier', 'inception5', 'inception4_late'], new layers=[], coverage=0.630020
+[DynaHybrid] Raw scores = {'stem': 5.8238453439871, 'inception3': 7.350668685640312, 'inception4_early': 7.612464640735921, 'inception4_late': 8.154627329513268, 'inception5': 10.528690602907805, 'classifier': 16.713760215364342}
+[DynaHybrid] Normalized scores = {'stem': 0.10365654731621059, 'inception3': 0.13083193172455065, 'inception4_early': 0.13549154460980325, 'inception4_late': 0.1451413050486439, 'inception5': 0.1873964109958467, 'classifier': 0.29748226030494496}
+[DynaHybrid] Ranking = ['classifier', 'inception5', 'inception4_late', 'inception4_early', 'inception3', 'stem']
+[dynahybrid] Round 042/100 | train_loss=0.0085 | test_loss=0.0115 | test_acc=99.61% | K=3 | layers=classifier;inception5;inception4_late | round_time=58.90s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 043/100 | train_loss=0.0080 | test_loss=0.0104 | test_acc=99.64% | K=3 | layers=classifier;inception5;inception4_late | round_time=58.75s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 044/100 | train_loss=0.0080 | test_loss=0.0113 | test_acc=99.68% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.48s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 045/100 | train_loss=0.0069 | test_loss=0.0106 | test_acc=99.65% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.69s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 046/100 | train_loss=0.0060 | test_loss=0.0133 | test_acc=99.57% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.58s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 047/100 | train_loss=0.0067 | test_loss=0.0111 | test_acc=99.67% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.45s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 048/100 | train_loss=0.0069 | test_loss=0.0125 | test_acc=99.59% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.27s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 049/100 | train_loss=0.0066 | test_loss=0.0115 | test_acc=99.61% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.17s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 050/100 | train_loss=0.0055 | test_loss=0.0104 | test_acc=99.67% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.45s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 051/100 | train_loss=0.0052 | test_loss=0.0141 | test_acc=99.58% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.76s | hessian_time=0.30s | peak_gpu=6093MiB
+[DynaHybrid] Round 51: collected online-mean layer gradients for selection at round 52.
+[DynaHybrid] Round 52: selection=dynamic, K=3, selected layers=['classifier', 'inception5', 'inception4_late'], new layers=[], coverage=0.595765
+[DynaHybrid] Raw scores = {'stem': 6.418166042640566, 'inception3': 8.144177345788773, 'inception4_early': 8.861282540660305, 'inception4_late': 9.039938242588146, 'inception5': 10.680513249725509, 'classifier': 14.801484337845324}
+[DynaHybrid] Normalized scores = {'stem': 0.1107619953587933, 'inception3': 0.14054876850838177, 'inception4_early': 0.15292426670185774, 'inception4_late': 0.15600743125327096, 'inception5': 0.18431978093681706, 'classifier': 0.25543775724087925}
+[DynaHybrid] Ranking = ['classifier', 'inception5', 'inception4_late', 'inception4_early', 'inception3', 'stem']
+[dynahybrid] Round 052/100 | train_loss=0.0046 | test_loss=0.0111 | test_acc=99.61% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.30s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 053/100 | train_loss=0.0061 | test_loss=0.0114 | test_acc=99.61% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.53s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 054/100 | train_loss=0.0057 | test_loss=0.0105 | test_acc=99.63% | K=3 | layers=classifier;inception5;inception4_late | round_time=58.99s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 055/100 | train_loss=0.0048 | test_loss=0.0121 | test_acc=99.61% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.34s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 056/100 | train_loss=0.0052 | test_loss=0.0107 | test_acc=99.67% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.58s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 057/100 | train_loss=0.0041 | test_loss=0.0136 | test_acc=99.61% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.70s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 058/100 | train_loss=0.0061 | test_loss=0.0122 | test_acc=99.65% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.71s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 059/100 | train_loss=0.0049 | test_loss=0.0116 | test_acc=99.61% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.02s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 060/100 | train_loss=0.0045 | test_loss=0.0104 | test_acc=99.71% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.39s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 061/100 | train_loss=0.0048 | test_loss=0.0125 | test_acc=99.61% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.79s | hessian_time=0.30s | peak_gpu=6093MiB
+[DynaHybrid] Round 61: collected online-mean layer gradients for selection at round 62.
+[DynaHybrid] Round 62: selection=dynamic, K=3, selected layers=['classifier', 'inception5', 'inception4_late'], new layers=[], coverage=0.599715
+[DynaHybrid] Raw scores = {'stem': 6.4708617629111105, 'inception3': 7.182835463544438, 'inception4_early': 7.711422810472108, 'inception4_late': 8.176170810280183, 'inception5': 9.181186868220367, 'classifier': 14.65229913021103}
+[DynaHybrid] Normalized scores = {'stem': 0.12123445090224833, 'inception3': 0.13457359239772226, 'inception4_early': 0.14447690962294182, 'inception4_late': 0.15318416850576835, 'inception5': 0.17201358789325746, 'classifier': 0.27451729067806185}
+[DynaHybrid] Ranking = ['classifier', 'inception5', 'inception4_late', 'inception4_early', 'inception3', 'stem']
+[dynahybrid] Round 062/100 | train_loss=0.0040 | test_loss=0.0118 | test_acc=99.67% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.31s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 063/100 | train_loss=0.0046 | test_loss=0.0102 | test_acc=99.68% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.57s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 064/100 | train_loss=0.0037 | test_loss=0.0112 | test_acc=99.64% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.45s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 065/100 | train_loss=0.0048 | test_loss=0.0112 | test_acc=99.65% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.67s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 066/100 | train_loss=0.0038 | test_loss=0.0127 | test_acc=99.59% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.77s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 067/100 | train_loss=0.0040 | test_loss=0.0113 | test_acc=99.64% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.90s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 068/100 | train_loss=0.0040 | test_loss=0.0133 | test_acc=99.59% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.24s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 069/100 | train_loss=0.0037 | test_loss=0.0120 | test_acc=99.63% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.50s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 070/100 | train_loss=0.0043 | test_loss=0.0112 | test_acc=99.62% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.87s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 071/100 | train_loss=0.0040 | test_loss=0.0114 | test_acc=99.64% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.89s | hessian_time=0.30s | peak_gpu=6093MiB
+[DynaHybrid] Round 71: collected online-mean layer gradients for selection at round 72.
+[DynaHybrid] Round 72: selection=dynamic, K=3, selected layers=['classifier', 'inception5', 'inception4_late'], new layers=[], coverage=0.625971
+[DynaHybrid] Raw scores = {'stem': 5.746376968044053, 'inception3': 6.77152975564294, 'inception4_early': 7.2036109142334634, 'inception4_late': 7.385843030999361, 'inception5': 8.386272559523109, 'classifier': 17.233638766046873}
+[DynaHybrid] Normalized scores = {'stem': 0.10898301297750757, 'inception3': 0.1284255661159673, 'inception4_early': 0.13662020889277693, 'inception4_late': 0.1400763352932655, 'inception5': 0.15904999902895614, 'classifier': 0.3268448776915266}
+[DynaHybrid] Ranking = ['classifier', 'inception5', 'inception4_late', 'inception4_early', 'inception3', 'stem']
+[dynahybrid] Round 072/100 | train_loss=0.0027 | test_loss=0.0118 | test_acc=99.58% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.04s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 073/100 | train_loss=0.0030 | test_loss=0.0116 | test_acc=99.60% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.19s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 074/100 | train_loss=0.0028 | test_loss=0.0111 | test_acc=99.65% | K=3 | layers=classifier;inception5;inception4_late | round_time=58.88s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 075/100 | train_loss=0.0023 | test_loss=0.0110 | test_acc=99.67% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.20s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 076/100 | train_loss=0.0025 | test_loss=0.0108 | test_acc=99.64% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.52s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 077/100 | train_loss=0.0046 | test_loss=0.0132 | test_acc=99.63% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.46s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 078/100 | train_loss=0.0050 | test_loss=0.0107 | test_acc=99.64% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.39s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 079/100 | train_loss=0.0034 | test_loss=0.0119 | test_acc=99.64% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.52s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 080/100 | train_loss=0.0019 | test_loss=0.0129 | test_acc=99.62% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.80s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 081/100 | train_loss=0.0028 | test_loss=0.0111 | test_acc=99.68% | K=3 | layers=classifier;inception5;inception4_late | round_time=60.51s | hessian_time=0.30s | peak_gpu=6093MiB
+[DynaHybrid] Round 81: collected online-mean layer gradients for selection at round 82.
+[DynaHybrid] Round 82: selection=dynamic, K=3, selected layers=['classifier', 'inception5', 'inception4_late'], new layers=[], coverage=0.573118
+[DynaHybrid] Raw scores = {'stem': 6.37237853461768, 'inception3': 6.325124125042458, 'inception4_early': 6.294020221312817, 'inception4_late': 6.570720307608131, 'inception5': 7.0112094374623615, 'classifier': 11.91544067967729}
+[DynaHybrid] Normalized scores = {'stem': 0.1432352675268339, 'inception3': 0.14217310557889565, 'inception4_early': 0.14147396695308403, 'inception4_late': 0.14769349874484775, 'inception5': 0.15759460207927456, 'classifier': 0.26782955911706413}
+[DynaHybrid] Ranking = ['classifier', 'inception5', 'inception4_late', 'stem', 'inception3', 'inception4_early']
+[dynahybrid] Round 082/100 | train_loss=0.0025 | test_loss=0.0112 | test_acc=99.65% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.58s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 083/100 | train_loss=0.0033 | test_loss=0.0122 | test_acc=99.64% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.49s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 084/100 | train_loss=0.0025 | test_loss=0.0119 | test_acc=99.61% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.41s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 085/100 | train_loss=0.0027 | test_loss=0.0130 | test_acc=99.60% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.76s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 086/100 | train_loss=0.0022 | test_loss=0.0124 | test_acc=99.65% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.36s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 087/100 | train_loss=0.0014 | test_loss=0.0130 | test_acc=99.60% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.88s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 088/100 | train_loss=0.0023 | test_loss=0.0117 | test_acc=99.61% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.35s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 089/100 | train_loss=0.0024 | test_loss=0.0118 | test_acc=99.62% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.32s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 090/100 | train_loss=0.0033 | test_loss=0.0112 | test_acc=99.71% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.41s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 091/100 | train_loss=0.0034 | test_loss=0.0127 | test_acc=99.61% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.80s | hessian_time=0.30s | peak_gpu=6093MiB
+[DynaHybrid] Round 91: collected online-mean layer gradients for selection at round 92.
+[DynaHybrid] Round 92: selection=dynamic, K=3, selected layers=['classifier', 'inception5', 'inception4_late'], new layers=[], coverage=0.549253
+[DynaHybrid] Raw scores = {'stem': 5.441302730846743, 'inception3': 5.730937016050347, 'inception4_early': 5.830844756043818, 'inception4_late': 5.996314711809979, 'inception5': 6.621591473501788, 'classifier': 8.101007361671305}
+[DynaHybrid] Normalized scores = {'stem': 0.1442474686427091, 'inception3': 0.15192559546993284, 'inception4_early': 0.15457412272613083, 'inception4_late': 0.15896068664957855, 'inception5': 0.1755366050530595, 'classifier': 0.2147555214585891}
+[DynaHybrid] Ranking = ['classifier', 'inception5', 'inception4_late', 'inception4_early', 'inception3', 'stem']
+[dynahybrid] Round 092/100 | train_loss=0.0025 | test_loss=0.0117 | test_acc=99.61% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.34s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 093/100 | train_loss=0.0022 | test_loss=0.0129 | test_acc=99.59% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.61s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 094/100 | train_loss=0.0021 | test_loss=0.0125 | test_acc=99.61% | K=3 | layers=classifier;inception5;inception4_late | round_time=60.03s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 095/100 | train_loss=0.0016 | test_loss=0.0128 | test_acc=99.68% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.23s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 096/100 | train_loss=0.0011 | test_loss=0.0141 | test_acc=99.65% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.30s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 097/100 | train_loss=0.0012 | test_loss=0.0135 | test_acc=99.65% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.60s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 098/100 | train_loss=0.0010 | test_loss=0.0136 | test_acc=99.63% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.53s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 099/100 | train_loss=0.0023 | test_loss=0.0141 | test_acc=99.59% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.28s | hessian_time=0.00s | peak_gpu=6050MiB
+[dynahybrid] Round 100/100 | train_loss=0.0017 | test_loss=0.0143 | test_acc=99.60% | K=3 | layers=classifier;inception5;inception4_late | round_time=59.07s | hessian_time=0.00s | peak_gpu=6050MiB
+Saved all metrics: results/non_iid_rerun/alpha_0.5/mnist_googlenet/seed42/all_metrics.csv

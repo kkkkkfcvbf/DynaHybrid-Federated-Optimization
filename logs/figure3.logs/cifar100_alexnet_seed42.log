@@ -1,0 +1,739 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Client sample sizes: [5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000]
+
+
+========== Start experiment: fedsophia ==========
+Device: cuda; clients=10; rounds=100; local_steps=40
+[fedsophia] Round 001/100 | train_loss=4.5969 | test_loss=4.5985 | test_acc=2.55% | K=8 | layers=ALL | round_time=57.77s | hessian_time=5.79s | peak_gpu=1841MiB
+[fedsophia] Round 002/100 | train_loss=4.4990 | test_loss=4.3936 | test_acc=3.38% | K=8 | layers=ALL | round_time=57.77s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 003/100 | train_loss=4.2984 | test_loss=4.1450 | test_acc=6.63% | K=8 | layers=ALL | round_time=58.37s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 004/100 | train_loss=4.1431 | test_loss=4.0558 | test_acc=7.40% | K=8 | layers=ALL | round_time=58.20s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 005/100 | train_loss=4.0559 | test_loss=3.9527 | test_acc=9.50% | K=8 | layers=ALL | round_time=58.45s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 006/100 | train_loss=3.9772 | test_loss=3.8821 | test_acc=10.73% | K=8 | layers=ALL | round_time=58.65s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 007/100 | train_loss=3.9106 | test_loss=3.8202 | test_acc=11.67% | K=8 | layers=ALL | round_time=57.72s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 008/100 | train_loss=3.8469 | test_loss=3.7570 | test_acc=12.79% | K=8 | layers=ALL | round_time=58.76s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 009/100 | train_loss=3.7823 | test_loss=3.6997 | test_acc=14.29% | K=8 | layers=ALL | round_time=58.63s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 010/100 | train_loss=3.7320 | test_loss=3.6466 | test_acc=14.92% | K=8 | layers=ALL | round_time=58.68s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 011/100 | train_loss=3.6770 | test_loss=3.5687 | test_acc=16.34% | K=8 | layers=ALL | round_time=58.39s | hessian_time=5.71s | peak_gpu=1841MiB
+[fedsophia] Round 012/100 | train_loss=3.6187 | test_loss=3.5227 | test_acc=17.63% | K=8 | layers=ALL | round_time=58.52s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 013/100 | train_loss=3.5677 | test_loss=3.4652 | test_acc=18.51% | K=8 | layers=ALL | round_time=58.61s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 014/100 | train_loss=3.5253 | test_loss=3.4244 | test_acc=19.47% | K=8 | layers=ALL | round_time=58.74s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 015/100 | train_loss=3.4737 | test_loss=3.3715 | test_acc=20.54% | K=8 | layers=ALL | round_time=58.06s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 016/100 | train_loss=3.4221 | test_loss=3.3257 | test_acc=21.00% | K=8 | layers=ALL | round_time=58.55s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 017/100 | train_loss=3.3765 | test_loss=3.2769 | test_acc=21.69% | K=8 | layers=ALL | round_time=58.34s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 018/100 | train_loss=3.3316 | test_loss=3.2327 | test_acc=22.45% | K=8 | layers=ALL | round_time=58.21s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 019/100 | train_loss=3.2861 | test_loss=3.1960 | test_acc=23.34% | K=8 | layers=ALL | round_time=58.58s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 020/100 | train_loss=3.2466 | test_loss=3.1541 | test_acc=23.96% | K=8 | layers=ALL | round_time=58.72s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 021/100 | train_loss=3.2081 | test_loss=3.1216 | test_acc=24.49% | K=8 | layers=ALL | round_time=58.55s | hessian_time=5.71s | peak_gpu=1841MiB
+[fedsophia] Round 022/100 | train_loss=3.1663 | test_loss=3.0789 | test_acc=25.26% | K=8 | layers=ALL | round_time=57.61s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 023/100 | train_loss=3.1361 | test_loss=3.0427 | test_acc=25.97% | K=8 | layers=ALL | round_time=58.16s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 024/100 | train_loss=3.0994 | test_loss=3.0139 | test_acc=26.46% | K=8 | layers=ALL | round_time=58.57s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 025/100 | train_loss=3.0636 | test_loss=2.9876 | test_acc=27.35% | K=8 | layers=ALL | round_time=58.08s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 026/100 | train_loss=3.0242 | test_loss=2.9535 | test_acc=28.08% | K=8 | layers=ALL | round_time=58.09s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 027/100 | train_loss=2.9986 | test_loss=2.9221 | test_acc=28.51% | K=8 | layers=ALL | round_time=59.09s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 028/100 | train_loss=2.9632 | test_loss=2.9034 | test_acc=29.15% | K=8 | layers=ALL | round_time=58.72s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 029/100 | train_loss=2.9328 | test_loss=2.8721 | test_acc=29.60% | K=8 | layers=ALL | round_time=58.80s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 030/100 | train_loss=2.9029 | test_loss=2.8481 | test_acc=30.22% | K=8 | layers=ALL | round_time=58.04s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 031/100 | train_loss=2.8746 | test_loss=2.8193 | test_acc=30.88% | K=8 | layers=ALL | round_time=58.27s | hessian_time=5.71s | peak_gpu=1841MiB
+[fedsophia] Round 032/100 | train_loss=2.8508 | test_loss=2.8109 | test_acc=31.29% | K=8 | layers=ALL | round_time=58.72s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 033/100 | train_loss=2.8171 | test_loss=2.7784 | test_acc=32.11% | K=8 | layers=ALL | round_time=58.48s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 034/100 | train_loss=2.7945 | test_loss=2.7524 | test_acc=32.61% | K=8 | layers=ALL | round_time=57.76s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 035/100 | train_loss=2.7623 | test_loss=2.7286 | test_acc=32.96% | K=8 | layers=ALL | round_time=58.45s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 036/100 | train_loss=2.7459 | test_loss=2.7126 | test_acc=33.44% | K=8 | layers=ALL | round_time=58.67s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 037/100 | train_loss=2.7150 | test_loss=2.6988 | test_acc=33.85% | K=8 | layers=ALL | round_time=58.11s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 038/100 | train_loss=2.6889 | test_loss=2.6632 | test_acc=34.39% | K=8 | layers=ALL | round_time=58.27s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 039/100 | train_loss=2.6536 | test_loss=2.6553 | test_acc=34.22% | K=8 | layers=ALL | round_time=57.93s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 040/100 | train_loss=2.6413 | test_loss=2.6320 | test_acc=34.91% | K=8 | layers=ALL | round_time=58.10s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 041/100 | train_loss=2.6127 | test_loss=2.6089 | test_acc=35.38% | K=8 | layers=ALL | round_time=58.89s | hessian_time=5.70s | peak_gpu=1841MiB
+[fedsophia] Round 042/100 | train_loss=2.5916 | test_loss=2.5932 | test_acc=35.49% | K=8 | layers=ALL | round_time=58.00s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 043/100 | train_loss=2.5606 | test_loss=2.5726 | test_acc=35.85% | K=8 | layers=ALL | round_time=58.10s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 044/100 | train_loss=2.5419 | test_loss=2.5644 | test_acc=36.10% | K=8 | layers=ALL | round_time=58.65s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 045/100 | train_loss=2.5135 | test_loss=2.5429 | test_acc=37.07% | K=8 | layers=ALL | round_time=57.84s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 046/100 | train_loss=2.5009 | test_loss=2.5311 | test_acc=37.23% | K=8 | layers=ALL | round_time=57.94s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 047/100 | train_loss=2.4737 | test_loss=2.5072 | test_acc=37.35% | K=8 | layers=ALL | round_time=58.04s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 048/100 | train_loss=2.4532 | test_loss=2.5011 | test_acc=37.76% | K=8 | layers=ALL | round_time=58.00s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 049/100 | train_loss=2.4269 | test_loss=2.4781 | test_acc=38.13% | K=8 | layers=ALL | round_time=57.79s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 050/100 | train_loss=2.4059 | test_loss=2.4706 | test_acc=38.07% | K=8 | layers=ALL | round_time=58.94s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 051/100 | train_loss=2.3891 | test_loss=2.4610 | test_acc=38.44% | K=8 | layers=ALL | round_time=58.28s | hessian_time=5.71s | peak_gpu=1841MiB
+[fedsophia] Round 052/100 | train_loss=2.3607 | test_loss=2.4403 | test_acc=38.85% | K=8 | layers=ALL | round_time=59.00s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 053/100 | train_loss=2.3399 | test_loss=2.4257 | test_acc=39.33% | K=8 | layers=ALL | round_time=58.41s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 054/100 | train_loss=2.3196 | test_loss=2.4144 | test_acc=39.90% | K=8 | layers=ALL | round_time=58.66s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 055/100 | train_loss=2.3021 | test_loss=2.4073 | test_acc=39.57% | K=8 | layers=ALL | round_time=58.51s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 056/100 | train_loss=2.2780 | test_loss=2.3966 | test_acc=40.00% | K=8 | layers=ALL | round_time=58.93s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 057/100 | train_loss=2.2588 | test_loss=2.3791 | test_acc=40.65% | K=8 | layers=ALL | round_time=58.26s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 058/100 | train_loss=2.2374 | test_loss=2.3691 | test_acc=40.66% | K=8 | layers=ALL | round_time=59.57s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 059/100 | train_loss=2.2198 | test_loss=2.3593 | test_acc=41.11% | K=8 | layers=ALL | round_time=58.83s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 060/100 | train_loss=2.2092 | test_loss=2.3430 | test_acc=41.39% | K=8 | layers=ALL | round_time=58.92s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 061/100 | train_loss=2.1835 | test_loss=2.3411 | test_acc=41.53% | K=8 | layers=ALL | round_time=58.72s | hessian_time=5.71s | peak_gpu=1841MiB
+[fedsophia] Round 062/100 | train_loss=2.1656 | test_loss=2.3281 | test_acc=41.61% | K=8 | layers=ALL | round_time=58.54s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 063/100 | train_loss=2.1348 | test_loss=2.3147 | test_acc=41.56% | K=8 | layers=ALL | round_time=58.23s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 064/100 | train_loss=2.1255 | test_loss=2.3099 | test_acc=41.88% | K=8 | layers=ALL | round_time=58.30s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 065/100 | train_loss=2.0989 | test_loss=2.2958 | test_acc=42.08% | K=8 | layers=ALL | round_time=58.90s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 066/100 | train_loss=2.0901 | test_loss=2.2889 | test_acc=42.80% | K=8 | layers=ALL | round_time=58.16s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 067/100 | train_loss=2.0605 | test_loss=2.2795 | test_acc=42.36% | K=8 | layers=ALL | round_time=58.70s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 068/100 | train_loss=2.0436 | test_loss=2.2723 | test_acc=42.94% | K=8 | layers=ALL | round_time=58.31s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 069/100 | train_loss=2.0268 | test_loss=2.2649 | test_acc=42.72% | K=8 | layers=ALL | round_time=58.82s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 070/100 | train_loss=2.0087 | test_loss=2.2606 | test_acc=43.07% | K=8 | layers=ALL | round_time=57.98s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 071/100 | train_loss=1.9891 | test_loss=2.2485 | test_acc=43.13% | K=8 | layers=ALL | round_time=58.63s | hessian_time=5.71s | peak_gpu=1841MiB
+[fedsophia] Round 072/100 | train_loss=1.9662 | test_loss=2.2390 | test_acc=43.60% | K=8 | layers=ALL | round_time=58.27s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 073/100 | train_loss=1.9518 | test_loss=2.2334 | test_acc=43.81% | K=8 | layers=ALL | round_time=58.79s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 074/100 | train_loss=1.9342 | test_loss=2.2264 | test_acc=43.74% | K=8 | layers=ALL | round_time=58.16s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 075/100 | train_loss=1.9128 | test_loss=2.2204 | test_acc=44.09% | K=8 | layers=ALL | round_time=58.49s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 076/100 | train_loss=1.9026 | test_loss=2.2127 | test_acc=44.20% | K=8 | layers=ALL | round_time=58.47s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 077/100 | train_loss=1.8827 | test_loss=2.2089 | test_acc=43.92% | K=8 | layers=ALL | round_time=58.85s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 078/100 | train_loss=1.8686 | test_loss=2.2042 | test_acc=44.10% | K=8 | layers=ALL | round_time=58.69s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 079/100 | train_loss=1.8382 | test_loss=2.1962 | test_acc=44.52% | K=8 | layers=ALL | round_time=58.96s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 080/100 | train_loss=1.8178 | test_loss=2.1883 | test_acc=44.37% | K=8 | layers=ALL | round_time=58.45s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 081/100 | train_loss=1.8037 | test_loss=2.1815 | test_acc=45.00% | K=8 | layers=ALL | round_time=58.19s | hessian_time=5.71s | peak_gpu=1841MiB
+[fedsophia] Round 082/100 | train_loss=1.7886 | test_loss=2.1766 | test_acc=45.09% | K=8 | layers=ALL | round_time=58.36s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 083/100 | train_loss=1.7680 | test_loss=2.1706 | test_acc=45.03% | K=8 | layers=ALL | round_time=58.22s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 084/100 | train_loss=1.7485 | test_loss=2.1670 | test_acc=45.28% | K=8 | layers=ALL | round_time=58.07s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 085/100 | train_loss=1.7387 | test_loss=2.1617 | test_acc=45.45% | K=8 | layers=ALL | round_time=57.86s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 086/100 | train_loss=1.7148 | test_loss=2.1554 | test_acc=45.62% | K=8 | layers=ALL | round_time=58.45s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 087/100 | train_loss=1.7063 | test_loss=2.1521 | test_acc=45.69% | K=8 | layers=ALL | round_time=58.35s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 088/100 | train_loss=1.6885 | test_loss=2.1487 | test_acc=45.71% | K=8 | layers=ALL | round_time=58.45s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 089/100 | train_loss=1.6690 | test_loss=2.1463 | test_acc=45.98% | K=8 | layers=ALL | round_time=58.18s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 090/100 | train_loss=1.6488 | test_loss=2.1424 | test_acc=45.98% | K=8 | layers=ALL | round_time=57.77s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 091/100 | train_loss=1.6429 | test_loss=2.1409 | test_acc=46.09% | K=8 | layers=ALL | round_time=58.91s | hessian_time=5.70s | peak_gpu=1841MiB
+[fedsophia] Round 092/100 | train_loss=1.6180 | test_loss=2.1384 | test_acc=46.26% | K=8 | layers=ALL | round_time=57.93s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 093/100 | train_loss=1.5981 | test_loss=2.1307 | test_acc=46.45% | K=8 | layers=ALL | round_time=58.92s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 094/100 | train_loss=1.5818 | test_loss=2.1334 | test_acc=46.31% | K=8 | layers=ALL | round_time=58.53s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 095/100 | train_loss=1.5763 | test_loss=2.1228 | test_acc=46.64% | K=8 | layers=ALL | round_time=58.10s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 096/100 | train_loss=1.5519 | test_loss=2.1313 | test_acc=46.53% | K=8 | layers=ALL | round_time=58.36s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 097/100 | train_loss=1.5359 | test_loss=2.1312 | test_acc=46.09% | K=8 | layers=ALL | round_time=58.16s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 098/100 | train_loss=1.5187 | test_loss=2.1232 | test_acc=46.64% | K=8 | layers=ALL | round_time=58.42s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 099/100 | train_loss=1.5060 | test_loss=2.1180 | test_acc=46.68% | K=8 | layers=ALL | round_time=58.49s | hessian_time=0.00s | peak_gpu=1619MiB
+[fedsophia] Round 100/100 | train_loss=1.4944 | test_loss=2.1228 | test_acc=46.48% | K=8 | layers=ALL | round_time=57.76s | hessian_time=0.00s | peak_gpu=1619MiB
+
+========== Start experiment: dynahybrid-sophia ==========
+Device: cuda; clients=10; rounds=100; local_steps=40
+Layer groups (alexnet): ['features.0', 'features.3', 'features.6', 'features.8', 'features.10', 'classifier']
+DynaHybrid-sophia selection: selection_strategy=dynamic; k_strategy=dynamic; fixed_k=3; every 10 rounds from round 2; gamma=0.6; K in [1, 3]
+[DynaHybrid-sophia] Round 1: collected online-mean layer gradients for selection at round 2.
+[DynaHybrid-sophia] Round 1: selection=dynamic, K=0, selected layers=[], new layers=[], coverage=0.000000
+[DynaHybrid-sophia] Raw scores = {}
+[DynaHybrid-sophia] Normalized scores = {}
+[DynaHybrid-sophia] Ranking = nan
+[dynahybrid-sophia] Round 001/100 | train_loss=4.6052 | test_loss=4.6051 | test_acc=1.02% | K=0 | layers=NONE | round_time=59.93s | hessian_time=0.00s | peak_gpu=1823MiB
+[dynahybrid-sophia] Round 002/100 | train_loss=4.6017 | test_loss=4.5979 | test_acc=2.33% | K=3 | layers=fc3;fc2;fc1 | round_time=58.20s | hessian_time=0.07s | peak_gpu=2055MiB
+[dynahybrid-sophia] Round 003/100 | train_loss=4.5304 | test_loss=4.4516 | test_acc=3.42% | K=3 | layers=fc3;fc2;fc1 | round_time=58.46s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 004/100 | train_loss=4.4252 | test_loss=4.3957 | test_acc=4.36% | K=3 | layers=fc3;fc2;fc1 | round_time=58.45s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 005/100 | train_loss=4.2514 | test_loss=4.1534 | test_acc=6.93% | K=3 | layers=fc3;fc2;fc1 | round_time=58.65s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 006/100 | train_loss=4.1324 | test_loss=4.0890 | test_acc=7.60% | K=3 | layers=fc3;fc2;fc1 | round_time=58.32s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 007/100 | train_loss=4.0544 | test_loss=4.1388 | test_acc=7.09% | K=3 | layers=fc3;fc2;fc1 | round_time=58.19s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 008/100 | train_loss=3.9940 | test_loss=3.8870 | test_acc=10.58% | K=3 | layers=fc3;fc2;fc1 | round_time=58.59s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 009/100 | train_loss=3.9311 | test_loss=3.8462 | test_acc=11.36% | K=3 | layers=fc3;fc2;fc1 | round_time=58.33s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 010/100 | train_loss=3.8748 | test_loss=3.8493 | test_acc=13.45% | K=3 | layers=fc3;fc2;fc1 | round_time=58.12s | hessian_time=0.00s | peak_gpu=1619MiB
+[DynaHybrid-sophia] Round 11: collected online-mean layer gradients for selection at round 12.
+[dynahybrid-sophia] Round 011/100 | train_loss=3.8150 | test_loss=3.7480 | test_acc=14.38% | K=3 | layers=fc3;fc2;fc1 | round_time=60.53s | hessian_time=0.07s | peak_gpu=2274MiB
+[dynahybrid-sophia] Round 012/100 | train_loss=3.7600 | test_loss=3.7256 | test_acc=14.87% | K=3 | layers=fc2;fc3;fc1 | round_time=58.17s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 013/100 | train_loss=3.7113 | test_loss=3.6784 | test_acc=15.01% | K=3 | layers=fc2;fc3;fc1 | round_time=58.66s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 014/100 | train_loss=3.6709 | test_loss=3.6290 | test_acc=16.77% | K=3 | layers=fc2;fc3;fc1 | round_time=58.53s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 015/100 | train_loss=3.6254 | test_loss=3.6204 | test_acc=16.75% | K=3 | layers=fc2;fc3;fc1 | round_time=58.21s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 016/100 | train_loss=3.5742 | test_loss=3.4851 | test_acc=18.40% | K=3 | layers=fc2;fc3;fc1 | round_time=58.60s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 017/100 | train_loss=3.5309 | test_loss=3.4399 | test_acc=19.54% | K=3 | layers=fc2;fc3;fc1 | round_time=58.32s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 018/100 | train_loss=3.4880 | test_loss=3.4210 | test_acc=19.01% | K=3 | layers=fc2;fc3;fc1 | round_time=58.73s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 019/100 | train_loss=3.4522 | test_loss=3.4739 | test_acc=20.13% | K=3 | layers=fc2;fc3;fc1 | round_time=58.69s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 020/100 | train_loss=3.4056 | test_loss=3.3311 | test_acc=21.23% | K=3 | layers=fc2;fc3;fc1 | round_time=59.04s | hessian_time=0.00s | peak_gpu=1619MiB
+[DynaHybrid-sophia] Round 21: collected online-mean layer gradients for selection at round 22.
+[dynahybrid-sophia] Round 021/100 | train_loss=3.3660 | test_loss=3.3210 | test_acc=22.18% | K=3 | layers=fc2;fc3;fc1 | round_time=60.14s | hessian_time=0.07s | peak_gpu=2274MiB
+[dynahybrid-sophia] Round 022/100 | train_loss=3.2907 | test_loss=3.2738 | test_acc=22.31% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=59.02s | hessian_time=0.06s | peak_gpu=1622MiB
+[dynahybrid-sophia] Round 023/100 | train_loss=3.2527 | test_loss=3.1782 | test_acc=24.55% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.50s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 024/100 | train_loss=3.2106 | test_loss=3.1598 | test_acc=24.41% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.35s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 025/100 | train_loss=3.1792 | test_loss=3.1102 | test_acc=25.68% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.54s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 026/100 | train_loss=3.1403 | test_loss=3.0795 | test_acc=25.69% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.54s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 027/100 | train_loss=3.1129 | test_loss=3.1392 | test_acc=25.30% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=57.83s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 028/100 | train_loss=3.0804 | test_loss=3.0665 | test_acc=25.61% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.23s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 029/100 | train_loss=3.0486 | test_loss=2.9727 | test_acc=27.87% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.60s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 030/100 | train_loss=3.0183 | test_loss=3.0060 | test_acc=27.72% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.29s | hessian_time=0.00s | peak_gpu=1619MiB
+[DynaHybrid-sophia] Round 31: collected online-mean layer gradients for selection at round 32.
+[dynahybrid-sophia] Round 031/100 | train_loss=2.9748 | test_loss=2.9346 | test_acc=28.50% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=61.93s | hessian_time=0.08s | peak_gpu=2242MiB
+[dynahybrid-sophia] Round 032/100 | train_loss=2.9504 | test_loss=2.9791 | test_acc=28.82% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.82s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 033/100 | train_loss=2.9215 | test_loss=2.8982 | test_acc=29.52% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.76s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 034/100 | train_loss=2.8978 | test_loss=2.8584 | test_acc=30.55% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=57.75s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 035/100 | train_loss=2.8650 | test_loss=2.8715 | test_acc=30.33% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.71s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 036/100 | train_loss=2.8407 | test_loss=2.8409 | test_acc=31.11% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.13s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 037/100 | train_loss=2.8023 | test_loss=2.8279 | test_acc=30.86% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.17s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 038/100 | train_loss=2.7831 | test_loss=2.8214 | test_acc=30.89% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.36s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 039/100 | train_loss=2.7522 | test_loss=2.7699 | test_acc=31.77% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.72s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 040/100 | train_loss=2.7197 | test_loss=2.7454 | test_acc=32.47% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=59.30s | hessian_time=0.00s | peak_gpu=1619MiB
+[DynaHybrid-sophia] Round 41: collected online-mean layer gradients for selection at round 42.
+[dynahybrid-sophia] Round 041/100 | train_loss=2.6920 | test_loss=2.7287 | test_acc=32.91% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=60.96s | hessian_time=0.08s | peak_gpu=2242MiB
+[dynahybrid-sophia] Round 042/100 | train_loss=2.6704 | test_loss=2.7818 | test_acc=32.67% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.73s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 043/100 | train_loss=2.6394 | test_loss=2.6766 | test_acc=33.89% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.14s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 044/100 | train_loss=2.6280 | test_loss=2.6727 | test_acc=34.48% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.96s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 045/100 | train_loss=2.5896 | test_loss=2.6761 | test_acc=34.93% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.76s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 046/100 | train_loss=2.5749 | test_loss=2.6618 | test_acc=34.47% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.47s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 047/100 | train_loss=2.5410 | test_loss=2.6063 | test_acc=35.55% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.83s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 048/100 | train_loss=2.5197 | test_loss=2.6072 | test_acc=35.34% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.66s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 049/100 | train_loss=2.4949 | test_loss=2.5591 | test_acc=36.65% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.83s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 050/100 | train_loss=2.4707 | test_loss=2.5646 | test_acc=36.66% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.97s | hessian_time=0.00s | peak_gpu=1619MiB
+[DynaHybrid-sophia] Round 51: collected online-mean layer gradients for selection at round 52.
+[dynahybrid-sophia] Round 051/100 | train_loss=2.4466 | test_loss=2.6243 | test_acc=35.82% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=60.89s | hessian_time=0.07s | peak_gpu=2242MiB
+[dynahybrid-sophia] Round 052/100 | train_loss=2.4326 | test_loss=2.5293 | test_acc=37.30% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.43s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 053/100 | train_loss=2.3991 | test_loss=2.5616 | test_acc=36.88% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.58s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 054/100 | train_loss=2.3880 | test_loss=2.5060 | test_acc=38.08% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.25s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 055/100 | train_loss=2.3564 | test_loss=2.5929 | test_acc=36.39% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=59.15s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 056/100 | train_loss=2.3424 | test_loss=2.5172 | test_acc=37.63% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=59.04s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 057/100 | train_loss=2.3110 | test_loss=2.5170 | test_acc=37.70% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.96s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 058/100 | train_loss=2.2919 | test_loss=2.4700 | test_acc=38.92% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.94s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 059/100 | train_loss=2.2640 | test_loss=2.4576 | test_acc=39.51% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.52s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 060/100 | train_loss=2.2426 | test_loss=2.4931 | test_acc=38.85% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=59.03s | hessian_time=0.00s | peak_gpu=1619MiB
+[DynaHybrid-sophia] Round 61: collected online-mean layer gradients for selection at round 62.
+[dynahybrid-sophia] Round 061/100 | train_loss=2.2127 | test_loss=2.4524 | test_acc=39.55% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=60.56s | hessian_time=0.07s | peak_gpu=2242MiB
+[dynahybrid-sophia] Round 062/100 | train_loss=2.2108 | test_loss=2.5022 | test_acc=38.72% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.58s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 063/100 | train_loss=2.1796 | test_loss=2.3863 | test_acc=40.75% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.73s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 064/100 | train_loss=2.1623 | test_loss=2.3742 | test_acc=41.29% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.77s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 065/100 | train_loss=2.1416 | test_loss=2.4278 | test_acc=40.10% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=57.73s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 066/100 | train_loss=2.1210 | test_loss=2.4243 | test_acc=40.06% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.45s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 067/100 | train_loss=2.0953 | test_loss=2.3573 | test_acc=41.13% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.47s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 068/100 | train_loss=2.0755 | test_loss=2.3426 | test_acc=41.93% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.56s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 069/100 | train_loss=2.0578 | test_loss=2.3896 | test_acc=40.07% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.03s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 070/100 | train_loss=2.0393 | test_loss=2.3754 | test_acc=40.66% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.68s | hessian_time=0.00s | peak_gpu=1619MiB
+[DynaHybrid-sophia] Round 71: collected online-mean layer gradients for selection at round 72.
+[dynahybrid-sophia] Round 071/100 | train_loss=2.0142 | test_loss=2.3359 | test_acc=42.21% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=60.76s | hessian_time=0.08s | peak_gpu=2242MiB
+[dynahybrid-sophia] Round 072/100 | train_loss=1.9936 | test_loss=2.3069 | test_acc=42.61% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.11s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 073/100 | train_loss=1.9813 | test_loss=2.3634 | test_acc=41.64% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=59.75s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 074/100 | train_loss=1.9605 | test_loss=2.4009 | test_acc=40.61% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.56s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 075/100 | train_loss=1.9337 | test_loss=2.2945 | test_acc=42.73% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.59s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 076/100 | train_loss=1.9195 | test_loss=2.3121 | test_acc=42.10% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.81s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 077/100 | train_loss=1.9080 | test_loss=2.3299 | test_acc=42.08% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.57s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 078/100 | train_loss=1.8824 | test_loss=2.2507 | test_acc=43.44% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=57.85s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 079/100 | train_loss=1.8635 | test_loss=2.2863 | test_acc=42.79% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.48s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 080/100 | train_loss=1.8394 | test_loss=2.2644 | test_acc=43.11% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.68s | hessian_time=0.00s | peak_gpu=1619MiB
+[DynaHybrid-sophia] Round 81: collected online-mean layer gradients for selection at round 82.
+[dynahybrid-sophia] Round 081/100 | train_loss=1.8255 | test_loss=2.3515 | test_acc=41.71% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=61.17s | hessian_time=0.08s | peak_gpu=2242MiB
+[dynahybrid-sophia] Round 082/100 | train_loss=1.8073 | test_loss=2.2360 | test_acc=43.65% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.86s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 083/100 | train_loss=1.7922 | test_loss=2.2386 | test_acc=43.77% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.22s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 084/100 | train_loss=1.7649 | test_loss=2.2331 | test_acc=43.66% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.65s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 085/100 | train_loss=1.7494 | test_loss=2.2590 | test_acc=43.16% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.42s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 086/100 | train_loss=1.7317 | test_loss=2.2621 | test_acc=43.34% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.61s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 087/100 | train_loss=1.7273 | test_loss=2.2408 | test_acc=43.41% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.90s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 088/100 | train_loss=1.6982 | test_loss=2.2422 | test_acc=43.53% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.49s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 089/100 | train_loss=1.6909 | test_loss=2.2585 | test_acc=43.43% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.29s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 090/100 | train_loss=1.6634 | test_loss=2.2134 | test_acc=43.98% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.68s | hessian_time=0.00s | peak_gpu=1619MiB
+[DynaHybrid-sophia] Round 91: collected online-mean layer gradients for selection at round 92.
+[dynahybrid-sophia] Round 091/100 | train_loss=1.6458 | test_loss=2.2656 | test_acc=43.09% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=60.88s | hessian_time=0.08s | peak_gpu=2242MiB
+[dynahybrid-sophia] Round 092/100 | train_loss=1.6299 | test_loss=2.2118 | test_acc=44.19% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.99s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 093/100 | train_loss=1.6038 | test_loss=2.2118 | test_acc=44.16% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=59.68s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 094/100 | train_loss=1.5961 | test_loss=2.1938 | test_acc=44.83% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.68s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 095/100 | train_loss=1.5771 | test_loss=2.1820 | test_acc=44.71% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.47s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 096/100 | train_loss=1.5630 | test_loss=2.2138 | test_acc=44.25% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.39s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 097/100 | train_loss=1.5371 | test_loss=2.2411 | test_acc=43.34% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.62s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 098/100 | train_loss=1.5346 | test_loss=2.1910 | test_acc=45.01% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.49s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 099/100 | train_loss=1.5121 | test_loss=2.1961 | test_acc=44.48% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.72s | hessian_time=0.00s | peak_gpu=1619MiB
+[dynahybrid-sophia] Round 100/100 | train_loss=1.4936 | test_loss=2.2080 | test_acc=44.42% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=58.88s | hessian_time=0.00s | peak_gpu=1619MiB
+
+========== Start experiment: dynahybrid-adahessian ==========
+Device: cuda; clients=10; rounds=100; local_steps=40
+Layer groups (alexnet): ['conv1', 'conv2', 'conv3', 'conv4', 'conv5', 'fc1', 'fc2', 'fc3']
+DynaHybrid selection: selection_strategy=dynamic; k_strategy=dynamic; fixed_k=3; every 10 rounds from round 2; gamma=0.6; K in [1, 4]
+[DynaHybrid] Round 1: collected online-mean layer gradients for selection at round 2.
+[dynahybrid-adahessian] Round 001/100 | train_loss=4.6052 | test_loss=4.6051 | test_acc=1.02% | K=0 | layers=NONE | round_time=59.47s | hessian_time=0.00s | peak_gpu=1820MiB
+[DynaHybrid] Round 2: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=['fc3', 'fc2', 'fc1'], coverage=0.652562
+[DynaHybrid] Raw scores = {'conv1': 3.2895130936299903, 'conv2': 3.045341722182875, 'conv3': 3.117014148905156, 'conv4': 3.4286226592729414, 'conv5': 4.20532264935089, 'fc1': 5.719334332233114, 'fc2': 7.717140957775898, 'fc3': 18.654244985585407}
+[DynaHybrid] Normalized scores = {'conv1': 0.06689192566744509, 'conv2': 0.06192672481124939, 'conv3': 0.0633841765690783, 'conv4': 0.06972070502164136, 'conv5': 0.08551482303345538, 'fc1': 0.11630210190068847, 'fc2': 0.15692730340924005, 'fc3': 0.3793322395872019}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 002/100 | train_loss=4.6023 | test_loss=4.5974 | test_acc=2.12% | K=3 | layers=fc3;fc2;fc1 | round_time=58.36s | hessian_time=0.23s | peak_gpu=2679MiB
+[DynaHybrid] Round 3: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.652562
+[DynaHybrid] Raw scores = {'conv1': 3.2895130936299903, 'conv2': 3.045341722182875, 'conv3': 3.117014148905156, 'conv4': 3.4286226592729414, 'conv5': 4.20532264935089, 'fc1': 5.719334332233114, 'fc2': 7.717140957775898, 'fc3': 18.654244985585407}
+[DynaHybrid] Normalized scores = {'conv1': 0.06689192566744509, 'conv2': 0.06192672481124939, 'conv3': 0.0633841765690783, 'conv4': 0.06972070502164136, 'conv5': 0.08551482303345538, 'fc1': 0.11630210190068847, 'fc2': 0.15692730340924005, 'fc3': 0.3793322395872019}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 003/100 | train_loss=4.5316 | test_loss=4.4027 | test_acc=3.35% | K=3 | layers=fc3;fc2;fc1 | round_time=59.13s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 4: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.652562
+[DynaHybrid] Raw scores = {'conv1': 3.2895130936299903, 'conv2': 3.045341722182875, 'conv3': 3.117014148905156, 'conv4': 3.4286226592729414, 'conv5': 4.20532264935089, 'fc1': 5.719334332233114, 'fc2': 7.717140957775898, 'fc3': 18.654244985585407}
+[DynaHybrid] Normalized scores = {'conv1': 0.06689192566744509, 'conv2': 0.06192672481124939, 'conv3': 0.0633841765690783, 'conv4': 0.06972070502164136, 'conv5': 0.08551482303345538, 'fc1': 0.11630210190068847, 'fc2': 0.15692730340924005, 'fc3': 0.3793322395872019}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 004/100 | train_loss=4.3113 | test_loss=4.1378 | test_acc=6.55% | K=3 | layers=fc3;fc2;fc1 | round_time=59.52s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 5: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.652562
+[DynaHybrid] Raw scores = {'conv1': 3.2895130936299903, 'conv2': 3.045341722182875, 'conv3': 3.117014148905156, 'conv4': 3.4286226592729414, 'conv5': 4.20532264935089, 'fc1': 5.719334332233114, 'fc2': 7.717140957775898, 'fc3': 18.654244985585407}
+[DynaHybrid] Normalized scores = {'conv1': 0.06689192566744509, 'conv2': 0.06192672481124939, 'conv3': 0.0633841765690783, 'conv4': 0.06972070502164136, 'conv5': 0.08551482303345538, 'fc1': 0.11630210190068847, 'fc2': 0.15692730340924005, 'fc3': 0.3793322395872019}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 005/100 | train_loss=4.1479 | test_loss=4.0315 | test_acc=7.78% | K=3 | layers=fc3;fc2;fc1 | round_time=59.25s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 6: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.652562
+[DynaHybrid] Raw scores = {'conv1': 3.2895130936299903, 'conv2': 3.045341722182875, 'conv3': 3.117014148905156, 'conv4': 3.4286226592729414, 'conv5': 4.20532264935089, 'fc1': 5.719334332233114, 'fc2': 7.717140957775898, 'fc3': 18.654244985585407}
+[DynaHybrid] Normalized scores = {'conv1': 0.06689192566744509, 'conv2': 0.06192672481124939, 'conv3': 0.0633841765690783, 'conv4': 0.06972070502164136, 'conv5': 0.08551482303345538, 'fc1': 0.11630210190068847, 'fc2': 0.15692730340924005, 'fc3': 0.3793322395872019}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 006/100 | train_loss=4.0590 | test_loss=3.9596 | test_acc=9.02% | K=3 | layers=fc3;fc2;fc1 | round_time=59.22s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 7: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.652562
+[DynaHybrid] Raw scores = {'conv1': 3.2895130936299903, 'conv2': 3.045341722182875, 'conv3': 3.117014148905156, 'conv4': 3.4286226592729414, 'conv5': 4.20532264935089, 'fc1': 5.719334332233114, 'fc2': 7.717140957775898, 'fc3': 18.654244985585407}
+[DynaHybrid] Normalized scores = {'conv1': 0.06689192566744509, 'conv2': 0.06192672481124939, 'conv3': 0.0633841765690783, 'conv4': 0.06972070502164136, 'conv5': 0.08551482303345538, 'fc1': 0.11630210190068847, 'fc2': 0.15692730340924005, 'fc3': 0.3793322395872019}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 007/100 | train_loss=3.9879 | test_loss=3.9045 | test_acc=9.99% | K=3 | layers=fc3;fc2;fc1 | round_time=59.28s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 8: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.652562
+[DynaHybrid] Raw scores = {'conv1': 3.2895130936299903, 'conv2': 3.045341722182875, 'conv3': 3.117014148905156, 'conv4': 3.4286226592729414, 'conv5': 4.20532264935089, 'fc1': 5.719334332233114, 'fc2': 7.717140957775898, 'fc3': 18.654244985585407}
+[DynaHybrid] Normalized scores = {'conv1': 0.06689192566744509, 'conv2': 0.06192672481124939, 'conv3': 0.0633841765690783, 'conv4': 0.06972070502164136, 'conv5': 0.08551482303345538, 'fc1': 0.11630210190068847, 'fc2': 0.15692730340924005, 'fc3': 0.3793322395872019}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 008/100 | train_loss=3.9264 | test_loss=3.8366 | test_acc=11.23% | K=3 | layers=fc3;fc2;fc1 | round_time=59.80s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 9: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.652562
+[DynaHybrid] Raw scores = {'conv1': 3.2895130936299903, 'conv2': 3.045341722182875, 'conv3': 3.117014148905156, 'conv4': 3.4286226592729414, 'conv5': 4.20532264935089, 'fc1': 5.719334332233114, 'fc2': 7.717140957775898, 'fc3': 18.654244985585407}
+[DynaHybrid] Normalized scores = {'conv1': 0.06689192566744509, 'conv2': 0.06192672481124939, 'conv3': 0.0633841765690783, 'conv4': 0.06972070502164136, 'conv5': 0.08551482303345538, 'fc1': 0.11630210190068847, 'fc2': 0.15692730340924005, 'fc3': 0.3793322395872019}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 009/100 | train_loss=3.8725 | test_loss=3.7775 | test_acc=12.17% | K=3 | layers=fc3;fc2;fc1 | round_time=60.13s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 10: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.652562
+[DynaHybrid] Raw scores = {'conv1': 3.2895130936299903, 'conv2': 3.045341722182875, 'conv3': 3.117014148905156, 'conv4': 3.4286226592729414, 'conv5': 4.20532264935089, 'fc1': 5.719334332233114, 'fc2': 7.717140957775898, 'fc3': 18.654244985585407}
+[DynaHybrid] Normalized scores = {'conv1': 0.06689192566744509, 'conv2': 0.06192672481124939, 'conv3': 0.0633841765690783, 'conv4': 0.06972070502164136, 'conv5': 0.08551482303345538, 'fc1': 0.11630210190068847, 'fc2': 0.15692730340924005, 'fc3': 0.3793322395872019}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 010/100 | train_loss=3.8209 | test_loss=3.7334 | test_acc=13.30% | K=3 | layers=fc3;fc2;fc1 | round_time=59.29s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 11: collected online-mean layer gradients for selection at round 12.
+[DynaHybrid] Round 11: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.652562
+[DynaHybrid] Raw scores = {'conv1': 3.2895130936299903, 'conv2': 3.045341722182875, 'conv3': 3.117014148905156, 'conv4': 3.4286226592729414, 'conv5': 4.20532264935089, 'fc1': 5.719334332233114, 'fc2': 7.717140957775898, 'fc3': 18.654244985585407}
+[DynaHybrid] Normalized scores = {'conv1': 0.06689192566744509, 'conv2': 0.06192672481124939, 'conv3': 0.0633841765690783, 'conv4': 0.06972070502164136, 'conv5': 0.08551482303345538, 'fc1': 0.11630210190068847, 'fc2': 0.15692730340924005, 'fc3': 0.3793322395872019}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 011/100 | train_loss=3.7698 | test_loss=3.6796 | test_acc=14.20% | K=3 | layers=fc3;fc2;fc1 | round_time=62.35s | hessian_time=0.15s | peak_gpu=2898MiB
+[DynaHybrid] Round 12: selection=dynamic, K=3, selected layers=['fc2', 'fc1', 'fc3'], new layers=[], coverage=0.868253
+[DynaHybrid] Raw scores = {'conv1': 0.4229479624284151, 'conv2': 0.3680822772231161, 'conv3': 0.4031192860695819, 'conv4': 0.6218458942046095, 'conv5': 1.3983633974828718, 'fc1': 7.0130532920884505, 'fc2': 7.478625458708979, 'fc3': 6.691921199062208}
+[DynaHybrid] Normalized scores = {'conv1': 0.01733538311392807, 'conv2': 0.015086601331457582, 'conv3': 0.016522664453814798, 'conv4': 0.025487619687220076, 'conv5': 0.05731477009293439, 'fc1': 0.28744426363639114, 'fc2': 0.30652668651699416, 'fc3': 0.27428201116725975}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 012/100 | train_loss=3.7258 | test_loss=3.6427 | test_acc=14.78% | K=3 | layers=fc2;fc1;fc3 | round_time=60.03s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 13: selection=dynamic, K=3, selected layers=['fc2', 'fc1', 'fc3'], new layers=[], coverage=0.868253
+[DynaHybrid] Raw scores = {'conv1': 0.4229479624284151, 'conv2': 0.3680822772231161, 'conv3': 0.4031192860695819, 'conv4': 0.6218458942046095, 'conv5': 1.3983633974828718, 'fc1': 7.0130532920884505, 'fc2': 7.478625458708979, 'fc3': 6.691921199062208}
+[DynaHybrid] Normalized scores = {'conv1': 0.01733538311392807, 'conv2': 0.015086601331457582, 'conv3': 0.016522664453814798, 'conv4': 0.025487619687220076, 'conv5': 0.05731477009293439, 'fc1': 0.28744426363639114, 'fc2': 0.30652668651699416, 'fc3': 0.27428201116725975}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 013/100 | train_loss=3.6876 | test_loss=3.5982 | test_acc=15.74% | K=3 | layers=fc2;fc1;fc3 | round_time=60.21s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 14: selection=dynamic, K=3, selected layers=['fc2', 'fc1', 'fc3'], new layers=[], coverage=0.868253
+[DynaHybrid] Raw scores = {'conv1': 0.4229479624284151, 'conv2': 0.3680822772231161, 'conv3': 0.4031192860695819, 'conv4': 0.6218458942046095, 'conv5': 1.3983633974828718, 'fc1': 7.0130532920884505, 'fc2': 7.478625458708979, 'fc3': 6.691921199062208}
+[DynaHybrid] Normalized scores = {'conv1': 0.01733538311392807, 'conv2': 0.015086601331457582, 'conv3': 0.016522664453814798, 'conv4': 0.025487619687220076, 'conv5': 0.05731477009293439, 'fc1': 0.28744426363639114, 'fc2': 0.30652668651699416, 'fc3': 0.27428201116725975}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 014/100 | train_loss=3.6492 | test_loss=3.5638 | test_acc=16.76% | K=3 | layers=fc2;fc1;fc3 | round_time=60.56s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 15: selection=dynamic, K=3, selected layers=['fc2', 'fc1', 'fc3'], new layers=[], coverage=0.868253
+[DynaHybrid] Raw scores = {'conv1': 0.4229479624284151, 'conv2': 0.3680822772231161, 'conv3': 0.4031192860695819, 'conv4': 0.6218458942046095, 'conv5': 1.3983633974828718, 'fc1': 7.0130532920884505, 'fc2': 7.478625458708979, 'fc3': 6.691921199062208}
+[DynaHybrid] Normalized scores = {'conv1': 0.01733538311392807, 'conv2': 0.015086601331457582, 'conv3': 0.016522664453814798, 'conv4': 0.025487619687220076, 'conv5': 0.05731477009293439, 'fc1': 0.28744426363639114, 'fc2': 0.30652668651699416, 'fc3': 0.27428201116725975}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 015/100 | train_loss=3.6159 | test_loss=3.5361 | test_acc=17.05% | K=3 | layers=fc2;fc1;fc3 | round_time=60.50s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 16: selection=dynamic, K=3, selected layers=['fc2', 'fc1', 'fc3'], new layers=[], coverage=0.868253
+[DynaHybrid] Raw scores = {'conv1': 0.4229479624284151, 'conv2': 0.3680822772231161, 'conv3': 0.4031192860695819, 'conv4': 0.6218458942046095, 'conv5': 1.3983633974828718, 'fc1': 7.0130532920884505, 'fc2': 7.478625458708979, 'fc3': 6.691921199062208}
+[DynaHybrid] Normalized scores = {'conv1': 0.01733538311392807, 'conv2': 0.015086601331457582, 'conv3': 0.016522664453814798, 'conv4': 0.025487619687220076, 'conv5': 0.05731477009293439, 'fc1': 0.28744426363639114, 'fc2': 0.30652668651699416, 'fc3': 0.27428201116725975}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 016/100 | train_loss=3.5812 | test_loss=3.4873 | test_acc=18.22% | K=3 | layers=fc2;fc1;fc3 | round_time=60.90s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 17: selection=dynamic, K=3, selected layers=['fc2', 'fc1', 'fc3'], new layers=[], coverage=0.868253
+[DynaHybrid] Raw scores = {'conv1': 0.4229479624284151, 'conv2': 0.3680822772231161, 'conv3': 0.4031192860695819, 'conv4': 0.6218458942046095, 'conv5': 1.3983633974828718, 'fc1': 7.0130532920884505, 'fc2': 7.478625458708979, 'fc3': 6.691921199062208}
+[DynaHybrid] Normalized scores = {'conv1': 0.01733538311392807, 'conv2': 0.015086601331457582, 'conv3': 0.016522664453814798, 'conv4': 0.025487619687220076, 'conv5': 0.05731477009293439, 'fc1': 0.28744426363639114, 'fc2': 0.30652668651699416, 'fc3': 0.27428201116725975}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 017/100 | train_loss=3.5489 | test_loss=3.4672 | test_acc=18.23% | K=3 | layers=fc2;fc1;fc3 | round_time=61.17s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 18: selection=dynamic, K=3, selected layers=['fc2', 'fc1', 'fc3'], new layers=[], coverage=0.868253
+[DynaHybrid] Raw scores = {'conv1': 0.4229479624284151, 'conv2': 0.3680822772231161, 'conv3': 0.4031192860695819, 'conv4': 0.6218458942046095, 'conv5': 1.3983633974828718, 'fc1': 7.0130532920884505, 'fc2': 7.478625458708979, 'fc3': 6.691921199062208}
+[DynaHybrid] Normalized scores = {'conv1': 0.01733538311392807, 'conv2': 0.015086601331457582, 'conv3': 0.016522664453814798, 'conv4': 0.025487619687220076, 'conv5': 0.05731477009293439, 'fc1': 0.28744426363639114, 'fc2': 0.30652668651699416, 'fc3': 0.27428201116725975}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 018/100 | train_loss=3.5133 | test_loss=3.4219 | test_acc=18.83% | K=3 | layers=fc2;fc1;fc3 | round_time=60.14s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 19: selection=dynamic, K=3, selected layers=['fc2', 'fc1', 'fc3'], new layers=[], coverage=0.868253
+[DynaHybrid] Raw scores = {'conv1': 0.4229479624284151, 'conv2': 0.3680822772231161, 'conv3': 0.4031192860695819, 'conv4': 0.6218458942046095, 'conv5': 1.3983633974828718, 'fc1': 7.0130532920884505, 'fc2': 7.478625458708979, 'fc3': 6.691921199062208}
+[DynaHybrid] Normalized scores = {'conv1': 0.01733538311392807, 'conv2': 0.015086601331457582, 'conv3': 0.016522664453814798, 'conv4': 0.025487619687220076, 'conv5': 0.05731477009293439, 'fc1': 0.28744426363639114, 'fc2': 0.30652668651699416, 'fc3': 0.27428201116725975}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 019/100 | train_loss=3.4872 | test_loss=3.4055 | test_acc=19.53% | K=3 | layers=fc2;fc1;fc3 | round_time=60.43s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 20: selection=dynamic, K=3, selected layers=['fc2', 'fc1', 'fc3'], new layers=[], coverage=0.868253
+[DynaHybrid] Raw scores = {'conv1': 0.4229479624284151, 'conv2': 0.3680822772231161, 'conv3': 0.4031192860695819, 'conv4': 0.6218458942046095, 'conv5': 1.3983633974828718, 'fc1': 7.0130532920884505, 'fc2': 7.478625458708979, 'fc3': 6.691921199062208}
+[DynaHybrid] Normalized scores = {'conv1': 0.01733538311392807, 'conv2': 0.015086601331457582, 'conv3': 0.016522664453814798, 'conv4': 0.025487619687220076, 'conv5': 0.05731477009293439, 'fc1': 0.28744426363639114, 'fc2': 0.30652668651699416, 'fc3': 0.27428201116725975}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 020/100 | train_loss=3.4560 | test_loss=3.3736 | test_acc=20.20% | K=3 | layers=fc2;fc1;fc3 | round_time=61.17s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 21: collected online-mean layer gradients for selection at round 22.
+[DynaHybrid] Round 21: selection=dynamic, K=3, selected layers=['fc2', 'fc1', 'fc3'], new layers=[], coverage=0.868253
+[DynaHybrid] Raw scores = {'conv1': 0.4229479624284151, 'conv2': 0.3680822772231161, 'conv3': 0.4031192860695819, 'conv4': 0.6218458942046095, 'conv5': 1.3983633974828718, 'fc1': 7.0130532920884505, 'fc2': 7.478625458708979, 'fc3': 6.691921199062208}
+[DynaHybrid] Normalized scores = {'conv1': 0.01733538311392807, 'conv2': 0.015086601331457582, 'conv3': 0.016522664453814798, 'conv4': 0.025487619687220076, 'conv5': 0.05731477009293439, 'fc1': 0.28744426363639114, 'fc2': 0.30652668651699416, 'fc3': 0.27428201116725975}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 021/100 | train_loss=3.4196 | test_loss=3.3383 | test_acc=20.70% | K=3 | layers=fc2;fc1;fc3 | round_time=62.90s | hessian_time=0.16s | peak_gpu=2898MiB
+[DynaHybrid] Round 22: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.804999
+[DynaHybrid] Raw scores = {'conv1': 0.6205645481675833, 'conv2': 0.6621286911459264, 'conv3': 0.8056141247832056, 'conv4': 1.219592154693946, 'conv5': 2.736224949821063, 'fc1': 7.819916244198748, 'fc2': 8.470915537439733, 'fc3': 8.660388506204448}
+[DynaHybrid] Normalized scores = {'conv1': 0.020021217800403824, 'conv2': 0.021362197980006038, 'conv3': 0.025991455527057485, 'conv4': 0.0393475912036749, 'conv5': 0.08827857768064526, 'fc1': 0.25229324937804676, 'fc2': 0.2732963806016611, 'fc3': 0.2794093298285046}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 022/100 | train_loss=3.3936 | test_loss=3.3137 | test_acc=20.79% | K=3 | layers=fc3;fc2;fc1 | round_time=60.39s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 23: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.804999
+[DynaHybrid] Raw scores = {'conv1': 0.6205645481675833, 'conv2': 0.6621286911459264, 'conv3': 0.8056141247832056, 'conv4': 1.219592154693946, 'conv5': 2.736224949821063, 'fc1': 7.819916244198748, 'fc2': 8.470915537439733, 'fc3': 8.660388506204448}
+[DynaHybrid] Normalized scores = {'conv1': 0.020021217800403824, 'conv2': 0.021362197980006038, 'conv3': 0.025991455527057485, 'conv4': 0.0393475912036749, 'conv5': 0.08827857768064526, 'fc1': 0.25229324937804676, 'fc2': 0.2732963806016611, 'fc3': 0.2794093298285046}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 023/100 | train_loss=3.3614 | test_loss=3.2881 | test_acc=21.12% | K=3 | layers=fc3;fc2;fc1 | round_time=60.18s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 24: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.804999
+[DynaHybrid] Raw scores = {'conv1': 0.6205645481675833, 'conv2': 0.6621286911459264, 'conv3': 0.8056141247832056, 'conv4': 1.219592154693946, 'conv5': 2.736224949821063, 'fc1': 7.819916244198748, 'fc2': 8.470915537439733, 'fc3': 8.660388506204448}
+[DynaHybrid] Normalized scores = {'conv1': 0.020021217800403824, 'conv2': 0.021362197980006038, 'conv3': 0.025991455527057485, 'conv4': 0.0393475912036749, 'conv5': 0.08827857768064526, 'fc1': 0.25229324937804676, 'fc2': 0.2732963806016611, 'fc3': 0.2794093298285046}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 024/100 | train_loss=3.3369 | test_loss=3.2610 | test_acc=21.76% | K=3 | layers=fc3;fc2;fc1 | round_time=60.52s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 25: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.804999
+[DynaHybrid] Raw scores = {'conv1': 0.6205645481675833, 'conv2': 0.6621286911459264, 'conv3': 0.8056141247832056, 'conv4': 1.219592154693946, 'conv5': 2.736224949821063, 'fc1': 7.819916244198748, 'fc2': 8.470915537439733, 'fc3': 8.660388506204448}
+[DynaHybrid] Normalized scores = {'conv1': 0.020021217800403824, 'conv2': 0.021362197980006038, 'conv3': 0.025991455527057485, 'conv4': 0.0393475912036749, 'conv5': 0.08827857768064526, 'fc1': 0.25229324937804676, 'fc2': 0.2732963806016611, 'fc3': 0.2794093298285046}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 025/100 | train_loss=3.3169 | test_loss=3.2454 | test_acc=22.56% | K=3 | layers=fc3;fc2;fc1 | round_time=60.74s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 26: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.804999
+[DynaHybrid] Raw scores = {'conv1': 0.6205645481675833, 'conv2': 0.6621286911459264, 'conv3': 0.8056141247832056, 'conv4': 1.219592154693946, 'conv5': 2.736224949821063, 'fc1': 7.819916244198748, 'fc2': 8.470915537439733, 'fc3': 8.660388506204448}
+[DynaHybrid] Normalized scores = {'conv1': 0.020021217800403824, 'conv2': 0.021362197980006038, 'conv3': 0.025991455527057485, 'conv4': 0.0393475912036749, 'conv5': 0.08827857768064526, 'fc1': 0.25229324937804676, 'fc2': 0.2732963806016611, 'fc3': 0.2794093298285046}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 026/100 | train_loss=3.2833 | test_loss=3.2147 | test_acc=22.99% | K=3 | layers=fc3;fc2;fc1 | round_time=60.65s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 27: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.804999
+[DynaHybrid] Raw scores = {'conv1': 0.6205645481675833, 'conv2': 0.6621286911459264, 'conv3': 0.8056141247832056, 'conv4': 1.219592154693946, 'conv5': 2.736224949821063, 'fc1': 7.819916244198748, 'fc2': 8.470915537439733, 'fc3': 8.660388506204448}
+[DynaHybrid] Normalized scores = {'conv1': 0.020021217800403824, 'conv2': 0.021362197980006038, 'conv3': 0.025991455527057485, 'conv4': 0.0393475912036749, 'conv5': 0.08827857768064526, 'fc1': 0.25229324937804676, 'fc2': 0.2732963806016611, 'fc3': 0.2794093298285046}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 027/100 | train_loss=3.2605 | test_loss=3.1973 | test_acc=23.21% | K=3 | layers=fc3;fc2;fc1 | round_time=61.47s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 28: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.804999
+[DynaHybrid] Raw scores = {'conv1': 0.6205645481675833, 'conv2': 0.6621286911459264, 'conv3': 0.8056141247832056, 'conv4': 1.219592154693946, 'conv5': 2.736224949821063, 'fc1': 7.819916244198748, 'fc2': 8.470915537439733, 'fc3': 8.660388506204448}
+[DynaHybrid] Normalized scores = {'conv1': 0.020021217800403824, 'conv2': 0.021362197980006038, 'conv3': 0.025991455527057485, 'conv4': 0.0393475912036749, 'conv5': 0.08827857768064526, 'fc1': 0.25229324937804676, 'fc2': 0.2732963806016611, 'fc3': 0.2794093298285046}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 028/100 | train_loss=3.2328 | test_loss=3.1884 | test_acc=23.31% | K=3 | layers=fc3;fc2;fc1 | round_time=61.09s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 29: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.804999
+[DynaHybrid] Raw scores = {'conv1': 0.6205645481675833, 'conv2': 0.6621286911459264, 'conv3': 0.8056141247832056, 'conv4': 1.219592154693946, 'conv5': 2.736224949821063, 'fc1': 7.819916244198748, 'fc2': 8.470915537439733, 'fc3': 8.660388506204448}
+[DynaHybrid] Normalized scores = {'conv1': 0.020021217800403824, 'conv2': 0.021362197980006038, 'conv3': 0.025991455527057485, 'conv4': 0.0393475912036749, 'conv5': 0.08827857768064526, 'fc1': 0.25229324937804676, 'fc2': 0.2732963806016611, 'fc3': 0.2794093298285046}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 029/100 | train_loss=3.2091 | test_loss=3.1453 | test_acc=24.12% | K=3 | layers=fc3;fc2;fc1 | round_time=61.28s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 30: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.804999
+[DynaHybrid] Raw scores = {'conv1': 0.6205645481675833, 'conv2': 0.6621286911459264, 'conv3': 0.8056141247832056, 'conv4': 1.219592154693946, 'conv5': 2.736224949821063, 'fc1': 7.819916244198748, 'fc2': 8.470915537439733, 'fc3': 8.660388506204448}
+[DynaHybrid] Normalized scores = {'conv1': 0.020021217800403824, 'conv2': 0.021362197980006038, 'conv3': 0.025991455527057485, 'conv4': 0.0393475912036749, 'conv5': 0.08827857768064526, 'fc1': 0.25229324937804676, 'fc2': 0.2732963806016611, 'fc3': 0.2794093298285046}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 030/100 | train_loss=3.1823 | test_loss=3.1402 | test_acc=24.15% | K=3 | layers=fc3;fc2;fc1 | round_time=61.08s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 31: collected online-mean layer gradients for selection at round 32.
+[DynaHybrid] Round 31: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.804999
+[DynaHybrid] Raw scores = {'conv1': 0.6205645481675833, 'conv2': 0.6621286911459264, 'conv3': 0.8056141247832056, 'conv4': 1.219592154693946, 'conv5': 2.736224949821063, 'fc1': 7.819916244198748, 'fc2': 8.470915537439733, 'fc3': 8.660388506204448}
+[DynaHybrid] Normalized scores = {'conv1': 0.020021217800403824, 'conv2': 0.021362197980006038, 'conv3': 0.025991455527057485, 'conv4': 0.0393475912036749, 'conv5': 0.08827857768064526, 'fc1': 0.25229324937804676, 'fc2': 0.2732963806016611, 'fc3': 0.2794093298285046}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 031/100 | train_loss=3.1579 | test_loss=3.1127 | test_acc=24.74% | K=3 | layers=fc3;fc2;fc1 | round_time=63.21s | hessian_time=0.16s | peak_gpu=2898MiB
+[DynaHybrid] Round 32: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.755668
+[DynaHybrid] Raw scores = {'conv1': 0.9081333930887501, 'conv2': 0.9476625939482686, 'conv3': 1.1450472692219114, 'conv4': 1.8213697447213415, 'conv5': 3.7126025050385865, 'fc1': 8.087141202624624, 'fc2': 8.8800617109546, 'fc3': 9.429208912669706}
+[DynaHybrid] Normalized scores = {'conv1': 0.025997752224693808, 'conv2': 0.027129381539733745, 'conv3': 0.032780046871246686, 'conv4': 0.05214159031391513, 'conv5': 0.106283196685994, 'fc1': 0.23151609090912506, 'fc2': 0.25421556553072, 'fc3': 0.26993637592457154}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 032/100 | train_loss=3.1349 | test_loss=3.0822 | test_acc=25.26% | K=3 | layers=fc3;fc2;fc1 | round_time=60.96s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 33: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.755668
+[DynaHybrid] Raw scores = {'conv1': 0.9081333930887501, 'conv2': 0.9476625939482686, 'conv3': 1.1450472692219114, 'conv4': 1.8213697447213415, 'conv5': 3.7126025050385865, 'fc1': 8.087141202624624, 'fc2': 8.8800617109546, 'fc3': 9.429208912669706}
+[DynaHybrid] Normalized scores = {'conv1': 0.025997752224693808, 'conv2': 0.027129381539733745, 'conv3': 0.032780046871246686, 'conv4': 0.05214159031391513, 'conv5': 0.106283196685994, 'fc1': 0.23151609090912506, 'fc2': 0.25421556553072, 'fc3': 0.26993637592457154}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 033/100 | train_loss=3.1118 | test_loss=3.0622 | test_acc=25.68% | K=3 | layers=fc3;fc2;fc1 | round_time=60.42s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 34: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.755668
+[DynaHybrid] Raw scores = {'conv1': 0.9081333930887501, 'conv2': 0.9476625939482686, 'conv3': 1.1450472692219114, 'conv4': 1.8213697447213415, 'conv5': 3.7126025050385865, 'fc1': 8.087141202624624, 'fc2': 8.8800617109546, 'fc3': 9.429208912669706}
+[DynaHybrid] Normalized scores = {'conv1': 0.025997752224693808, 'conv2': 0.027129381539733745, 'conv3': 0.032780046871246686, 'conv4': 0.05214159031391513, 'conv5': 0.106283196685994, 'fc1': 0.23151609090912506, 'fc2': 0.25421556553072, 'fc3': 0.26993637592457154}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 034/100 | train_loss=3.0919 | test_loss=3.0449 | test_acc=26.05% | K=3 | layers=fc3;fc2;fc1 | round_time=60.24s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 35: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.755668
+[DynaHybrid] Raw scores = {'conv1': 0.9081333930887501, 'conv2': 0.9476625939482686, 'conv3': 1.1450472692219114, 'conv4': 1.8213697447213415, 'conv5': 3.7126025050385865, 'fc1': 8.087141202624624, 'fc2': 8.8800617109546, 'fc3': 9.429208912669706}
+[DynaHybrid] Normalized scores = {'conv1': 0.025997752224693808, 'conv2': 0.027129381539733745, 'conv3': 0.032780046871246686, 'conv4': 0.05214159031391513, 'conv5': 0.106283196685994, 'fc1': 0.23151609090912506, 'fc2': 0.25421556553072, 'fc3': 0.26993637592457154}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 035/100 | train_loss=3.0694 | test_loss=3.0198 | test_acc=26.37% | K=3 | layers=fc3;fc2;fc1 | round_time=60.87s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 36: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.755668
+[DynaHybrid] Raw scores = {'conv1': 0.9081333930887501, 'conv2': 0.9476625939482686, 'conv3': 1.1450472692219114, 'conv4': 1.8213697447213415, 'conv5': 3.7126025050385865, 'fc1': 8.087141202624624, 'fc2': 8.8800617109546, 'fc3': 9.429208912669706}
+[DynaHybrid] Normalized scores = {'conv1': 0.025997752224693808, 'conv2': 0.027129381539733745, 'conv3': 0.032780046871246686, 'conv4': 0.05214159031391513, 'conv5': 0.106283196685994, 'fc1': 0.23151609090912506, 'fc2': 0.25421556553072, 'fc3': 0.26993637592457154}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 036/100 | train_loss=3.0415 | test_loss=3.0048 | test_acc=26.78% | K=3 | layers=fc3;fc2;fc1 | round_time=61.07s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 37: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.755668
+[DynaHybrid] Raw scores = {'conv1': 0.9081333930887501, 'conv2': 0.9476625939482686, 'conv3': 1.1450472692219114, 'conv4': 1.8213697447213415, 'conv5': 3.7126025050385865, 'fc1': 8.087141202624624, 'fc2': 8.8800617109546, 'fc3': 9.429208912669706}
+[DynaHybrid] Normalized scores = {'conv1': 0.025997752224693808, 'conv2': 0.027129381539733745, 'conv3': 0.032780046871246686, 'conv4': 0.05214159031391513, 'conv5': 0.106283196685994, 'fc1': 0.23151609090912506, 'fc2': 0.25421556553072, 'fc3': 0.26993637592457154}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 037/100 | train_loss=3.0213 | test_loss=2.9942 | test_acc=26.97% | K=3 | layers=fc3;fc2;fc1 | round_time=60.77s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 38: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.755668
+[DynaHybrid] Raw scores = {'conv1': 0.9081333930887501, 'conv2': 0.9476625939482686, 'conv3': 1.1450472692219114, 'conv4': 1.8213697447213415, 'conv5': 3.7126025050385865, 'fc1': 8.087141202624624, 'fc2': 8.8800617109546, 'fc3': 9.429208912669706}
+[DynaHybrid] Normalized scores = {'conv1': 0.025997752224693808, 'conv2': 0.027129381539733745, 'conv3': 0.032780046871246686, 'conv4': 0.05214159031391513, 'conv5': 0.106283196685994, 'fc1': 0.23151609090912506, 'fc2': 0.25421556553072, 'fc3': 0.26993637592457154}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 038/100 | train_loss=3.0017 | test_loss=2.9732 | test_acc=27.10% | K=3 | layers=fc3;fc2;fc1 | round_time=60.56s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 39: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.755668
+[DynaHybrid] Raw scores = {'conv1': 0.9081333930887501, 'conv2': 0.9476625939482686, 'conv3': 1.1450472692219114, 'conv4': 1.8213697447213415, 'conv5': 3.7126025050385865, 'fc1': 8.087141202624624, 'fc2': 8.8800617109546, 'fc3': 9.429208912669706}
+[DynaHybrid] Normalized scores = {'conv1': 0.025997752224693808, 'conv2': 0.027129381539733745, 'conv3': 0.032780046871246686, 'conv4': 0.05214159031391513, 'conv5': 0.106283196685994, 'fc1': 0.23151609090912506, 'fc2': 0.25421556553072, 'fc3': 0.26993637592457154}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 039/100 | train_loss=2.9765 | test_loss=2.9627 | test_acc=27.29% | K=3 | layers=fc3;fc2;fc1 | round_time=60.72s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 40: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.755668
+[DynaHybrid] Raw scores = {'conv1': 0.9081333930887501, 'conv2': 0.9476625939482686, 'conv3': 1.1450472692219114, 'conv4': 1.8213697447213415, 'conv5': 3.7126025050385865, 'fc1': 8.087141202624624, 'fc2': 8.8800617109546, 'fc3': 9.429208912669706}
+[DynaHybrid] Normalized scores = {'conv1': 0.025997752224693808, 'conv2': 0.027129381539733745, 'conv3': 0.032780046871246686, 'conv4': 0.05214159031391513, 'conv5': 0.106283196685994, 'fc1': 0.23151609090912506, 'fc2': 0.25421556553072, 'fc3': 0.26993637592457154}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 040/100 | train_loss=2.9566 | test_loss=2.9352 | test_acc=28.02% | K=3 | layers=fc3;fc2;fc1 | round_time=60.26s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 41: collected online-mean layer gradients for selection at round 42.
+[DynaHybrid] Round 41: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.755668
+[DynaHybrid] Raw scores = {'conv1': 0.9081333930887501, 'conv2': 0.9476625939482686, 'conv3': 1.1450472692219114, 'conv4': 1.8213697447213415, 'conv5': 3.7126025050385865, 'fc1': 8.087141202624624, 'fc2': 8.8800617109546, 'fc3': 9.429208912669706}
+[DynaHybrid] Normalized scores = {'conv1': 0.025997752224693808, 'conv2': 0.027129381539733745, 'conv3': 0.032780046871246686, 'conv4': 0.05214159031391513, 'conv5': 0.106283196685994, 'fc1': 0.23151609090912506, 'fc2': 0.25421556553072, 'fc3': 0.26993637592457154}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 041/100 | train_loss=2.9311 | test_loss=2.9247 | test_acc=28.17% | K=3 | layers=fc3;fc2;fc1 | round_time=63.03s | hessian_time=0.15s | peak_gpu=2898MiB
+[DynaHybrid] Round 42: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.711218
+[DynaHybrid] Raw scores = {'conv1': 1.166923175666104, 'conv2': 1.4906969600130306, 'conv3': 1.7124384982339642, 'conv4': 2.5369876664334905, 'conv5': 4.178238078042698, 'fc1': 8.204500256554926, 'fc2': 9.175634270035133, 'fc3': 9.920987224408393}
+[DynaHybrid] Normalized scores = {'conv1': 0.030399385963166135, 'conv2': 0.03883398083655942, 'conv3': 0.04461054500548727, 'conv4': 0.06609078374990755, 'conv5': 0.10884681582222766, 'fc1': 0.21373452437564225, 'fc2': 0.23903342863374963, 'fc3': 0.25845053561326015}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 042/100 | train_loss=2.9104 | test_loss=2.9023 | test_acc=28.61% | K=3 | layers=fc3;fc2;fc1 | round_time=60.17s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 43: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.711218
+[DynaHybrid] Raw scores = {'conv1': 1.166923175666104, 'conv2': 1.4906969600130306, 'conv3': 1.7124384982339642, 'conv4': 2.5369876664334905, 'conv5': 4.178238078042698, 'fc1': 8.204500256554926, 'fc2': 9.175634270035133, 'fc3': 9.920987224408393}
+[DynaHybrid] Normalized scores = {'conv1': 0.030399385963166135, 'conv2': 0.03883398083655942, 'conv3': 0.04461054500548727, 'conv4': 0.06609078374990755, 'conv5': 0.10884681582222766, 'fc1': 0.21373452437564225, 'fc2': 0.23903342863374963, 'fc3': 0.25845053561326015}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 043/100 | train_loss=2.8909 | test_loss=2.8833 | test_acc=29.18% | K=3 | layers=fc3;fc2;fc1 | round_time=60.92s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 44: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.711218
+[DynaHybrid] Raw scores = {'conv1': 1.166923175666104, 'conv2': 1.4906969600130306, 'conv3': 1.7124384982339642, 'conv4': 2.5369876664334905, 'conv5': 4.178238078042698, 'fc1': 8.204500256554926, 'fc2': 9.175634270035133, 'fc3': 9.920987224408393}
+[DynaHybrid] Normalized scores = {'conv1': 0.030399385963166135, 'conv2': 0.03883398083655942, 'conv3': 0.04461054500548727, 'conv4': 0.06609078374990755, 'conv5': 0.10884681582222766, 'fc1': 0.21373452437564225, 'fc2': 0.23903342863374963, 'fc3': 0.25845053561326015}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 044/100 | train_loss=2.8719 | test_loss=2.8689 | test_acc=29.87% | K=3 | layers=fc3;fc2;fc1 | round_time=60.45s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 45: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.711218
+[DynaHybrid] Raw scores = {'conv1': 1.166923175666104, 'conv2': 1.4906969600130306, 'conv3': 1.7124384982339642, 'conv4': 2.5369876664334905, 'conv5': 4.178238078042698, 'fc1': 8.204500256554926, 'fc2': 9.175634270035133, 'fc3': 9.920987224408393}
+[DynaHybrid] Normalized scores = {'conv1': 0.030399385963166135, 'conv2': 0.03883398083655942, 'conv3': 0.04461054500548727, 'conv4': 0.06609078374990755, 'conv5': 0.10884681582222766, 'fc1': 0.21373452437564225, 'fc2': 0.23903342863374963, 'fc3': 0.25845053561326015}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 045/100 | train_loss=2.8482 | test_loss=2.8568 | test_acc=30.14% | K=3 | layers=fc3;fc2;fc1 | round_time=60.52s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 46: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.711218
+[DynaHybrid] Raw scores = {'conv1': 1.166923175666104, 'conv2': 1.4906969600130306, 'conv3': 1.7124384982339642, 'conv4': 2.5369876664334905, 'conv5': 4.178238078042698, 'fc1': 8.204500256554926, 'fc2': 9.175634270035133, 'fc3': 9.920987224408393}
+[DynaHybrid] Normalized scores = {'conv1': 0.030399385963166135, 'conv2': 0.03883398083655942, 'conv3': 0.04461054500548727, 'conv4': 0.06609078374990755, 'conv5': 0.10884681582222766, 'fc1': 0.21373452437564225, 'fc2': 0.23903342863374963, 'fc3': 0.25845053561326015}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 046/100 | train_loss=2.8330 | test_loss=2.8417 | test_acc=30.01% | K=3 | layers=fc3;fc2;fc1 | round_time=61.14s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 47: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.711218
+[DynaHybrid] Raw scores = {'conv1': 1.166923175666104, 'conv2': 1.4906969600130306, 'conv3': 1.7124384982339642, 'conv4': 2.5369876664334905, 'conv5': 4.178238078042698, 'fc1': 8.204500256554926, 'fc2': 9.175634270035133, 'fc3': 9.920987224408393}
+[DynaHybrid] Normalized scores = {'conv1': 0.030399385963166135, 'conv2': 0.03883398083655942, 'conv3': 0.04461054500548727, 'conv4': 0.06609078374990755, 'conv5': 0.10884681582222766, 'fc1': 0.21373452437564225, 'fc2': 0.23903342863374963, 'fc3': 0.25845053561326015}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 047/100 | train_loss=2.8106 | test_loss=2.8237 | test_acc=30.47% | K=3 | layers=fc3;fc2;fc1 | round_time=60.63s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 48: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.711218
+[DynaHybrid] Raw scores = {'conv1': 1.166923175666104, 'conv2': 1.4906969600130306, 'conv3': 1.7124384982339642, 'conv4': 2.5369876664334905, 'conv5': 4.178238078042698, 'fc1': 8.204500256554926, 'fc2': 9.175634270035133, 'fc3': 9.920987224408393}
+[DynaHybrid] Normalized scores = {'conv1': 0.030399385963166135, 'conv2': 0.03883398083655942, 'conv3': 0.04461054500548727, 'conv4': 0.06609078374990755, 'conv5': 0.10884681582222766, 'fc1': 0.21373452437564225, 'fc2': 0.23903342863374963, 'fc3': 0.25845053561326015}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 048/100 | train_loss=2.7972 | test_loss=2.8136 | test_acc=31.15% | K=3 | layers=fc3;fc2;fc1 | round_time=61.06s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 49: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.711218
+[DynaHybrid] Raw scores = {'conv1': 1.166923175666104, 'conv2': 1.4906969600130306, 'conv3': 1.7124384982339642, 'conv4': 2.5369876664334905, 'conv5': 4.178238078042698, 'fc1': 8.204500256554926, 'fc2': 9.175634270035133, 'fc3': 9.920987224408393}
+[DynaHybrid] Normalized scores = {'conv1': 0.030399385963166135, 'conv2': 0.03883398083655942, 'conv3': 0.04461054500548727, 'conv4': 0.06609078374990755, 'conv5': 0.10884681582222766, 'fc1': 0.21373452437564225, 'fc2': 0.23903342863374963, 'fc3': 0.25845053561326015}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 049/100 | train_loss=2.7766 | test_loss=2.7935 | test_acc=31.38% | K=3 | layers=fc3;fc2;fc1 | round_time=60.99s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 50: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.711218
+[DynaHybrid] Raw scores = {'conv1': 1.166923175666104, 'conv2': 1.4906969600130306, 'conv3': 1.7124384982339642, 'conv4': 2.5369876664334905, 'conv5': 4.178238078042698, 'fc1': 8.204500256554926, 'fc2': 9.175634270035133, 'fc3': 9.920987224408393}
+[DynaHybrid] Normalized scores = {'conv1': 0.030399385963166135, 'conv2': 0.03883398083655942, 'conv3': 0.04461054500548727, 'conv4': 0.06609078374990755, 'conv5': 0.10884681582222766, 'fc1': 0.21373452437564225, 'fc2': 0.23903342863374963, 'fc3': 0.25845053561326015}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 050/100 | train_loss=2.7573 | test_loss=2.7826 | test_acc=31.55% | K=3 | layers=fc3;fc2;fc1 | round_time=60.39s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 51: collected online-mean layer gradients for selection at round 52.
+[DynaHybrid] Round 51: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.711218
+[DynaHybrid] Raw scores = {'conv1': 1.166923175666104, 'conv2': 1.4906969600130306, 'conv3': 1.7124384982339642, 'conv4': 2.5369876664334905, 'conv5': 4.178238078042698, 'fc1': 8.204500256554926, 'fc2': 9.175634270035133, 'fc3': 9.920987224408393}
+[DynaHybrid] Normalized scores = {'conv1': 0.030399385963166135, 'conv2': 0.03883398083655942, 'conv3': 0.04461054500548727, 'conv4': 0.06609078374990755, 'conv5': 0.10884681582222766, 'fc1': 0.21373452437564225, 'fc2': 0.23903342863374963, 'fc3': 0.25845053561326015}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 051/100 | train_loss=2.7296 | test_loss=2.7683 | test_acc=32.23% | K=3 | layers=fc3;fc2;fc1 | round_time=62.62s | hessian_time=0.17s | peak_gpu=2898MiB
+[DynaHybrid] Round 52: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.699691
+[DynaHybrid] Raw scores = {'conv1': 1.2852475894578148, 'conv2': 1.6402659251607898, 'conv3': 1.8789552441650332, 'conv4': 2.775444898714157, 'conv5': 4.720464006839049, 'fc1': 8.45258077712382, 'fc2': 9.434348365801448, 'fc3': 10.771728443429122}
+[DynaHybrid] Normalized scores = {'conv1': 0.03137885405726505, 'conv2': 0.0400464980466821, 'conv3': 0.045874011256974705, 'conv4': 0.06776148123916854, 'conv5': 0.11524841778980588, 'fc1': 0.2063666960266398, 'fc2': 0.23033619586150367, 'fc3': 0.2629878457219604}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 052/100 | train_loss=2.7115 | test_loss=2.7572 | test_acc=32.08% | K=3 | layers=fc3;fc2;fc1 | round_time=60.91s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 53: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.699691
+[DynaHybrid] Raw scores = {'conv1': 1.2852475894578148, 'conv2': 1.6402659251607898, 'conv3': 1.8789552441650332, 'conv4': 2.775444898714157, 'conv5': 4.720464006839049, 'fc1': 8.45258077712382, 'fc2': 9.434348365801448, 'fc3': 10.771728443429122}
+[DynaHybrid] Normalized scores = {'conv1': 0.03137885405726505, 'conv2': 0.0400464980466821, 'conv3': 0.045874011256974705, 'conv4': 0.06776148123916854, 'conv5': 0.11524841778980588, 'fc1': 0.2063666960266398, 'fc2': 0.23033619586150367, 'fc3': 0.2629878457219604}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 053/100 | train_loss=2.6883 | test_loss=2.7377 | test_acc=32.60% | K=3 | layers=fc3;fc2;fc1 | round_time=60.74s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 54: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.699691
+[DynaHybrid] Raw scores = {'conv1': 1.2852475894578148, 'conv2': 1.6402659251607898, 'conv3': 1.8789552441650332, 'conv4': 2.775444898714157, 'conv5': 4.720464006839049, 'fc1': 8.45258077712382, 'fc2': 9.434348365801448, 'fc3': 10.771728443429122}
+[DynaHybrid] Normalized scores = {'conv1': 0.03137885405726505, 'conv2': 0.0400464980466821, 'conv3': 0.045874011256974705, 'conv4': 0.06776148123916854, 'conv5': 0.11524841778980588, 'fc1': 0.2063666960266398, 'fc2': 0.23033619586150367, 'fc3': 0.2629878457219604}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 054/100 | train_loss=2.6739 | test_loss=2.7295 | test_acc=32.68% | K=3 | layers=fc3;fc2;fc1 | round_time=60.29s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 55: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.699691
+[DynaHybrid] Raw scores = {'conv1': 1.2852475894578148, 'conv2': 1.6402659251607898, 'conv3': 1.8789552441650332, 'conv4': 2.775444898714157, 'conv5': 4.720464006839049, 'fc1': 8.45258077712382, 'fc2': 9.434348365801448, 'fc3': 10.771728443429122}
+[DynaHybrid] Normalized scores = {'conv1': 0.03137885405726505, 'conv2': 0.0400464980466821, 'conv3': 0.045874011256974705, 'conv4': 0.06776148123916854, 'conv5': 0.11524841778980588, 'fc1': 0.2063666960266398, 'fc2': 0.23033619586150367, 'fc3': 0.2629878457219604}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 055/100 | train_loss=2.6577 | test_loss=2.7195 | test_acc=32.93% | K=3 | layers=fc3;fc2;fc1 | round_time=59.97s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 56: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.699691
+[DynaHybrid] Raw scores = {'conv1': 1.2852475894578148, 'conv2': 1.6402659251607898, 'conv3': 1.8789552441650332, 'conv4': 2.775444898714157, 'conv5': 4.720464006839049, 'fc1': 8.45258077712382, 'fc2': 9.434348365801448, 'fc3': 10.771728443429122}
+[DynaHybrid] Normalized scores = {'conv1': 0.03137885405726505, 'conv2': 0.0400464980466821, 'conv3': 0.045874011256974705, 'conv4': 0.06776148123916854, 'conv5': 0.11524841778980588, 'fc1': 0.2063666960266398, 'fc2': 0.23033619586150367, 'fc3': 0.2629878457219604}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 056/100 | train_loss=2.6441 | test_loss=2.7090 | test_acc=33.44% | K=3 | layers=fc3;fc2;fc1 | round_time=60.68s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 57: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.699691
+[DynaHybrid] Raw scores = {'conv1': 1.2852475894578148, 'conv2': 1.6402659251607898, 'conv3': 1.8789552441650332, 'conv4': 2.775444898714157, 'conv5': 4.720464006839049, 'fc1': 8.45258077712382, 'fc2': 9.434348365801448, 'fc3': 10.771728443429122}
+[DynaHybrid] Normalized scores = {'conv1': 0.03137885405726505, 'conv2': 0.0400464980466821, 'conv3': 0.045874011256974705, 'conv4': 0.06776148123916854, 'conv5': 0.11524841778980588, 'fc1': 0.2063666960266398, 'fc2': 0.23033619586150367, 'fc3': 0.2629878457219604}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 057/100 | train_loss=2.6223 | test_loss=2.6999 | test_acc=33.48% | K=3 | layers=fc3;fc2;fc1 | round_time=59.82s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 58: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.699691
+[DynaHybrid] Raw scores = {'conv1': 1.2852475894578148, 'conv2': 1.6402659251607898, 'conv3': 1.8789552441650332, 'conv4': 2.775444898714157, 'conv5': 4.720464006839049, 'fc1': 8.45258077712382, 'fc2': 9.434348365801448, 'fc3': 10.771728443429122}
+[DynaHybrid] Normalized scores = {'conv1': 0.03137885405726505, 'conv2': 0.0400464980466821, 'conv3': 0.045874011256974705, 'conv4': 0.06776148123916854, 'conv5': 0.11524841778980588, 'fc1': 0.2063666960266398, 'fc2': 0.23033619586150367, 'fc3': 0.2629878457219604}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 058/100 | train_loss=2.5994 | test_loss=2.6830 | test_acc=33.94% | K=3 | layers=fc3;fc2;fc1 | round_time=60.74s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 59: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.699691
+[DynaHybrid] Raw scores = {'conv1': 1.2852475894578148, 'conv2': 1.6402659251607898, 'conv3': 1.8789552441650332, 'conv4': 2.775444898714157, 'conv5': 4.720464006839049, 'fc1': 8.45258077712382, 'fc2': 9.434348365801448, 'fc3': 10.771728443429122}
+[DynaHybrid] Normalized scores = {'conv1': 0.03137885405726505, 'conv2': 0.0400464980466821, 'conv3': 0.045874011256974705, 'conv4': 0.06776148123916854, 'conv5': 0.11524841778980588, 'fc1': 0.2063666960266398, 'fc2': 0.23033619586150367, 'fc3': 0.2629878457219604}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 059/100 | train_loss=2.5884 | test_loss=2.6762 | test_acc=33.94% | K=3 | layers=fc3;fc2;fc1 | round_time=61.27s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 60: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.699691
+[DynaHybrid] Raw scores = {'conv1': 1.2852475894578148, 'conv2': 1.6402659251607898, 'conv3': 1.8789552441650332, 'conv4': 2.775444898714157, 'conv5': 4.720464006839049, 'fc1': 8.45258077712382, 'fc2': 9.434348365801448, 'fc3': 10.771728443429122}
+[DynaHybrid] Normalized scores = {'conv1': 0.03137885405726505, 'conv2': 0.0400464980466821, 'conv3': 0.045874011256974705, 'conv4': 0.06776148123916854, 'conv5': 0.11524841778980588, 'fc1': 0.2063666960266398, 'fc2': 0.23033619586150367, 'fc3': 0.2629878457219604}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 060/100 | train_loss=2.5674 | test_loss=2.6652 | test_acc=34.62% | K=3 | layers=fc3;fc2;fc1 | round_time=60.83s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 61: collected online-mean layer gradients for selection at round 62.
+[DynaHybrid] Round 61: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.699691
+[DynaHybrid] Raw scores = {'conv1': 1.2852475894578148, 'conv2': 1.6402659251607898, 'conv3': 1.8789552441650332, 'conv4': 2.775444898714157, 'conv5': 4.720464006839049, 'fc1': 8.45258077712382, 'fc2': 9.434348365801448, 'fc3': 10.771728443429122}
+[DynaHybrid] Normalized scores = {'conv1': 0.03137885405726505, 'conv2': 0.0400464980466821, 'conv3': 0.045874011256974705, 'conv4': 0.06776148123916854, 'conv5': 0.11524841778980588, 'fc1': 0.2063666960266398, 'fc2': 0.23033619586150367, 'fc3': 0.2629878457219604}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 061/100 | train_loss=2.5439 | test_loss=2.6534 | test_acc=34.68% | K=3 | layers=fc3;fc2;fc1 | round_time=62.94s | hessian_time=0.15s | peak_gpu=2898MiB
+[DynaHybrid] Round 62: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.654545
+[DynaHybrid] Raw scores = {'conv1': 1.702582301927064, 'conv2': 2.316305337597149, 'conv3': 2.606091254972316, 'conv4': 3.5320910697970214, 'conv5': 5.351968458812284, 'fc1': 8.766621897460048, 'fc2': 9.6319308036671, 'fc3': 10.986876955646554}
+[DynaHybrid] Normalized scores = {'conv1': 0.03792410011179339, 'conv2': 0.05159444886340582, 'conv3': 0.05804927347252154, 'conv4': 0.07867541861755586, 'conv5': 0.11921220336745429, 'fc1': 0.1952717622550251, 'fc2': 0.2145460502289338, 'fc3': 0.24472674308331033}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 062/100 | train_loss=2.5333 | test_loss=2.6487 | test_acc=34.65% | K=3 | layers=fc3;fc2;fc1 | round_time=60.71s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 63: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.654545
+[DynaHybrid] Raw scores = {'conv1': 1.702582301927064, 'conv2': 2.316305337597149, 'conv3': 2.606091254972316, 'conv4': 3.5320910697970214, 'conv5': 5.351968458812284, 'fc1': 8.766621897460048, 'fc2': 9.6319308036671, 'fc3': 10.986876955646554}
+[DynaHybrid] Normalized scores = {'conv1': 0.03792410011179339, 'conv2': 0.05159444886340582, 'conv3': 0.05804927347252154, 'conv4': 0.07867541861755586, 'conv5': 0.11921220336745429, 'fc1': 0.1952717622550251, 'fc2': 0.2145460502289338, 'fc3': 0.24472674308331033}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 063/100 | train_loss=2.5101 | test_loss=2.6317 | test_acc=34.79% | K=3 | layers=fc3;fc2;fc1 | round_time=60.66s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 64: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.654545
+[DynaHybrid] Raw scores = {'conv1': 1.702582301927064, 'conv2': 2.316305337597149, 'conv3': 2.606091254972316, 'conv4': 3.5320910697970214, 'conv5': 5.351968458812284, 'fc1': 8.766621897460048, 'fc2': 9.6319308036671, 'fc3': 10.986876955646554}
+[DynaHybrid] Normalized scores = {'conv1': 0.03792410011179339, 'conv2': 0.05159444886340582, 'conv3': 0.05804927347252154, 'conv4': 0.07867541861755586, 'conv5': 0.11921220336745429, 'fc1': 0.1952717622550251, 'fc2': 0.2145460502289338, 'fc3': 0.24472674308331033}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 064/100 | train_loss=2.4983 | test_loss=2.6245 | test_acc=35.22% | K=3 | layers=fc3;fc2;fc1 | round_time=60.30s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 65: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.654545
+[DynaHybrid] Raw scores = {'conv1': 1.702582301927064, 'conv2': 2.316305337597149, 'conv3': 2.606091254972316, 'conv4': 3.5320910697970214, 'conv5': 5.351968458812284, 'fc1': 8.766621897460048, 'fc2': 9.6319308036671, 'fc3': 10.986876955646554}
+[DynaHybrid] Normalized scores = {'conv1': 0.03792410011179339, 'conv2': 0.05159444886340582, 'conv3': 0.05804927347252154, 'conv4': 0.07867541861755586, 'conv5': 0.11921220336745429, 'fc1': 0.1952717622550251, 'fc2': 0.2145460502289338, 'fc3': 0.24472674308331033}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 065/100 | train_loss=2.4800 | test_loss=2.6129 | test_acc=35.73% | K=3 | layers=fc3;fc2;fc1 | round_time=60.67s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 66: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.654545
+[DynaHybrid] Raw scores = {'conv1': 1.702582301927064, 'conv2': 2.316305337597149, 'conv3': 2.606091254972316, 'conv4': 3.5320910697970214, 'conv5': 5.351968458812284, 'fc1': 8.766621897460048, 'fc2': 9.6319308036671, 'fc3': 10.986876955646554}
+[DynaHybrid] Normalized scores = {'conv1': 0.03792410011179339, 'conv2': 0.05159444886340582, 'conv3': 0.05804927347252154, 'conv4': 0.07867541861755586, 'conv5': 0.11921220336745429, 'fc1': 0.1952717622550251, 'fc2': 0.2145460502289338, 'fc3': 0.24472674308331033}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 066/100 | train_loss=2.4649 | test_loss=2.6110 | test_acc=35.42% | K=3 | layers=fc3;fc2;fc1 | round_time=61.00s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 67: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.654545
+[DynaHybrid] Raw scores = {'conv1': 1.702582301927064, 'conv2': 2.316305337597149, 'conv3': 2.606091254972316, 'conv4': 3.5320910697970214, 'conv5': 5.351968458812284, 'fc1': 8.766621897460048, 'fc2': 9.6319308036671, 'fc3': 10.986876955646554}
+[DynaHybrid] Normalized scores = {'conv1': 0.03792410011179339, 'conv2': 0.05159444886340582, 'conv3': 0.05804927347252154, 'conv4': 0.07867541861755586, 'conv5': 0.11921220336745429, 'fc1': 0.1952717622550251, 'fc2': 0.2145460502289338, 'fc3': 0.24472674308331033}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 067/100 | train_loss=2.4501 | test_loss=2.5955 | test_acc=35.65% | K=3 | layers=fc3;fc2;fc1 | round_time=60.74s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 68: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.654545
+[DynaHybrid] Raw scores = {'conv1': 1.702582301927064, 'conv2': 2.316305337597149, 'conv3': 2.606091254972316, 'conv4': 3.5320910697970214, 'conv5': 5.351968458812284, 'fc1': 8.766621897460048, 'fc2': 9.6319308036671, 'fc3': 10.986876955646554}
+[DynaHybrid] Normalized scores = {'conv1': 0.03792410011179339, 'conv2': 0.05159444886340582, 'conv3': 0.05804927347252154, 'conv4': 0.07867541861755586, 'conv5': 0.11921220336745429, 'fc1': 0.1952717622550251, 'fc2': 0.2145460502289338, 'fc3': 0.24472674308331033}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 068/100 | train_loss=2.4385 | test_loss=2.5990 | test_acc=35.73% | K=3 | layers=fc3;fc2;fc1 | round_time=60.50s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 69: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.654545
+[DynaHybrid] Raw scores = {'conv1': 1.702582301927064, 'conv2': 2.316305337597149, 'conv3': 2.606091254972316, 'conv4': 3.5320910697970214, 'conv5': 5.351968458812284, 'fc1': 8.766621897460048, 'fc2': 9.6319308036671, 'fc3': 10.986876955646554}
+[DynaHybrid] Normalized scores = {'conv1': 0.03792410011179339, 'conv2': 0.05159444886340582, 'conv3': 0.05804927347252154, 'conv4': 0.07867541861755586, 'conv5': 0.11921220336745429, 'fc1': 0.1952717622550251, 'fc2': 0.2145460502289338, 'fc3': 0.24472674308331033}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 069/100 | train_loss=2.4234 | test_loss=2.5822 | test_acc=36.05% | K=3 | layers=fc3;fc2;fc1 | round_time=60.14s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 70: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.654545
+[DynaHybrid] Raw scores = {'conv1': 1.702582301927064, 'conv2': 2.316305337597149, 'conv3': 2.606091254972316, 'conv4': 3.5320910697970214, 'conv5': 5.351968458812284, 'fc1': 8.766621897460048, 'fc2': 9.6319308036671, 'fc3': 10.986876955646554}
+[DynaHybrid] Normalized scores = {'conv1': 0.03792410011179339, 'conv2': 0.05159444886340582, 'conv3': 0.05804927347252154, 'conv4': 0.07867541861755586, 'conv5': 0.11921220336745429, 'fc1': 0.1952717622550251, 'fc2': 0.2145460502289338, 'fc3': 0.24472674308331033}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 070/100 | train_loss=2.4060 | test_loss=2.5750 | test_acc=35.89% | K=3 | layers=fc3;fc2;fc1 | round_time=60.08s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 71: collected online-mean layer gradients for selection at round 72.
+[DynaHybrid] Round 71: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.654545
+[DynaHybrid] Raw scores = {'conv1': 1.702582301927064, 'conv2': 2.316305337597149, 'conv3': 2.606091254972316, 'conv4': 3.5320910697970214, 'conv5': 5.351968458812284, 'fc1': 8.766621897460048, 'fc2': 9.6319308036671, 'fc3': 10.986876955646554}
+[DynaHybrid] Normalized scores = {'conv1': 0.03792410011179339, 'conv2': 0.05159444886340582, 'conv3': 0.05804927347252154, 'conv4': 0.07867541861755586, 'conv5': 0.11921220336745429, 'fc1': 0.1952717622550251, 'fc2': 0.2145460502289338, 'fc3': 0.24472674308331033}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 071/100 | train_loss=2.3828 | test_loss=2.5648 | test_acc=36.33% | K=3 | layers=fc3;fc2;fc1 | round_time=63.56s | hessian_time=0.15s | peak_gpu=2898MiB
+[DynaHybrid] Round 72: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.612829
+[DynaHybrid] Raw scores = {'conv1': 2.1250253957070804, 'conv2': 2.895368323156401, 'conv3': 3.2587704957231893, 'conv4': 4.301736267266108, 'conv5': 6.325534829518027, 'fc1': 8.873049389440824, 'fc2': 9.738146076228395, 'fc3': 11.314686363649576}
+[DynaHybrid] Normalized scores = {'conv1': 0.04351678396879512, 'conv2': 0.05929205273660526, 'conv3': 0.06673389031150058, 'conv4': 0.08809199561168642, 'conv5': 0.12953583200431965, 'fc1': 0.1817044512525772, 'fc2': 0.19942011041933683, 'fc3': 0.23170488369517891}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 072/100 | train_loss=2.3692 | test_loss=2.5611 | test_acc=36.43% | K=3 | layers=fc3;fc2;fc1 | round_time=60.29s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 73: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.612829
+[DynaHybrid] Raw scores = {'conv1': 2.1250253957070804, 'conv2': 2.895368323156401, 'conv3': 3.2587704957231893, 'conv4': 4.301736267266108, 'conv5': 6.325534829518027, 'fc1': 8.873049389440824, 'fc2': 9.738146076228395, 'fc3': 11.314686363649576}
+[DynaHybrid] Normalized scores = {'conv1': 0.04351678396879512, 'conv2': 0.05929205273660526, 'conv3': 0.06673389031150058, 'conv4': 0.08809199561168642, 'conv5': 0.12953583200431965, 'fc1': 0.1817044512525772, 'fc2': 0.19942011041933683, 'fc3': 0.23170488369517891}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 073/100 | train_loss=2.3516 | test_loss=2.5538 | test_acc=36.84% | K=3 | layers=fc3;fc2;fc1 | round_time=60.63s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 74: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.612829
+[DynaHybrid] Raw scores = {'conv1': 2.1250253957070804, 'conv2': 2.895368323156401, 'conv3': 3.2587704957231893, 'conv4': 4.301736267266108, 'conv5': 6.325534829518027, 'fc1': 8.873049389440824, 'fc2': 9.738146076228395, 'fc3': 11.314686363649576}
+[DynaHybrid] Normalized scores = {'conv1': 0.04351678396879512, 'conv2': 0.05929205273660526, 'conv3': 0.06673389031150058, 'conv4': 0.08809199561168642, 'conv5': 0.12953583200431965, 'fc1': 0.1817044512525772, 'fc2': 0.19942011041933683, 'fc3': 0.23170488369517891}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 074/100 | train_loss=2.3396 | test_loss=2.5492 | test_acc=36.85% | K=3 | layers=fc3;fc2;fc1 | round_time=61.00s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 75: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.612829
+[DynaHybrid] Raw scores = {'conv1': 2.1250253957070804, 'conv2': 2.895368323156401, 'conv3': 3.2587704957231893, 'conv4': 4.301736267266108, 'conv5': 6.325534829518027, 'fc1': 8.873049389440824, 'fc2': 9.738146076228395, 'fc3': 11.314686363649576}
+[DynaHybrid] Normalized scores = {'conv1': 0.04351678396879512, 'conv2': 0.05929205273660526, 'conv3': 0.06673389031150058, 'conv4': 0.08809199561168642, 'conv5': 0.12953583200431965, 'fc1': 0.1817044512525772, 'fc2': 0.19942011041933683, 'fc3': 0.23170488369517891}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 075/100 | train_loss=2.3280 | test_loss=2.5405 | test_acc=37.00% | K=3 | layers=fc3;fc2;fc1 | round_time=61.14s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 76: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.612829
+[DynaHybrid] Raw scores = {'conv1': 2.1250253957070804, 'conv2': 2.895368323156401, 'conv3': 3.2587704957231893, 'conv4': 4.301736267266108, 'conv5': 6.325534829518027, 'fc1': 8.873049389440824, 'fc2': 9.738146076228395, 'fc3': 11.314686363649576}
+[DynaHybrid] Normalized scores = {'conv1': 0.04351678396879512, 'conv2': 0.05929205273660526, 'conv3': 0.06673389031150058, 'conv4': 0.08809199561168642, 'conv5': 0.12953583200431965, 'fc1': 0.1817044512525772, 'fc2': 0.19942011041933683, 'fc3': 0.23170488369517891}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 076/100 | train_loss=2.3078 | test_loss=2.5320 | test_acc=37.22% | K=3 | layers=fc3;fc2;fc1 | round_time=60.72s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 77: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.612829
+[DynaHybrid] Raw scores = {'conv1': 2.1250253957070804, 'conv2': 2.895368323156401, 'conv3': 3.2587704957231893, 'conv4': 4.301736267266108, 'conv5': 6.325534829518027, 'fc1': 8.873049389440824, 'fc2': 9.738146076228395, 'fc3': 11.314686363649576}
+[DynaHybrid] Normalized scores = {'conv1': 0.04351678396879512, 'conv2': 0.05929205273660526, 'conv3': 0.06673389031150058, 'conv4': 0.08809199561168642, 'conv5': 0.12953583200431965, 'fc1': 0.1817044512525772, 'fc2': 0.19942011041933683, 'fc3': 0.23170488369517891}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 077/100 | train_loss=2.2914 | test_loss=2.5265 | test_acc=37.05% | K=3 | layers=fc3;fc2;fc1 | round_time=61.15s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 78: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.612829
+[DynaHybrid] Raw scores = {'conv1': 2.1250253957070804, 'conv2': 2.895368323156401, 'conv3': 3.2587704957231893, 'conv4': 4.301736267266108, 'conv5': 6.325534829518027, 'fc1': 8.873049389440824, 'fc2': 9.738146076228395, 'fc3': 11.314686363649576}
+[DynaHybrid] Normalized scores = {'conv1': 0.04351678396879512, 'conv2': 0.05929205273660526, 'conv3': 0.06673389031150058, 'conv4': 0.08809199561168642, 'conv5': 0.12953583200431965, 'fc1': 0.1817044512525772, 'fc2': 0.19942011041933683, 'fc3': 0.23170488369517891}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 078/100 | train_loss=2.2816 | test_loss=2.5231 | test_acc=37.53% | K=3 | layers=fc3;fc2;fc1 | round_time=60.26s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 79: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.612829
+[DynaHybrid] Raw scores = {'conv1': 2.1250253957070804, 'conv2': 2.895368323156401, 'conv3': 3.2587704957231893, 'conv4': 4.301736267266108, 'conv5': 6.325534829518027, 'fc1': 8.873049389440824, 'fc2': 9.738146076228395, 'fc3': 11.314686363649576}
+[DynaHybrid] Normalized scores = {'conv1': 0.04351678396879512, 'conv2': 0.05929205273660526, 'conv3': 0.06673389031150058, 'conv4': 0.08809199561168642, 'conv5': 0.12953583200431965, 'fc1': 0.1817044512525772, 'fc2': 0.19942011041933683, 'fc3': 0.23170488369517891}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 079/100 | train_loss=2.2671 | test_loss=2.5172 | test_acc=37.61% | K=3 | layers=fc3;fc2;fc1 | round_time=60.52s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 80: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.612829
+[DynaHybrid] Raw scores = {'conv1': 2.1250253957070804, 'conv2': 2.895368323156401, 'conv3': 3.2587704957231893, 'conv4': 4.301736267266108, 'conv5': 6.325534829518027, 'fc1': 8.873049389440824, 'fc2': 9.738146076228395, 'fc3': 11.314686363649576}
+[DynaHybrid] Normalized scores = {'conv1': 0.04351678396879512, 'conv2': 0.05929205273660526, 'conv3': 0.06673389031150058, 'conv4': 0.08809199561168642, 'conv5': 0.12953583200431965, 'fc1': 0.1817044512525772, 'fc2': 0.19942011041933683, 'fc3': 0.23170488369517891}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 080/100 | train_loss=2.2487 | test_loss=2.5152 | test_acc=37.73% | K=3 | layers=fc3;fc2;fc1 | round_time=61.06s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 81: collected online-mean layer gradients for selection at round 82.
+[DynaHybrid] Round 81: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.612829
+[DynaHybrid] Raw scores = {'conv1': 2.1250253957070804, 'conv2': 2.895368323156401, 'conv3': 3.2587704957231893, 'conv4': 4.301736267266108, 'conv5': 6.325534829518027, 'fc1': 8.873049389440824, 'fc2': 9.738146076228395, 'fc3': 11.314686363649576}
+[DynaHybrid] Normalized scores = {'conv1': 0.04351678396879512, 'conv2': 0.05929205273660526, 'conv3': 0.06673389031150058, 'conv4': 0.08809199561168642, 'conv5': 0.12953583200431965, 'fc1': 0.1817044512525772, 'fc2': 0.19942011041933683, 'fc3': 0.23170488369517891}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 081/100 | train_loss=2.2223 | test_loss=2.5043 | test_acc=38.14% | K=3 | layers=fc3;fc2;fc1 | round_time=63.31s | hessian_time=0.17s | peak_gpu=2898MiB
+[DynaHybrid] Round 82: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.627347
+[DynaHybrid] Raw scores = {'conv1': 2.0607370773730196, 'conv2': 2.750451706973835, 'conv3': 2.8208995223921427, 'conv4': 3.7426659429527245, 'conv5': 6.271309861336079, 'fc1': 8.888789836943182, 'fc2': 9.84302080492256, 'fc3': 10.974680230716068}
+[DynaHybrid] Normalized scores = {'conv1': 0.04351902612406687, 'conv2': 0.058084547030796185, 'conv3': 0.05957227700529687, 'conv4': 0.07903831048289142, 'conv5': 0.13243867967645676, 'fc1': 0.1877151051304392, 'fc2': 0.2078667309151444, 'fc3': 0.2317653236349082}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 082/100 | train_loss=2.2119 | test_loss=2.4974 | test_acc=38.14% | K=3 | layers=fc3;fc2;fc1 | round_time=60.55s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 83: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.627347
+[DynaHybrid] Raw scores = {'conv1': 2.0607370773730196, 'conv2': 2.750451706973835, 'conv3': 2.8208995223921427, 'conv4': 3.7426659429527245, 'conv5': 6.271309861336079, 'fc1': 8.888789836943182, 'fc2': 9.84302080492256, 'fc3': 10.974680230716068}
+[DynaHybrid] Normalized scores = {'conv1': 0.04351902612406687, 'conv2': 0.058084547030796185, 'conv3': 0.05957227700529687, 'conv4': 0.07903831048289142, 'conv5': 0.13243867967645676, 'fc1': 0.1877151051304392, 'fc2': 0.2078667309151444, 'fc3': 0.2317653236349082}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 083/100 | train_loss=2.2055 | test_loss=2.4964 | test_acc=38.21% | K=3 | layers=fc3;fc2;fc1 | round_time=60.69s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 84: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.627347
+[DynaHybrid] Raw scores = {'conv1': 2.0607370773730196, 'conv2': 2.750451706973835, 'conv3': 2.8208995223921427, 'conv4': 3.7426659429527245, 'conv5': 6.271309861336079, 'fc1': 8.888789836943182, 'fc2': 9.84302080492256, 'fc3': 10.974680230716068}
+[DynaHybrid] Normalized scores = {'conv1': 0.04351902612406687, 'conv2': 0.058084547030796185, 'conv3': 0.05957227700529687, 'conv4': 0.07903831048289142, 'conv5': 0.13243867967645676, 'fc1': 0.1877151051304392, 'fc2': 0.2078667309151444, 'fc3': 0.2317653236349082}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 084/100 | train_loss=2.1897 | test_loss=2.4880 | test_acc=38.48% | K=3 | layers=fc3;fc2;fc1 | round_time=60.92s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 85: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.627347
+[DynaHybrid] Raw scores = {'conv1': 2.0607370773730196, 'conv2': 2.750451706973835, 'conv3': 2.8208995223921427, 'conv4': 3.7426659429527245, 'conv5': 6.271309861336079, 'fc1': 8.888789836943182, 'fc2': 9.84302080492256, 'fc3': 10.974680230716068}
+[DynaHybrid] Normalized scores = {'conv1': 0.04351902612406687, 'conv2': 0.058084547030796185, 'conv3': 0.05957227700529687, 'conv4': 0.07903831048289142, 'conv5': 0.13243867967645676, 'fc1': 0.1877151051304392, 'fc2': 0.2078667309151444, 'fc3': 0.2317653236349082}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 085/100 | train_loss=2.1776 | test_loss=2.4776 | test_acc=38.73% | K=3 | layers=fc3;fc2;fc1 | round_time=60.65s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 86: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.627347
+[DynaHybrid] Raw scores = {'conv1': 2.0607370773730196, 'conv2': 2.750451706973835, 'conv3': 2.8208995223921427, 'conv4': 3.7426659429527245, 'conv5': 6.271309861336079, 'fc1': 8.888789836943182, 'fc2': 9.84302080492256, 'fc3': 10.974680230716068}
+[DynaHybrid] Normalized scores = {'conv1': 0.04351902612406687, 'conv2': 0.058084547030796185, 'conv3': 0.05957227700529687, 'conv4': 0.07903831048289142, 'conv5': 0.13243867967645676, 'fc1': 0.1877151051304392, 'fc2': 0.2078667309151444, 'fc3': 0.2317653236349082}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 086/100 | train_loss=2.1648 | test_loss=2.4793 | test_acc=38.68% | K=3 | layers=fc3;fc2;fc1 | round_time=60.37s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 87: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.627347
+[DynaHybrid] Raw scores = {'conv1': 2.0607370773730196, 'conv2': 2.750451706973835, 'conv3': 2.8208995223921427, 'conv4': 3.7426659429527245, 'conv5': 6.271309861336079, 'fc1': 8.888789836943182, 'fc2': 9.84302080492256, 'fc3': 10.974680230716068}
+[DynaHybrid] Normalized scores = {'conv1': 0.04351902612406687, 'conv2': 0.058084547030796185, 'conv3': 0.05957227700529687, 'conv4': 0.07903831048289142, 'conv5': 0.13243867967645676, 'fc1': 0.1877151051304392, 'fc2': 0.2078667309151444, 'fc3': 0.2317653236349082}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 087/100 | train_loss=2.1482 | test_loss=2.4816 | test_acc=38.75% | K=3 | layers=fc3;fc2;fc1 | round_time=61.30s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 88: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.627347
+[DynaHybrid] Raw scores = {'conv1': 2.0607370773730196, 'conv2': 2.750451706973835, 'conv3': 2.8208995223921427, 'conv4': 3.7426659429527245, 'conv5': 6.271309861336079, 'fc1': 8.888789836943182, 'fc2': 9.84302080492256, 'fc3': 10.974680230716068}
+[DynaHybrid] Normalized scores = {'conv1': 0.04351902612406687, 'conv2': 0.058084547030796185, 'conv3': 0.05957227700529687, 'conv4': 0.07903831048289142, 'conv5': 0.13243867967645676, 'fc1': 0.1877151051304392, 'fc2': 0.2078667309151444, 'fc3': 0.2317653236349082}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 088/100 | train_loss=2.1375 | test_loss=2.4716 | test_acc=38.97% | K=3 | layers=fc3;fc2;fc1 | round_time=61.52s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 89: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.627347
+[DynaHybrid] Raw scores = {'conv1': 2.0607370773730196, 'conv2': 2.750451706973835, 'conv3': 2.8208995223921427, 'conv4': 3.7426659429527245, 'conv5': 6.271309861336079, 'fc1': 8.888789836943182, 'fc2': 9.84302080492256, 'fc3': 10.974680230716068}
+[DynaHybrid] Normalized scores = {'conv1': 0.04351902612406687, 'conv2': 0.058084547030796185, 'conv3': 0.05957227700529687, 'conv4': 0.07903831048289142, 'conv5': 0.13243867967645676, 'fc1': 0.1877151051304392, 'fc2': 0.2078667309151444, 'fc3': 0.2317653236349082}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 089/100 | train_loss=2.1254 | test_loss=2.4721 | test_acc=38.67% | K=3 | layers=fc3;fc2;fc1 | round_time=61.06s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 90: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.627347
+[DynaHybrid] Raw scores = {'conv1': 2.0607370773730196, 'conv2': 2.750451706973835, 'conv3': 2.8208995223921427, 'conv4': 3.7426659429527245, 'conv5': 6.271309861336079, 'fc1': 8.888789836943182, 'fc2': 9.84302080492256, 'fc3': 10.974680230716068}
+[DynaHybrid] Normalized scores = {'conv1': 0.04351902612406687, 'conv2': 0.058084547030796185, 'conv3': 0.05957227700529687, 'conv4': 0.07903831048289142, 'conv5': 0.13243867967645676, 'fc1': 0.1877151051304392, 'fc2': 0.2078667309151444, 'fc3': 0.2317653236349082}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 090/100 | train_loss=2.1169 | test_loss=2.4604 | test_acc=39.28% | K=3 | layers=fc3;fc2;fc1 | round_time=61.45s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 91: collected online-mean layer gradients for selection at round 92.
+[DynaHybrid] Round 91: selection=dynamic, K=3, selected layers=['fc3', 'fc2', 'fc1'], new layers=[], coverage=0.627347
+[DynaHybrid] Raw scores = {'conv1': 2.0607370773730196, 'conv2': 2.750451706973835, 'conv3': 2.8208995223921427, 'conv4': 3.7426659429527245, 'conv5': 6.271309861336079, 'fc1': 8.888789836943182, 'fc2': 9.84302080492256, 'fc3': 10.974680230716068}
+[DynaHybrid] Normalized scores = {'conv1': 0.04351902612406687, 'conv2': 0.058084547030796185, 'conv3': 0.05957227700529687, 'conv4': 0.07903831048289142, 'conv5': 0.13243867967645676, 'fc1': 0.1877151051304392, 'fc2': 0.2078667309151444, 'fc3': 0.2317653236349082}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 091/100 | train_loss=2.0986 | test_loss=2.4698 | test_acc=39.19% | K=3 | layers=fc3;fc2;fc1 | round_time=63.14s | hessian_time=0.17s | peak_gpu=2898MiB
+[DynaHybrid] Round 92: selection=dynamic, K=4, selected layers=['fc3', 'fc2', 'fc1', 'conv5'], new layers=['conv5'], coverage=0.730153
+[DynaHybrid] Raw scores = {'conv1': 1.9516831788545908, 'conv2': 3.359749343564414, 'conv3': 3.7041791094476992, 'conv4': 4.747768492802424, 'conv5': 6.866788041446429, 'fc1': 9.011257450162244, 'fc2': 9.916839690413504, 'fc3': 11.446152555782428}
+[DynaHybrid] Normalized scores = {'conv1': 0.0382649829298519, 'conv2': 0.06587173198650179, 'conv3': 0.07262467183598681, 'conv4': 0.09308543635580974, 'conv5': 0.13463124037532906, 'fc1': 0.17667601803553246, 'fc2': 0.19443099452978507, 'fc3': 0.22441492395120308}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 092/100 | train_loss=2.0628 | test_loss=2.4541 | test_acc=39.36% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=60.99s | hessian_time=0.12s | peak_gpu=1727MiB
+[DynaHybrid] Round 93: selection=dynamic, K=4, selected layers=['fc3', 'fc2', 'fc1', 'conv5'], new layers=[], coverage=0.730153
+[DynaHybrid] Raw scores = {'conv1': 1.9516831788545908, 'conv2': 3.359749343564414, 'conv3': 3.7041791094476992, 'conv4': 4.747768492802424, 'conv5': 6.866788041446429, 'fc1': 9.011257450162244, 'fc2': 9.916839690413504, 'fc3': 11.446152555782428}
+[DynaHybrid] Normalized scores = {'conv1': 0.0382649829298519, 'conv2': 0.06587173198650179, 'conv3': 0.07262467183598681, 'conv4': 0.09308543635580974, 'conv5': 0.13463124037532906, 'fc1': 0.17667601803553246, 'fc2': 0.19443099452978507, 'fc3': 0.22441492395120308}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 093/100 | train_loss=2.0537 | test_loss=2.4496 | test_acc=39.76% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=60.87s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 94: selection=dynamic, K=4, selected layers=['fc3', 'fc2', 'fc1', 'conv5'], new layers=[], coverage=0.730153
+[DynaHybrid] Raw scores = {'conv1': 1.9516831788545908, 'conv2': 3.359749343564414, 'conv3': 3.7041791094476992, 'conv4': 4.747768492802424, 'conv5': 6.866788041446429, 'fc1': 9.011257450162244, 'fc2': 9.916839690413504, 'fc3': 11.446152555782428}
+[DynaHybrid] Normalized scores = {'conv1': 0.0382649829298519, 'conv2': 0.06587173198650179, 'conv3': 0.07262467183598681, 'conv4': 0.09308543635580974, 'conv5': 0.13463124037532906, 'fc1': 0.17667601803553246, 'fc2': 0.19443099452978507, 'fc3': 0.22441492395120308}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 094/100 | train_loss=2.0369 | test_loss=2.4510 | test_acc=39.64% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=61.41s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 95: selection=dynamic, K=4, selected layers=['fc3', 'fc2', 'fc1', 'conv5'], new layers=[], coverage=0.730153
+[DynaHybrid] Raw scores = {'conv1': 1.9516831788545908, 'conv2': 3.359749343564414, 'conv3': 3.7041791094476992, 'conv4': 4.747768492802424, 'conv5': 6.866788041446429, 'fc1': 9.011257450162244, 'fc2': 9.916839690413504, 'fc3': 11.446152555782428}
+[DynaHybrid] Normalized scores = {'conv1': 0.0382649829298519, 'conv2': 0.06587173198650179, 'conv3': 0.07262467183598681, 'conv4': 0.09308543635580974, 'conv5': 0.13463124037532906, 'fc1': 0.17667601803553246, 'fc2': 0.19443099452978507, 'fc3': 0.22441492395120308}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 095/100 | train_loss=2.0336 | test_loss=2.4476 | test_acc=39.60% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=60.97s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 96: selection=dynamic, K=4, selected layers=['fc3', 'fc2', 'fc1', 'conv5'], new layers=[], coverage=0.730153
+[DynaHybrid] Raw scores = {'conv1': 1.9516831788545908, 'conv2': 3.359749343564414, 'conv3': 3.7041791094476992, 'conv4': 4.747768492802424, 'conv5': 6.866788041446429, 'fc1': 9.011257450162244, 'fc2': 9.916839690413504, 'fc3': 11.446152555782428}
+[DynaHybrid] Normalized scores = {'conv1': 0.0382649829298519, 'conv2': 0.06587173198650179, 'conv3': 0.07262467183598681, 'conv4': 0.09308543635580974, 'conv5': 0.13463124037532906, 'fc1': 0.17667601803553246, 'fc2': 0.19443099452978507, 'fc3': 0.22441492395120308}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 096/100 | train_loss=2.0185 | test_loss=2.4447 | test_acc=39.51% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=61.16s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 97: selection=dynamic, K=4, selected layers=['fc3', 'fc2', 'fc1', 'conv5'], new layers=[], coverage=0.730153
+[DynaHybrid] Raw scores = {'conv1': 1.9516831788545908, 'conv2': 3.359749343564414, 'conv3': 3.7041791094476992, 'conv4': 4.747768492802424, 'conv5': 6.866788041446429, 'fc1': 9.011257450162244, 'fc2': 9.916839690413504, 'fc3': 11.446152555782428}
+[DynaHybrid] Normalized scores = {'conv1': 0.0382649829298519, 'conv2': 0.06587173198650179, 'conv3': 0.07262467183598681, 'conv4': 0.09308543635580974, 'conv5': 0.13463124037532906, 'fc1': 0.17667601803553246, 'fc2': 0.19443099452978507, 'fc3': 0.22441492395120308}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 097/100 | train_loss=2.0049 | test_loss=2.4416 | test_acc=39.67% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=60.86s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 98: selection=dynamic, K=4, selected layers=['fc3', 'fc2', 'fc1', 'conv5'], new layers=[], coverage=0.730153
+[DynaHybrid] Raw scores = {'conv1': 1.9516831788545908, 'conv2': 3.359749343564414, 'conv3': 3.7041791094476992, 'conv4': 4.747768492802424, 'conv5': 6.866788041446429, 'fc1': 9.011257450162244, 'fc2': 9.916839690413504, 'fc3': 11.446152555782428}
+[DynaHybrid] Normalized scores = {'conv1': 0.0382649829298519, 'conv2': 0.06587173198650179, 'conv3': 0.07262467183598681, 'conv4': 0.09308543635580974, 'conv5': 0.13463124037532906, 'fc1': 0.17667601803553246, 'fc2': 0.19443099452978507, 'fc3': 0.22441492395120308}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 098/100 | train_loss=1.9930 | test_loss=2.4325 | test_acc=39.98% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=61.03s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 99: selection=dynamic, K=4, selected layers=['fc3', 'fc2', 'fc1', 'conv5'], new layers=[], coverage=0.730153
+[DynaHybrid] Raw scores = {'conv1': 1.9516831788545908, 'conv2': 3.359749343564414, 'conv3': 3.7041791094476992, 'conv4': 4.747768492802424, 'conv5': 6.866788041446429, 'fc1': 9.011257450162244, 'fc2': 9.916839690413504, 'fc3': 11.446152555782428}
+[DynaHybrid] Normalized scores = {'conv1': 0.0382649829298519, 'conv2': 0.06587173198650179, 'conv3': 0.07262467183598681, 'conv4': 0.09308543635580974, 'conv5': 0.13463124037532906, 'fc1': 0.17667601803553246, 'fc2': 0.19443099452978507, 'fc3': 0.22441492395120308}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 099/100 | train_loss=1.9739 | test_loss=2.4384 | test_acc=39.66% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=61.24s | hessian_time=0.00s | peak_gpu=1725MiB
+[DynaHybrid] Round 100: selection=dynamic, K=4, selected layers=['fc3', 'fc2', 'fc1', 'conv5'], new layers=[], coverage=0.730153
+[DynaHybrid] Raw scores = {'conv1': 1.9516831788545908, 'conv2': 3.359749343564414, 'conv3': 3.7041791094476992, 'conv4': 4.747768492802424, 'conv5': 6.866788041446429, 'fc1': 9.011257450162244, 'fc2': 9.916839690413504, 'fc3': 11.446152555782428}
+[DynaHybrid] Normalized scores = {'conv1': 0.0382649829298519, 'conv2': 0.06587173198650179, 'conv3': 0.07262467183598681, 'conv4': 0.09308543635580974, 'conv5': 0.13463124037532906, 'fc1': 0.17667601803553246, 'fc2': 0.19443099452978507, 'fc3': 0.22441492395120308}
+[DynaHybrid] Ranking = None
+[dynahybrid-adahessian] Round 100/100 | train_loss=1.9712 | test_loss=2.4314 | test_acc=39.69% | K=4 | layers=fc3;fc2;fc1;conv5 | round_time=61.01s | hessian_time=0.00s | peak_gpu=1725MiB
+
+Saved all metrics: results/merged/cifar100_alexnet/seed42/all_metrics.csv
