@@ -1,4 +1,4 @@
-# Dynamic Layerwise Hybrid Optimization for Computation-Efficient Federated Learning
+# Dynamic Layer-wise Hybrid Optimization for Computation-Efficient Federated Learning
 
 This archive contains the code, commands, logs, and figure-generation scripts used to reproduce the experimental results in the paper.
 
@@ -24,7 +24,7 @@ The archive is organized for reproducibility review. A reviewer can either regen
 |
 |-- commands/                     # Exact commands corresponding to paper figures/tables
 |   |-- figure2_commands.md        # Figure 2 IID accuracy curves
-|   |-- figure3_commands.md        # Figure 3 Hessian-estimator transfer curves
+|   |-- figure3_commands.md        # Figure 3 second-order methods transfer curves
 |   |-- table1_commands.md         # Table I final IID accuracy
 |   |-- table2_commands.md         # Table II compute/time comparison
 |   |-- table3_commands.md         # Table III Non-IID comparison
@@ -159,11 +159,7 @@ python figures/figure_generation_scripts/plot_fig2.py --png figures/fig2.png
 python figures/figure_generation_scripts/plot_fig3.py --png figures/fig3.png
 ```
 
-Figure 1 is the framework schematic and can be regenerated with:
 
-```bash
-python figures/figure_generation_scripts/plot_fig1.py
-```
 
 ## 6. Full experiment reproduction from source code
 
@@ -228,7 +224,7 @@ logs/table1.logs/
 logs/table2.logs/
 ```
 
-### 6.2 Figure 3: estimator transferability
+### 6.2 Figure 3: transferability across second-order methods
 
 Use:
 
@@ -310,7 +306,7 @@ CIFAR-10 + AlexNet
 Ablation factors:
 
 ```text
-Ranking: fixed selected layers vs. dynamic layer scores
+Ranking: fixed selected layers
 Count: fixed selected-layer count vs. dynamic selected-layer count
 Refresh: 1 Hessian estimate vs. 40 Hessian estimates
 ```
